@@ -1,0 +1,13 @@
+
+
+-- create bucketing table
+
+CREATE TABLE bucket_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING) CLUSTERED BY (id) INTO 10 BUCKETS;
+
+-- insert into bucket table
+
+INSERT OVERWRITE TABLE bucket_table SELECT * FROM text_table;
+
+-- select from buckets
+
+SELECT * FROM bucket_table TABLESAMPLE (BUCKET 1 OUT OF 10);

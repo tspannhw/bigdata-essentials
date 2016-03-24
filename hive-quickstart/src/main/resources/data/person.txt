@@ -1,0 +1,1000 @@
+1	Maria	Female	135782.56	United States
+2	Christopher	Male	148813.05	China
+3	Jimmy	Male	116119.29	China
+4	Bonnie	Female	176863.48	China
+5	Donald	Male	168742.67	China
+6	Joan	Female	109870.02	China
+7	Anthony	Male	171038.83	China
+8	Susan	Female	71078.54	Germany
+9	Lori	Female	108164.96	China
+10	Melissa	Female	190419.29	China
+11	Kimberly	Female	124972.54	China
+12	Martin	Male	91451.30	China
+13	Betty	Female	190174.81	China
+14	Peter	Male	92093.38	France
+15	Robin	Female	76632.04	China
+16	Jimmy	Male	68029.05	China
+17	Russell	Male	109799.37	China
+18	Ruth	Female	199507.09	France
+19	Jean	Female	68865.32	China
+20	Joshua	Male	170360.04	United States
+21	Terry	Male	118115.83	China
+22	Charles	Male	133754.17	China
+23	Jack	Male	131055.21	China
+24	Jason	Male	84444.43	China
+25	Angela	Female	108918.41	China
+26	Richard	Male	77103.24	France
+27	Jonathan	Male	139334.28	China
+28	Ann	Female	111877.56	China
+29	Kathy	Female	132473.84	United Kingdom
+30	Walter	Male	158689.20	China
+31	James	Male	193491.14	United States
+32	Roger	Male	175421.45	China
+33	Doris	Female	137047.05	China
+34	Carol	Female	193436.16	China
+35	Joan	Female	115947.98	China
+36	Janet	Female	83680.57	China
+37	Gregory	Male	107977.58	China
+38	Lois	Female	166769.77	China
+39	Joseph	Male	153817.74	China
+40	James	Male	108302.81	China
+41	Douglas	Male	171572.11	China
+42	Charles	Male	97565.79	China
+43	Julie	Female	95166.50	France
+44	Kathy	Female	180199.66	China
+45	George	Male	72639.59	Japan
+46	Sharon	Female	110650.46	United States
+47	Michael	Male	64105.50	China
+48	Douglas	Male	178765.40	China
+49	Kimberly	Female	124034.89	China
+50	Philip	Male	91314.83	France
+51	Barbara	Female	66634.10	China
+52	Cheryl	Female	103792.49	China
+53	Marilyn	Female	194334.98	China
+54	Brian	Male	166936.39	China
+55	Laura	Female	156374.99	China
+56	Arthur	Male	182368.30	China
+57	Julia	Female	171616.95	China
+58	Jennifer	Female	155939.59	China
+59	Lisa	Female	77451.62	China
+60	Roger	Male	198645.71	United States
+61	Wanda	Female	178565.58	United States
+62	Elizabeth	Female	190840.83	China
+63	William	Male	117068.10	Japan
+64	Lori	Female	82542.72	China
+65	Kathleen	Female	149031.32	China
+66	Walter	Male	92064.13	Japan
+67	Harry	Male	121401.62	China
+68	Michelle	Female		
+69	Stephen	Male	91184.50	China
+70	Susan	Female	195277.15	China
+71	John	Male	190470.38	China
+72	Martha	Female	117501.83	China
+73	Nicole	Female	103751.83	China
+74	Elizabeth	Female	75079.09	China
+75	Christina	Female	124241.51	China
+76	Theresa	Female	91309.38	China
+77	Benjamin	Male	161720.05	United States
+78	Jesse	Male	86668.80	China
+79	Anna	Female	171067.68	China
+80	Evelyn	Female	166033.10	China
+81	Nicole	Female	162240.80	China
+82	Dennis	Male	145884.12	France
+83	Wayne	Male	147743.44	China
+84	Debra	Female	180524.70	China
+85	Annie	Female	109636.74	Japan
+86	Alice	Female	96833.01	China
+87	Brandon	Male	99560.32	China
+88	Rebecca	Female	192384.94	China
+89	Scott	Male	61094.08	China
+90	Nancy	Female	65326.12	China
+91	Irene	Female	70053.12	China
+92	Anthony	Male	95742.47	France
+93	Maria	Female	114213.13	France
+94	Linda	Female	148268.84	China
+95	William	Male	86204.88	China
+96	Diane	Female	102538.51	China
+97	Teresa	Female	145391.17	China
+98	Marilyn	Female	139352.79	China
+99	Ronald	Male	164128.17	China
+100	Christine	Female	118950.37	France
+101	Joan	Female	198626.76	China
+102	Lois	Female	107205.54	China
+103	Elizabeth	Female	147230.68	China
+104	Douglas	Male	89821.86	China
+105	Laura	Female	85297.91	Germany
+106	Ashley	Female	141782.28	China
+107	Sandra	Female	82182.64	United States
+108	Amy	Female	91005.49	China
+109	Adam	Male	100005.35	China
+110	Carlos	Male	188910.36	China
+111	Earl	Male	112292.45	France
+112	Peter	Male	116966.44	France
+113	Mildred	Female	121213.50	United States
+114	Willie	Male	127388.85	United States
+115	Andrew	Male	144591.54	China
+116	Jack	Male	133331.20	China
+117	Michael	Male	96089.12	Japan
+118	Janet	Female	191152.58	United States
+119	Paul	Male	142349.69	China
+120	Arthur	Male		
+121	Jane	Female	124115.84	France
+122	Christine	Female	126875.85	China
+123	John	Male	177588.47	China
+124	Donna	Female	155288.43	China
+125	Gregory	Male	114150.27	China
+126	Emily	Female	127631.76	China
+127	Raymond	Male		
+128	Susan	Female	95480.03	China
+129	Randy	Male	191599.39	China
+130	Janice	Female	109934.10	France
+131	James	Male	143484.87	China
+132	Melissa	Female	180728.62	China
+133	Rose	Female	84288.84	China
+134	Douglas	Male	170715.29	France
+135	Melissa	Female	101496.61	China
+136	Christine	Female	87019.53	China
+137	Patrick	Male	182429.27	China
+138	Donald	Male	123522.65	Germany
+139	Jennifer	Female	177705.87	United States
+140	Jerry	Male	135689.68	China
+141	Diana	Female	92244.31	China
+142	Chris	Male	79934.19	China
+143	Wanda	Female	130322.95	China
+144	Jerry	Male	106045.52	China
+145	Charles	Male	116234.98	Japan
+146	Alan	Male	123607.56	United States
+147	Lois	Female	193048.34	China
+148	Theresa	Female	120827.55	China
+149	Sara	Female	174036.44	China
+150	Dennis	Male	101252.69	China
+151	James	Male	178793.15	China
+152	Rebecca	Female	166382.97	China
+153	Russell	Male	149730.54	China
+154	Ryan	Male	77357.10	China
+155	Dorothy	Female	125124.82	France
+156	Raymond	Male	99488.42	United States
+157	Julia	Female	75092.69	China
+158	Virginia	Female	118481.83	China
+159	Emily	Female	110718.34	China
+160	Sandra	Female	68078.97	Japan
+161	Robin	Female	148885.68	China
+162	Eugene	Male	150782.09	China
+163	Steven	Male	140430.95	Japan
+164	Earl	Male	179838.89	Japan
+165	Keith	Male	103211.34	China
+166	Jack	Male	65568.70	China
+167	David	Male	123278.93	China
+168	Peter	Male	129577.08	France
+169	Jesse	Male	194764.38	China
+170	Patricia	Female	98233.94	China
+171	Patricia	Female	111176.49	China
+172	Fred	Male	89132.37	France
+173	Rose	Female	115503.89	China
+174	Joseph	Male	108377.00	United States
+175	Eugene	Male	81809.66	China
+176	Stephanie	Female	149426.21	China
+177	Christopher	Male	67237.29	Japan
+178	Gary	Male	186300.98	China
+179	Jeffrey	Male	133053.50	China
+180	Roger	Male	120487.46	China
+181	Debra	Female	193336.13	China
+182	Alice	Female	163712.55	China
+183	Ronald	Male	75123.49	China
+184	Evelyn	Female	74161.58	China
+185	Betty	Female	96563.93	China
+186	Michael	Male		
+187	Carl	Male	172617.54	China
+188	Judy	Female	65640.87	China
+189	Marilyn	Female	170882.16	France
+190	Heather	Female	118583.82	United Kingdom
+191	Pamela	Female	154265.69	China
+192	Marilyn	Female	96461.91	China
+193	Heather	Female	148164.92	China
+194	Sean	Male	92853.16	China
+195	Benjamin	Male	172769.38	China
+196	Joshua	Male	122366.10	China
+197	William	Male	198230.64	France
+198	Heather	Female	160147.92	China
+199	Stephanie	Female	167124.37	China
+200	Craig	Male	126753.94	United States
+201	Nicholas	Male	158539.79	Japan
+202	Virginia	Female	120309.66	China
+203	Debra	Female	100573.91	United States
+204	Charles	Male	95887.09	China
+205	Gloria	Female	177012.13	China
+206	Christine	Female	118636.80	United States
+207	Aaron	Male	172594.12	China
+208	Donald	Male	168880.00	Japan
+209	Rose	Female	61577.00	Japan
+210	Johnny	Male	89798.19	United States
+211	Carolyn	Female	190814.42	China
+212	Jeffrey	Male	180941.91	China
+213	Diane	Female	161136.06	China
+214	Stephanie	Female	179789.96	China
+215	Samuel	Male	82528.57	United States
+216	Roy	Male	87274.45	China
+217	Harry	Male	168651.15	China
+218	Jimmy	Male	198907.83	China
+219	Diane	Female	70135.51	China
+220	Kevin	Male	154684.38	China
+221	Gerald	Male	143551.83	United States
+222	Keith	Male		
+223	Nicholas	Male	91245.19	Japan
+224	Paula	Female	70065.44	United States
+225	Steven	Male	183996.49	United States
+226	Kevin	Male	152155.09	China
+227	Nancy	Female	150975.87	China
+228	Amy	Female	137402.49	Japan
+229	Phillip	Male	137614.59	China
+230	Shirley	Female	181879.35	China
+231	Margaret	Female	127793.70	Germany
+232	Betty	Female	152660.87	China
+233	Sarah	Female	80818.07	France
+234	Steve	Male	125081.31	China
+235	Ruby	Female	168795.09	China
+236	Robert	Male	98954.39	Germany
+237	Betty	Female	145395.00	China
+238	Amy	Female	163349.68	China
+239	Jack	Male	82288.29	China
+240	Jessica	Female	102664.66	China
+241	Melissa	Female	131730.58	United States
+242	Amanda	Female	65149.43	China
+243	Catherine	Female	133267.17	China
+244	Michelle	Female	105525.88	China
+245	Laura	Female		
+246	Heather	Female	177502.76	Japan
+247	Carl	Male		
+248	Chris	Male	77918.66	China
+249	Kathryn	Female	61500.91	China
+250	Raymond	Male	60652.00	China
+251	Betty	Female	192574.65	China
+252	Jeffrey	Male	163427.88	China
+253	Jose	Male	77287.25	China
+254	Jesse	Male	168411.71	France
+255	Stephanie	Female	140466.07	China
+256	Anna	Female	196745.57	China
+257	Ann	Female	127471.31	France
+258	Roy	Male	189869.27	China
+259	Louis	Male	181102.84	Japan
+260	William	Male	117652.35	China
+261	Lori	Female		
+262	Stephen	Male	80641.51	Japan
+263	Justin	Male	96840.57	China
+264	Justin	Male	76387.11	United Kingdom
+265	Gloria	Female	92570.83	China
+266	Daniel	Male	145018.40	Japan
+267	Julie	Female	140624.95	China
+268	Andrew	Male	142599.31	China
+269	Marilyn	Female	73898.92	China
+270	Edward	Male	156079.30	Japan
+271	Rose	Female	153143.81	China
+272	Irene	Female	119246.73	China
+273	Rose	Female	163970.97	France
+274	Sandra	Female	128661.52	China
+275	Annie	Female	121874.72	China
+276	Lois	Female	103077.04	China
+277	Teresa	Female	72158.26	France
+278	Kathy	Female	187862.17	China
+279	Randy	Male		
+280	Emily	Female	178190.62	China
+281	Martha	Female	167534.63	Japan
+282	Ronald	Male	123295.39	China
+283	Julia	Female	179958.78	China
+284	Victor	Male	130598.08	China
+285	Teresa	Female	96112.55	China
+286	Johnny	Male	189364.55	China
+287	Harold	Male	197054.46	Japan
+288	Ruth	Female	134347.14	China
+289	Timothy	Male	178935.49	China
+290	Frances	Female	140426.59	China
+291	Arthur	Male	155963.26	China
+292	Brandon	Male	169042.26	China
+293	Angela	Female	104169.97	France
+294	Lisa	Female	153877.30	China
+295	Angela	Female	122166.52	United States
+296	Thomas	Male	130959.92	Japan
+297	Amanda	Female	61441.02	United States
+298	Juan	Male	139714.20	China
+299	Betty	Female	197831.89	China
+300	Anne	Female	134691.40	China
+301	Christine	Female	81835.99	Germany
+302	Diane	Female	178250.81	France
+303	Brandon	Male	193244.23	China
+304	James	Male	94475.54	United States
+305	Jennifer	Female	147535.69	China
+306	Roger	Male	151106.90	France
+307	Rose	Female	170918.82	China
+308	Kenneth	Male	60278.21	China
+309	Ernest	Male	90791.03	China
+310	Barbara	Female	149368.64	China
+311	Keith	Male	185545.19	China
+312	Richard	Male	140211.41	China
+313	Stephanie	Female	134672.75	United States
+314	Emily	Female	130825.46	China
+315	Amy	Female	137255.15	China
+316	Bruce	Male	151281.22	United States
+317	Judy	Female	92065.81	China
+318	David	Male	127240.24	China
+319	Jacqueline	Female	60106.77	China
+320	Tammy	Female	191238.67	China
+321	Rachel	Female	177375.75	China
+322	Carl	Male	152916.52	China
+323	Cheryl	Female		
+324	Jonathan	Male	194668.36	China
+325	Steve	Male	119851.79	China
+326	Jonathan	Male	121520.24	China
+327	Marie	Female	66851.01	China
+328	Nancy	Female		
+329	Teresa	Female	195130.89	China
+330	Rebecca	Female	76406.31	Japan
+331	Sarah	Female	69679.37	China
+332	Andrew	Male	180229.08	China
+333	Julie	Female	96109.33	China
+334	Catherine	Female	104069.67	China
+335	Mark	Male	69350.85	China
+336	Marie	Female	111309.88	China
+337	Justin	Male	98272.20	China
+338	Steve	Male	103912.04	Japan
+339	Carolyn	Female	76439.11	China
+340	Johnny	Male	107500.46	China
+341	Jacqueline	Female	187368.93	United States
+342	Margaret	Female		
+343	Paul	Male	81584.21	France
+344	Nicole	Female	80632.88	Germany
+345	Amanda	Female	133247.89	China
+346	Sara	Female	127413.92	China
+347	Jacqueline	Female	134019.75	China
+348	Joan	Female	105849.25	China
+349	Steven	Male	143993.75	France
+350	Michael	Male	88158.95	China
+351	Denise	Female	120246.19	China
+352	Steve	Male	147879.74	China
+353	Jason	Male	111255.13	Japan
+354	Terry	Male	154122.45	France
+355	Alice	Female	103876.53	China
+356	Andrew	Male	199469.97	China
+357	Mildred	Female	136240.64	China
+358	Bobby	Male	197065.05	United States
+359	Bobby	Male	138768.73	United States
+360	Jessica	Female	196174.96	France
+361	Angela	Female		
+362	Doris	Female	72740.71	Japan
+363	Paul	Male	66129.41	China
+364	Anne	Female	148120.60	France
+365	Joshua	Male	124824.83	France
+366	Larry	Male	64841.14	China
+367	Carlos	Male	109150.12	China
+368	Harold	Male	165523.76	France
+369	Michael	Male	143743.41	China
+370	Anna	Female	116237.01	France
+371	Billy	Male	175730.95	China
+372	Earl	Male	188204.63	China
+373	Henry	Male	170701.07	China
+374	Lisa	Female	168165.34	China
+375	Bobby	Male	153895.52	China
+376	Janice	Female	65354.91	United States
+377	Phyllis	Female	117796.40	France
+378	Daniel	Male	155851.21	China
+379	Annie	Female	65991.19	France
+380	Virginia	Female	84723.99	China
+381	Johnny	Male	165955.52	United States
+382	Lawrence	Male	150981.62	United States
+383	Charles	Male	126571.64	France
+384	Walter	Male	192885.38	China
+385	Scott	Male	199593.81	China
+386	Jeremy	Male	72532.16	China
+387	Dennis	Male	151618.97	China
+388	Eric	Male	85271.87	China
+389	Pamela	Female	143595.54	China
+390	Cynthia	Female	178031.56	United States
+391	Andrew	Male	164369.87	Japan
+392	Evelyn	Female	151076.39	United States
+393	Christine	Female	92366.65	China
+394	Jeffrey	Male	172584.96	China
+395	Marilyn	Female	160998.50	Japan
+396	Lisa	Female	140866.90	United States
+397	Lisa	Female	88668.90	China
+398	John	Male	195519.18	China
+399	Laura	Female	109434.82	China
+400	Linda	Female	96451.04	China
+401	Laura	Female	61404.79	Japan
+402	Steven	Male	114146.30	United States
+403	Cynthia	Female	68051.73	France
+404	Donna	Female	196520.81	China
+405	Pamela	Female		
+406	Virginia	Female	62883.71	China
+407	Alice	Female	116141.86	China
+408	Jesse	Male	95206.09	China
+409	Harold	Male	94938.39	China
+410	Philip	Male	130490.01	China
+411	Craig	Male	128385.54	China
+412	Ronald	Male	186397.12	Japan
+413	Steven	Male	180630.20	China
+414	Johnny	Male	61537.96	China
+415	David	Male	150662.24	Germany
+416	Angela	Female	179716.74	China
+417	Roger	Male	170569.69	China
+418	Howard	Male	103266.10	China
+419	Judith	Female	99446.05	China
+420	Brenda	Female	132476.78	China
+421	Marilyn	Female	65838.36	China
+422	Roy	Male	70190.36	United States
+423	Louis	Male	153444.35	United States
+424	Howard	Male	64770.98	Japan
+425	Beverly	Female	72770.29	China
+426	Timothy	Male	89512.96	China
+427	Richard	Male	152613.31	China
+428	Billy	Male	114593.43	China
+429	Lillian	Female	101720.26	France
+430	Teresa	Female	144896.29	United Kingdom
+431	Frances	Female	188026.51	China
+432	Ernest	Male	187250.17	Japan
+433	Stephen	Male	104316.99	China
+434	Diana	Female		
+435	Henry	Male	71746.31	France
+436	Lillian	Female	195186.61	China
+437	Gregory	Male	105428.54	Japan
+438	Eric	Male	145721.50	Japan
+439	Gregory	Male		
+440	Mildred	Female	149322.85	China
+441	Paula	Female	183389.14	China
+442	Norma	Female	150299.31	China
+443	Kelly	Female	180548.16	China
+444	Ryan	Male	136296.17	China
+445	Bobby	Male	119222.08	China
+446	Aaron	Male	80808.66	China
+447	Carl	Male	134579.00	France
+448	Lillian	Female	116518.61	China
+449	Jacqueline	Female	144200.76	China
+450	Pamela	Female	68191.08	China
+451	Carol	Female	91412.84	China
+452	Jimmy	Male	119956.52	China
+453	Wayne	Male	142805.85	China
+454	Lillian	Female	172893.96	China
+455	Joe	Male	180499.18	China
+456	Jeremy	Male	65462.71	United States
+457	Keith	Male	98157.58	United States
+458	Jason	Male	160353.74	China
+459	David	Male	144422.55	China
+460	Brian	Male	122153.58	China
+461	Johnny	Male	68149.77	United States
+462	Amanda	Female	79496.47	China
+463	Betty	Female	79369.25	France
+464	Robert	Male	63622.24	China
+465	Ruth	Female	139095.43	China
+466	Bruce	Male	174053.61	China
+467	William	Male	160369.68	France
+468	Victor	Male	108637.22	United States
+469	Victor	Male	81803.35	China
+470	Catherine	Female	102257.75	China
+471	Angela	Female	62840.64	France
+472	Steven	Male	175521.97	China
+473	Joe	Male	153962.55	China
+474	Louis	Male	172578.39	China
+475	Mark	Male	185350.00	China
+476	Mark	Male	124345.91	China
+477	Steve	Male	170867.64	China
+478	Irene	Female	86118.14	France
+479	Eugene	Male	130474.64	China
+480	Sandra	Female	173318.61	China
+481	Kathy	Female	134009.68	China
+482	Roger	Male	113406.38	China
+483	Maria	Female	191770.74	China
+484	Katherine	Female	194546.53	China
+485	Kelly	Female	163666.26	China
+486	Lois	Female	185016.40	China
+487	Carlos	Male	114362.09	China
+488	Helen	Female	116166.64	China
+489	Michelle	Female	117446.98	China
+490	Nicole	Female	91276.10	China
+491	Mildred	Female	167840.99	China
+492	Beverly	Female	159669.23	China
+493	Steve	Male	117374.82	China
+494	Keith	Male	175855.49	China
+495	Thomas	Male	103795.52	China
+496	Bruce	Male	155007.07	France
+497	Anthony	Male	178706.84	China
+498	Gary	Male	100052.55	China
+499	Barbara	Female	124699.75	China
+500	Shawn	Male	77753.73	United States
+501	Juan	Male	139800.49	United States
+502	Chris	Male	101681.62	United States
+503	Randy	Male	127755.76	China
+504	Tammy	Female	87927.44	China
+505	Evelyn	Female	187258.34	United States
+506	Anthony	Male	66638.37	China
+507	Steve	Male	136619.66	China
+508	Adam	Male		
+509	Lawrence	Male	130001.40	China
+510	Sarah	Female	138525.63	China
+511	Kelly	Female	165071.55	China
+512	Julie	Female	195342.21	France
+513	Janice	Female		
+514	Rose	Female	103415.69	China
+515	Annie	Female	105302.90	China
+516	Catherine	Female	91629.25	United States
+517	Heather	Female		
+518	Stephanie	Female	122396.33	China
+519	Maria	Female	99019.49	China
+520	Kevin	Male	71794.41	Germany
+521	Nancy	Female	121637.32	Japan
+522	Ryan	Male	148879.03	China
+523	Cynthia	Female	133511.64	China
+524	Heather	Female	78942.13	China
+525	Jessica	Female	70326.95	China
+526	Louise	Female	186989.61	China
+527	Mildred	Female	127169.63	China
+528	Kathy	Female	176502.76	China
+529	Jimmy	Male	109802.49	United Kingdom
+530	Linda	Female	87187.36	China
+531	Ann	Female	154738.98	China
+532	Donna	Female	136107.93	United States
+533	Margaret	Female	189159.58	China
+534	Antonio	Male	113695.19	Japan
+535	Alan	Male	190737.46	China
+536	Scott	Male	106696.08	China
+537	Laura	Female	148055.73	China
+538	Robin	Female	118466.76	China
+539	Heather	Female	198419.08	France
+540	Albert	Male	184155.51	China
+541	Jason	Male	90155.16	China
+542	David	Male	121702.53	China
+543	Evelyn	Female		
+544	Rachel	Female	117882.06	China
+545	Eric	Male	121714.24	China
+546	Howard	Male	147040.79	China
+547	Shirley	Female	69186.45	China
+548	Theresa	Female	62525.47	China
+549	Brian	Male	135048.89	China
+550	Gregory	Male	107427.72	France
+551	Anthony	Male	138793.72	China
+552	Larry	Male	103912.72	China
+553	Robert	Male	195068.21	China
+554	Todd	Male	103093.11	China
+555	Clarence	Male	78320.31	China
+556	Melissa	Female	192575.83	China
+557	Teresa	Female		
+558	Craig	Male	94307.81	China
+559	Sandra	Female	194578.03	China
+560	Keith	Male	107845.82	China
+561	Jessica	Female	176763.84	China
+562	Karen	Female	116744.75	China
+563	Cheryl	Female	62249.71	United States
+564	Patricia	Female	177652.78	China
+565	Elizabeth	Female	62313.81	United States
+566	Tina	Female	144672.52	United States
+567	Katherine	Female	162976.29	China
+568	Rebecca	Female		
+569	Patricia	Female		
+570	Samuel	Male	64536.65	United States
+571	Harold	Male	174858.07	China
+572	Norma	Female	194297.43	China
+573	Thomas	Male	157348.37	China
+574	Lois	Female	197859.71	China
+575	Ann	Female	197714.51	France
+576	Todd	Male	194915.62	China
+577	Steve	Male	69541.92	China
+578	Michael	Male	118982.10	United States
+579	Katherine	Female	167889.28	China
+580	Michelle	Female	158204.80	Japan
+581	Stephanie	Female	121166.22	China
+582	Nicole	Female	180040.00	China
+583	Terry	Male	162043.31	China
+584	Dorothy	Female	95347.63	China
+585	Kathy	Female	113832.32	China
+586	Alice	Female	108805.82	China
+587	Christine	Female	111966.01	China
+588	Ernest	Male	186362.09	China
+589	Mildred	Female	147133.09	China
+590	Andrew	Male	164006.93	China
+591	Kenneth	Male	144475.65	China
+592	Matthew	Male	154132.23	Japan
+593	Stephen	Male	88913.92	China
+594	Jason	Male	177516.06	China
+595	Eric	Male	175168.14	China
+596	Cheryl	Female	126289.55	China
+597	Adam	Male	96435.62	France
+598	Jeffrey	Male	80524.08	United States
+599	Jesse	Male	109288.46	China
+600	Brandon	Male	93392.18	China
+601	Laura	Female	98312.13	China
+602	Anna	Female	187927.63	China
+603	Amy	Female	199425.52	China
+604	Annie	Female	138229.62	China
+605	Peter	Male	89907.98	China
+606	Henry	Male	162113.97	France
+607	Adam	Male	76724.44	China
+608	Andrea	Female	172721.99	Japan
+609	Louis	Male	83633.03	China
+610	Bruce	Male	64909.14	China
+611	Lori	Female		
+612	Julia	Female	97427.48	China
+613	Paul	Male	123926.27	China
+614	Julie	Female	62767.76	China
+615	Deborah	Female	169869.82	United Kingdom
+616	Chris	Male	183338.36	Japan
+617	Thomas	Male	66277.96	China
+618	Scott	Male	73188.24	China
+619	Carol	Female	152332.97	United Kingdom
+620	Rebecca	Female	115242.07	China
+621	Shirley	Female	145745.11	China
+622	Craig	Male	133331.95	China
+623	Aaron	Male	91739.52	United States
+624	Donald	Male	73856.58	China
+625	Diana	Female	116722.76	China
+626	Justin	Male	132051.10	France
+627	Mildred	Female	85883.54	China
+628	Nancy	Female	160113.84	China
+629	Martin	Male	105294.44	China
+630	Jesse	Male	156628.76	United States
+631	Sarah	Female	73551.53	Japan
+632	Henry	Male	173003.39	China
+633	Carolyn	Female	163050.22	Germany
+634	Howard	Male	145055.16	China
+635	Sandra	Female	82122.59	China
+636	David	Male		
+637	Kelly	Female	81860.71	Japan
+638	Deborah	Female	143147.04	China
+639	Christine	Female	160512.64	China
+640	Ralph	Male	119933.26	China
+641	Lawrence	Male	70930.85	China
+642	Douglas	Male	179470.62	China
+643	Nicholas	Male	103608.57	France
+644	Ralph	Male	173086.56	France
+645	Raymond	Male	143839.02	United States
+646	Julia	Female	108701.71	China
+647	Anna	Female	122729.60	China
+648	Andrea	Female	97588.99	China
+649	Deborah	Female	124722.46	United States
+650	Phillip	Male	111217.73	China
+651	Denise	Female	180739.50	China
+652	Paula	Female	187501.39	France
+653	Kathy	Female	78223.33	China
+654	George	Male	126664.64	China
+655	Theresa	Female	118105.23	China
+656	Jacqueline	Female	120453.48	China
+657	Justin	Male	100127.40	China
+658	Chris	Male	70367.50	China
+659	Joe	Male	96456.51	China
+660	Katherine	Female	185028.18	Germany
+661	Doris	Female	195328.81	China
+662	Carl	Male		
+663	Annie	Female	121432.83	France
+664	Maria	Female	149270.37	France
+665	Philip	Male	132545.87	China
+666	Eric	Male	108262.96	France
+667	Christina	Female	133286.56	China
+668	George	Male	193343.46	France
+669	Edward	Male	144898.26	China
+670	Jesse	Male	81897.19	Japan
+671	Betty	Female	75899.18	France
+672	Shirley	Female	134635.43	United Kingdom
+673	Teresa	Female	135882.70	China
+674	Phillip	Male	195411.35	China
+675	Dorothy	Female	172653.50	China
+676	Cynthia	Female	108305.17	China
+677	Patricia	Female	77527.80	China
+678	Gerald	Male	116845.92	China
+679	Raymond	Male	172373.36	Japan
+680	Anne	Female	168464.39	China
+681	Mark	Male	168621.07	United States
+682	Jean	Female	76384.35	China
+683	Jonathan	Male	191924.70	Japan
+684	Juan	Male	167414.47	China
+685	Jesse	Male	171323.54	China
+686	Louise	Female	120205.72	China
+687	Justin	Male	119823.51	China
+688	Benjamin	Male	65094.81	China
+689	Judith	Female	71896.57	United States
+690	Annie	Female	197131.08	China
+691	Richard	Male	196887.36	China
+692	John	Male	68071.15	France
+693	Sharon	Female	132815.46	China
+694	Angela	Female	99356.07	China
+695	Doris	Female	136906.58	China
+696	Jane	Female	148105.59	France
+697	Frank	Male	158474.39	France
+698	Matthew	Male	176615.42	China
+699	Betty	Female	65333.32	China
+700	Phyllis	Female	114335.07	China
+701	Virginia	Female	73518.97	China
+702	Russell	Male	130183.65	China
+703	Andrea	Female	171348.40	China
+704	Phyllis	Female	162755.44	United Kingdom
+705	Jean	Female	179377.06	China
+706	Debra	Female	186763.96	France
+707	Julie	Female	107049.21	Japan
+708	Doris	Female	169125.46	China
+709	Deborah	Female	125396.75	China
+710	Jonathan	Male	60274.73	China
+711	Irene	Female	182115.03	China
+712	Randy	Male	193096.58	United States
+713	Andrew	Male	170969.40	France
+714	Nicholas	Male	61208.55	China
+715	Debra	Female	94886.88	China
+716	David	Male	108489.78	China
+717	Gregory	Male	169659.08	China
+718	Michael	Male	84193.76	China
+719	William	Male	98385.54	China
+720	Nicholas	Male	87504.59	China
+721	Wanda	Female	60879.46	China
+722	Raymond	Male	167937.01	China
+723	Marie	Female	104881.93	China
+724	Gerald	Male	139523.22	China
+725	Ronald	Male	172562.57	China
+726	Ronald	Male	138000.17	United States
+727	Carl	Male	178234.32	France
+728	Rebecca	Female	146793.84	China
+729	Jerry	Male	160503.29	China
+730	Frank	Male	163191.80	China
+731	Irene	Female	67875.67	China
+732	Jeremy	Male	75537.97	China
+733	Jose	Male	84467.08	United States
+734	Judith	Female	175675.35	China
+735	Lawrence	Male	72562.09	France
+736	Bonnie	Female	75380.94	United States
+737	Cynthia	Female		
+738	Sara	Female	139692.16	China
+739	Julie	Female	90797.57	Japan
+740	Billy	Male	128504.75	China
+741	Pamela	Female	191111.74	China
+742	Judy	Female	141716.72	France
+743	Linda	Female	153596.47	France
+744	Donna	Female	67040.83	France
+745	Daniel	Male	112243.85	China
+746	Jerry	Male	76682.52	France
+747	Adam	Male	120029.72	China
+748	Gerald	Male	102936.87	China
+749	Lisa	Female	192712.92	China
+750	Martha	Female	162140.28	China
+751	Lois	Female	121361.28	China
+752	Timothy	Male	127361.79	China
+753	Deborah	Female	144808.54	France
+754	Tina	Female	99993.64	China
+755	Angela	Female	174996.27	United States
+756	Nicole	Female	146761.99	China
+757	Kelly	Female	158875.94	China
+758	Joshua	Male	116199.60	China
+759	Karen	Female	92327.59	China
+760	Russell	Male	141233.51	China
+761	Carlos	Male	128896.04	China
+762	Melissa	Female	93644.84	China
+763	Gregory	Male	132966.20	Japan
+764	Linda	Female	156748.60	United Kingdom
+765	Nicholas	Male	143558.97	Germany
+766	Christopher	Male	95158.63	China
+767	Adam	Male	161237.96	China
+768	Emily	Female	79674.28	China
+769	Martin	Male	182085.72	China
+770	Doris	Female	111378.14	China
+771	Justin	Male	150936.11	China
+772	Jack	Male	107739.72	China
+773	Joan	Female	184003.90	China
+774	Anne	Female	198351.15	Japan
+775	Stephanie	Female	140935.51	China
+776	Walter	Male	82911.35	France
+777	Tammy	Female	104887.97	China
+778	Steven	Male	60172.81	China
+779	Joan	Female	61326.06	China
+780	Christina	Female	190717.74	China
+781	Roger	Male	149015.71	France
+782	Diane	Female	165599.77	United States
+783	Henry	Male	131573.55	China
+784	Wayne	Male	133170.82	China
+785	Sharon	Female	191066.60	France
+786	Jennifer	Female	73184.20	France
+787	Diane	Female	199599.74	China
+788	Ryan	Male	113125.86	United States
+789	Janet	Female	130723.27	China
+790	Jeremy	Male	153710.19	China
+791	Chris	Male	198458.16	China
+792	Willie	Male	177799.38	China
+793	Annie	Female	168687.24	China
+794	Fred	Male	109500.30	China
+795	Karen	Female	127623.11	China
+796	Terry	Male	189359.83	China
+797	Marie	Female	122424.22	China
+798	Kevin	Male	137154.71	China
+799	Jimmy	Male	106109.22	China
+800	Charles	Male	199012.52	China
+801	Janet	Female	73955.40	Japan
+802	Chris	Male	93164.39	China
+803	Harry	Male	64091.03	China
+804	Clarence	Male	176563.92	France
+805	George	Male	150972.05	China
+806	Alan	Male	83710.02	France
+807	Marie	Female	158860.65	China
+808	Marilyn	Female	131442.77	China
+809	Andrea	Female	81619.26	China
+810	Chris	Male	164248.27	France
+811	Jessica	Female	166497.15	China
+812	Karen	Female	107449.64	China
+813	Donna	Female	179076.32	China
+814	Margaret	Female	74458.22	China
+815	Joyce	Female	114629.03	China
+816	Ruby	Female	182189.78	China
+817	Gregory	Male	121444.28	China
+818	Janet	Female	98016.84	France
+819	Gloria	Female	110278.82	China
+820	Stephen	Male	87094.97	China
+821	Ralph	Male	108057.49	China
+822	Edward	Male	176332.52	China
+823	Patricia	Female	77430.25	China
+824	Ruby	Female	113538.33	China
+825	Carl	Male	81649.38	China
+826	Brenda	Female	122988.36	United States
+827	Timothy	Male	165161.18	China
+828	Clarence	Male	130730.63	France
+829	Ralph	Male	87771.60	China
+830	Alice	Female	119756.88	China
+831	Carlos	Male	66576.78	China
+832	Julia	Female	86367.79	China
+833	Christine	Female	112532.84	China
+834	Jean	Female		
+835	Teresa	Female	74938.06	China
+836	Adam	Male	91072.47	China
+837	Willie	Male	183216.77	France
+838	Carl	Male	174746.72	China
+839	Stephen	Male		
+840	Johnny	Male		
+841	Elizabeth	Female	191529.07	Japan
+842	Justin	Male	156227.99	China
+843	Lillian	Female	151423.84	China
+844	Brenda	Female		
+845	Antonio	Male	84852.37	Germany
+846	Arthur	Male	134882.20	China
+847	Kathy	Female		
+848	Joshua	Male	104438.03	United States
+849	Louis	Male	183753.06	China
+850	Carl	Male	76244.26	United Kingdom
+851	David	Male	124581.77	China
+852	Norma	Female	89645.19	United States
+853	Phillip	Male	185319.04	China
+854	Eugene	Male	139427.20	China
+855	Gloria	Female	190479.41	China
+856	Jane	Female	167953.62	China
+857	Russell	Male	153392.76	China
+858	Nicole	Female	61755.69	China
+859	Nicholas	Male	105468.78	China
+860	Carl	Male	193788.37	China
+861	Rebecca	Female	159840.31	China
+862	Thomas	Male	191399.58	China
+863	Emily	Female	132633.85	China
+864	Kimberly	Female	198621.79	Japan
+865	Patricia	Female	89535.74	China
+866	Mildred	Female	174253.43	China
+867	Virginia	Female	141805.94	China
+868	Annie	Female	149966.57	China
+869	Joyce	Female	71494.05	China
+870	Jimmy	Male	123468.55	China
+871	Kelly	Female	186467.39	China
+872	Sharon	Female	175996.51	Japan
+873	Dorothy	Female		
+874	Donald	Male	148734.43	China
+875	Roy	Male	73502.78	China
+876	Joshua	Male	60706.36	France
+877	Jennifer	Female	115081.07	China
+878	Nicholas	Male	141332.51	China
+879	Christina	Female	185636.77	China
+880	Shawn	Male	191711.15	China
+881	Brian	Male		
+882	Andrea	Female	83642.32	China
+883	Kenneth	Male	116135.97	China
+884	Douglas	Male	120605.11	China
+885	Todd	Male	184635.25	China
+886	Raymond	Male	138989.27	China
+887	Harold	Male	89837.88	China
+888	Jimmy	Male	102117.93	China
+889	Matthew	Male	110639.36	Japan
+890	Kathy	Female	91556.14	France
+891	Virginia	Female	168499.84	China
+892	Bonnie	Female	113778.40	China
+893	Kathleen	Female	74102.62	China
+894	Judith	Female	116439.84	Japan
+895	Anne	Female	177233.34	China
+896	Randy	Male	113055.89	China
+897	Karen	Female	148435.72	China
+898	Shawn	Male	185304.43	China
+899	Earl	Male	76646.79	China
+900	Cheryl	Female		
+901	Eric	Male	177141.89	China
+902	Mildred	Female	106348.41	France
+903	Kevin	Male	162133.17	China
+904	Aaron	Male	136331.86	China
+905	Melissa	Female	179132.23	China
+906	Kimberly	Female	84049.92	United States
+907	Jeremy	Male	114337.49	United States
+908	Karen	Female	148133.26	China
+909	Gary	Male	187147.18	China
+910	Jerry	Male	167882.28	China
+911	Benjamin	Male	99677.74	Japan
+912	Samuel	Male	109769.71	China
+913	Carol	Female	124613.10	China
+914	Kevin	Male	74958.24	China
+915	Anthony	Male	77594.99	China
+916	Heather	Female	136783.48	China
+917	Keith	Male	170035.86	China
+918	Paul	Male	65937.27	China
+919	Larry	Male	134426.80	China
+920	Irene	Female	125061.81	China
+921	George	Male	101928.69	China
+922	Gloria	Female	136010.10	China
+923	Aaron	Male	118173.87	China
+924	John	Male	173187.39	China
+925	Ronald	Male	189064.58	China
+926	Kevin	Male	183482.57	China
+927	Terry	Male	172164.11	France
+928	Dorothy	Female	175405.78	China
+929	Craig	Male	64610.78	China
+930	Teresa	Female	167843.40	China
+931	Joe	Male	175762.79	France
+932	Terry	Male	173787.96	France
+933	Wayne	Male	72852.08	China
+934	Donald	Male	171645.71	United States
+935	Laura	Female	159810.71	China
+936	Mildred	Female	91973.53	France
+937	Patricia	Female	188547.42	France
+938	Anthony	Male	69132.98	China
+939	Stephen	Male	60820.19	China
+940	Samuel	Male	175430.59	China
+941	Patricia	Female	157608.45	China
+942	Peter	Male	177677.09	China
+943	Kevin	Male	109221.30	China
+944	Bobby	Male		
+945	Phillip	Male	118172.27	China
+946	Donald	Male	172201.57	China
+947	Anna	Female	196027.98	United States
+948	Judy	Female	119256.72	China
+949	Teresa	Female	93216.72	China
+950	Lois	Female	75168.34	China
+951	Rose	Female	126910.35	Japan
+952	Jack	Male	125095.44	China
+953	Nicole	Female		
+954	Mark	Male	111169.61	France
+955	Martin	Male	114184.82	China
+956	Stephanie	Female	126902.15	China
+957	Eugene	Male	183470.34	China
+958	Eugene	Male	193531.71	China
+959	Ruby	Female	164726.82	China
+960	Carol	Female	99243.90	China
+961	Ruth	Female	129981.27	China
+962	Jason	Male	98011.68	China
+963	Lisa	Female	111614.90	France
+964	Andrea	Female	92005.87	United States
+965	George	Male	185996.33	China
+966	Andrew	Male	118992.92	China
+967	Terry	Male	88271.15	China
+968	Janet	Female		
+969	Jane	Female	147784.95	China
+970	Amanda	Female	135169.41	China
+971	Elizabeth	Female	190787.25	Japan
+972	Philip	Male	72224.92	United States
+973	Russell	Male	66484.45	France
+974	Sara	Female	69708.13	China
+975	Craig	Male	141462.23	United States
+976	Gerald	Male	174837.22	China
+977	Chris	Male	197167.34	Japan
+978	Justin	Male		
+979	Sharon	Female	127048.45	China
+980	Paul	Male	128979.93	China
+981	Christopher	Male	95910.83	China
+982	Rachel	Female	161598.93	China
+983	Daniel	Male	163085.35	China
+984	Douglas	Male	180037.04	United States
+985	Theresa	Female	157177.26	China
+986	Eric	Male	193070.43	France
+987	Harold	Male	180387.24	China
+988	Ruby	Female	120102.38	United States
+989	Jonathan	Male	152817.10	China
+990	Howard	Male	199180.85	United States
+991	Jacqueline	Female	95523.59	Japan
+992	Victor	Male	110401.75	China
+993	George	Male	94352.68	China
+994	Robert	Male	67808.35	China
+995	Jason	Male	168537.98	China
+996	Douglas	Male	156227.77	China
+997	Benjamin	Male		
+998	Louise	Female	90475.34	China
+999	Walter	Male	163734.55	China
+1000	Matthew	Male		

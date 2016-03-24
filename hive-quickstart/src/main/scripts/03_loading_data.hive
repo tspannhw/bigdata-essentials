@@ -1,0 +1,38 @@
+
+/* lets load data into all the tables created */
+
+-- loading data from local path
+
+LOAD DATA LOCAL INPATH 'person.txt' INTO TABLE text_table_tab;
+
+INSERT INTO TABLE text_table select * from text_table_tab;
+
+INSERT INTO TABLE sequence_table select * from text_table_tab;
+
+INSERT INTO TABLE avro_table select * from text_table_tab;
+
+INSERT INTO TABLE rc_table select * from text_table_tab;
+
+INSERT INTO TABLE parquet_table select * from text_table_tab;
+
+INSERT INTO TABLE orc_table select * from text_table_tab;
+
+-- insert overwrite
+
+INSERT OVERWRITE TABLE sequence_table select * from text_table_tab;
+
+FROM text_table_tab
+INSERT OVERWRITE TABLE sequence_table select id, name, gender, salary, country
+INSERT OVERWRITE TABLE text_table select id, name, gender, salary, country;
+
+-- insert overwrite hdfs/local directory from table
+
+INSERT OVERWRITE DIRECTORY '<hdfs_directory>' SELECT * from text_table_tab;
+
+INSERT OVERWRITE LOCAL DIRECTORY '<local_fs_directory>' SELECT * from text_table_tab;
+
+
+
+
+
+

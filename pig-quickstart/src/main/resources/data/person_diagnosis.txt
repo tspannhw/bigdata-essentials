@@ -1,0 +1,40 @@
+1	30283	Prophylactic administration of vaccine against other diseases
+2	37160	Other repair of aneurysm
+3	52101	Local excision of lesion or tissue of bone, tibia and fibula
+4	61182	Lobotomy and tractotomy
+5	340	Thigh reattachment
+6	64681	Endoscopic transmyocardial revascularization
+7	01235	Other repair of elbow
+8	E8493	Wedge osteotomy, carpals and metacarpals
+9	E8274	Ambulatory cardiac monitoring
+10	09481	Manual testing of muscle function
+11	85122	Transplantation of thymus
+12	73742	Other transurethral excision or destruction of lesion or tissue of bladder
+13	30402	Microscopic examination of specimen from spleen and of bone marrow, culture and sensitivity
+14	52430	Microscopic examination of specimen from eye, culture
+15	33709	Hysterotomy to terminate pregnancy
+16	9724	Injection of Rh immune globulin
+17	V772	Repair of cystocele and rectocele with graft or prosthesis
+18	8483	Alcohol rehabilitation and detoxification
+19	5940	Proctoclysis
+20	80621	Midtarsal fusion
+21	1177	Salpingostomy
+22	73073	Aortocoronary bypass for heart revascularization, not otherwise specified
+23	85249	Suture of corneal laceration
+24	V421	Vaginal suspension and fixation with graft or prosthesis
+25	85250	Open and other replacement of pulmonary valve
+26	94540	Microscopic examination of specimen from endocrine gland, not elsewhere classified, culture
+27	37206	Upper limb amputation, not otherwise specified
+28	67320	Other rehabilitation for the blind
+29	80329	Anorectal myectomy
+30	29610	Revision of other cutaneous ureterostomy
+31	36811	Autopsy
+32	7280	Arteriography of pulmonary arteries
+33	37149	Repair of postoperative wound dehiscence of cornea
+34	20933	Other skin graft to lip and mouth
+35	3003	Contrast vasogram
+36	9876	Ligation and stripping of varicose veins, upper limb vessels
+37	37104	Initial insertion of single-chamber device, rate responsive
+38	E0050	Replacement of other cast
+39	6801	Microscopic examination of specimen from trachea, bronchus, pleura, lung, and other thoracic specimen, and of sputum, other microscopic examination
+40	E9412	Injection or infusion of biological response modifier [BRM] as an antineoplastic agent

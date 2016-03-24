@@ -1,0 +1,27 @@
+
+
+-- Creating databases
+
+CREATE DATABASE IF NOT EXISTS db_name COMMENT 'Test database';
+
+-- Creating database in other location
+
+CREATE DATABASE IF NOT EXISTS db_name_location COMMENT 'database' LOCATION '<hdfs_location>';
+
+-- Creating database with location, properties
+
+CREATE DATABASE IF NOT EXISTS db_name_location_prop COMMENT 'database' LOCATION '<hdfs_location>' WITH DBPROPERTIES ('author' = 'who');
+
+DESCRIBE SCHEMA EXTENDED db_name_location_prop;
+
+-- Show Databases
+
+SHOW DATABASES;
+
+SHOW DATABASES LIKE 'db*';
+
+-- Drop Database
+
+DROP DATABASE db_name_location_prop;
+
+DROP DATABASE IF EXISTS db_name_location_prop;

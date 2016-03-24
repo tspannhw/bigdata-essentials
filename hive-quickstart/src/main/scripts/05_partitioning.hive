@@ -1,0 +1,33 @@
+
+
+-- create a partitioned table (dynamic partition)
+
+CREATE EXTERNAL TABLE external_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10))
+partitioned by (country string)
+location '<hdfs_location>';
+
+
+INSERT OVERWRITE TABLE external_table PARTITION(country) SELECT * from text_table;
+
+-- show partitions
+
+SHOW PARTITIONS external_table;
+
+-- drop partitions
+
+ALTER TABLE external_table DROP PARTITION (country='China');
+
+-- To add partitions on external table
+
+MSCK REPAIR TABLE external_table;
+
+(or)
+
+ALTER TABLE external_table ADD PARTITION (country='SouthAfrica');
+
+-- static partition example
+
+INSERT OVERWRITE TABLE external_table PARTITION(country='China')
+SELECT * FROM text_table_tab where country='China';
+
+

@@ -1,0 +1,15 @@
+
+
+SELECT * FROM text_table a JOIN text_table_tab b ON (a.id=b.id);
+
+SELECT * FROM text_table a LEFT OUTER JOIN text_table_tab b ON (a.id=b.id);
+
+SELECT * FROM text_table a RIGHT OUTER JOIN text_table_tab b ON (a.id=b.id);
+
+SELECT * FROM text_table a FULL OUTER JOIN text_table_tab b ON (a.id=b.id);
+
+-- map join prior to hive 0.11
+
+SELECT /*+ MAPJOIN(text_table_tab) */ COUNT(*) from
+text_table a JOIN text_table_tab b ON (a.id=b.id);
+

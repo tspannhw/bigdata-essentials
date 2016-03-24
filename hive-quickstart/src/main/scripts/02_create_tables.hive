@@ -1,0 +1,64 @@
+-- Apache Hive Quick Start
+
+--Lets create few tables
+
+--Text Table default delimited
+CREATE TABLE IF NOT EXISTS text_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING) STORED AS TEXTFILE;
+DESCRIBE table1;
+DESCRIBE EXTENDED table1;
+
+
+--Text Table tab delimited
+CREATE TABLE text_table_tab (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+STORED AS TEXTFILE;
+DESCRIBE text_table_tab;
+DESCRIBE EXTENDED text_table_tab;
+
+--Text Table as sequence file
+CREATE TABLE sequence_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+STORED AS SEQUENCEFILE;
+DESCRIBE sequence_table;
+DESCRIBE EXTENDED sequence_table;
+
+--Create Table as Avro file
+CREATE TABLE avro_table STORED AS AVRO TBLPROPERTIES ('avro.schema.literal'='{
+  "namespace": "com.sv.hive.avro",
+  "name": "person",
+  "type": "record",
+  "fields": [
+    { "name":"id","type":"int" },
+    { "name":"name","type":"string" },
+    { "name":"gender","type":"string" },
+    { "name":"salary", "type": [ "null", "double" ] },
+    { "name":"country", "type": [ "null", "string" ] }
+  ]
+}');
+
+DESCRIBE avro_table;
+
+--Create Table as RC file
+CREATE TABLE rc_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+STORED AS RCFILE;
+DESCRIBE rc_table;
+DESCRIBE EXTENDED rc_table;
+
+--Create Table as Parquet format--
+CREATE TABLE parquet_table(id INT, name STRING, gender STRING, salary DECIMAL(38,10), country STRING) STORED AS PARQUET TBLPROPERTIES("parquet.compression"="LZO");
+DESCRIBE parquet_table;
+
+
+--Create ORC table format--
+CREATE TABLE orc_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING)
+stored as ORC tblproperties ("orc.compress"="SNAPPY");
+
+
+-- Creating external tables
+
+CREATE EXTERNAL TABLE external_table (id STRING, name STRING, gender STRING, salary DECIMAL(38, 10), country STRING)
+LOCATION '<hdfs_location>';
+
+
+

@@ -1,0 +1,9 @@
+
+ALTER TABLE text_table ADD COLUMNS (state STRING);
+
+-- alter input/output formats
+
+ALTER TABLE text_table SET FILEFORMAT
+INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat'
+OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.IgnoreKeyTextOutputFormat';
+
