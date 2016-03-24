@@ -33,3 +33,10 @@ The largest repo for BigData starter/sample examples.
 * [udf usage](https://github.com/bigdataguide/bigdata-essentials/blob/master/pig-quickstart/src/main/scripts/com.bigdataguide.pig.scripts/09_use_udf.pig)
 * [flatten](https://github.com/bigdataguide/bigdata-essentials/blob/master/pig-quickstart/src/main/scripts/com.bigdataguide.pig.scripts/10_flatten.pig)
 
+## [kafka-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/kafka-quickstart)
+
+* [how to start](https://github.com/bigdataguide/bigdata-essentials/blob/master/kafka-quickstart/README.md)
+* [consumer example](https://github.com/bigdataguide/bigdata-essentials/blob/master/kafka-quickstart/src/main/java/com/bigdataguide/kafka/ConsumerExample.java)
+* [producer example](https://github.com/bigdataguide/bigdata-essentials/blob/master/kafka-quickstart/src/main/java/com/bigdataguide/kafka/ProducerExample.java)
+
+
