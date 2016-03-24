@@ -9,6 +9,7 @@
     <module>mapreduce-quickstart</module>
     <module>hive-quickstart</module>
     <module>pig-quickstart</module>
+    <module>kafka-quickstart</module>
   </modules>
   <packaging>pom</packaging>
 
