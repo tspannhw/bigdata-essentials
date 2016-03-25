@@ -10,6 +10,7 @@
     <module>hive-quickstart</module>
     <module>pig-quickstart</module>
     <module>kafka-quickstart</module>
+    <module>spark-quickstart</module>
   </modules>
   <packaging>pom</packaging>
 
