@@ -12,6 +12,7 @@
     <module>kafka-quickstart</module>
     <module>spark-quickstart</module>
     <module>hdfsclients-quickstart</module>
+    <module>hbase-quickstart</module>
   </modules>
   <packaging>pom</packaging>
 
