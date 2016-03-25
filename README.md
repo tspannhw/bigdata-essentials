@@ -1,6 +1,11 @@
 # bigdata-essentials
 The largest repo for BigData starter/sample examples.
 
+## [hdfsclients-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/hdfsclients-quickstart)
+
+* [Java Client](https://github.com/bigdataguide/bigdata-essentials/tree/master/hdfsclients-quickstart/src/main/java)
+* [Python Clients](TODO)
+
 ## [mapreduce-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/mapreduce-quickstart)
 
 * [wordcount](https://github.com/bigdataguide/bigdata-essentials/tree/master/mapreduce-quickstart/src/main/java/com/bigdataguide/mapreduce/wordcount)
@@ -37,6 +42,8 @@ The largest repo for BigData starter/sample examples.
 
 * [spark-shell scala](https://github.com/bigdataguide/bigdata-essentials/blob/master/spark-quickstart/src/main/spark-shell/scala.md)
 * [spark scala wordcount](https://github.com/bigdataguide/bigdata-essentials/tree/master/spark-quickstart/src/main/scala/com.bigdataguide.spark)
+
+## [hbase-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/hbase-quickstart)
 
 ## [kafka-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/kafka-quickstart)
 
