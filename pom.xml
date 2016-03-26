@@ -6,13 +6,33 @@
   <artifactId>bigdata-essentials</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>mapreduce-quickstart</module>
-    <module>hive-quickstart</module>
-    <module>pig-quickstart</module>
-    <module>kafka-quickstart</module>
-    <module>spark-quickstart</module>
-    <module>hdfsclients-quickstart</module>
+    <module>avro-quickstart</module>
+    <module>cascading-quickstart</module>
+    <module>cassandra-quickstart</module>
+    <module>crunch-quickstart</module>
+    <module>drill-quickstart</module>
+    <module>flink-quickstart</module>
+    <module>flume-quickstart</module>
+    <module>giraph-quickstart</module>
     <module>hbase-quickstart</module>
+    <module>hcatalog-quickstart</module>
+    <module>hdfsclients-quickstart</module>
+    <module>hive-quickstart</module>
+    <module>impala-quickstart</module>
+    <module>kafka-quickstart</module>
+    <module>mapreduce-quickstart</module>
+    <module>mongodb-quickstart</module>
+    <module>nifi-quickstart</module>
+    <module>oozie-quickstart</module>
+    <module>parquet-quickstart</module>
+    <module>phoenix-quickstart</module>
+    <module>pig-quickstart</module>
+    <module>protobuf-quickstart</module>
+    <module>solr-quickstart</module>
+    <module>spark-quickstart</module>
+    <module>storm-quickstart</module>
+    <module>thrift-quickstart</module>
+    <module>bigdata-essentials-doc</module>
   </modules>
   <packaging>pom</packaging>
 
