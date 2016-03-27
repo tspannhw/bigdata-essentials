@@ -38,6 +38,19 @@ The largest repo for BigData starter/sample examples.
 * [udf usage](https://github.com/bigdataguide/bigdata-essentials/blob/master/pig-quickstart/src/main/scripts/com.bigdataguide.pig.scripts/09_use_udf.pig)
 * [flatten](https://github.com/bigdataguide/bigdata-essentials/blob/master/pig-quickstart/src/main/scripts/com.bigdataguide.pig.scripts/10_flatten.pig)
 
+## [crunch-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart)
+
+* [about crunch](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/README.md)
+* [word count](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/WordCountPipeline.java)
+* [avro-pipeline](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/AvroPipeline.java)
+* [parquet-pipeline](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/ParquetPipeline.java)
+* [text-to-sequence](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/TextToSeqPipeline.java)
+* [spark with crunch](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/WordCountSparkPipeline.java)
+* [how to write mapfn](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/mapfn)
+* [how to write filterfn](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/filterfn)
+* [how to write dofn](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/dofn)
+* [crunch in scala](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/scala/com/bigdataguide/scrunch/pipeline)
+
 ## [spark-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/spark-quickstart)
 
 * [spark-shell scala](https://github.com/bigdataguide/bigdata-essentials/blob/master/spark-quickstart/src/main/spark-shell/scala.md)
