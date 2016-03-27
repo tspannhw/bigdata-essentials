@@ -1,4 +1,4 @@
-package org.w2b.scrunch.pipeline
+package scrunch.pipeline
 
 import org.apache.crunch.scrunch.PipelineApp
 
