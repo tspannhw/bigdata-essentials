@@ -51,4 +51,8 @@ The largest repo for BigData starter/sample examples.
 * [consumer example](https://github.com/bigdataguide/bigdata-essentials/blob/master/kafka-quickstart/src/main/java/com/bigdataguide/kafka/ConsumerExample.java)
 * [producer example](https://github.com/bigdataguide/bigdata-essentials/blob/master/kafka-quickstart/src/main/java/com/bigdataguide/kafka/ProducerExample.java)
 
+## [nifi-quickstart](https://github.com/bigdataguide/bigdata-essentials/tree/master/nifi-quickstart)
 
+* [installations](https://github.com/bigdataguide/bigdata-essentials/blob/master/nifi-quickstart/installations.md)
+* [architecture](https://github.com/bigdataguide/bigdata-essentials/blob/master/nifi-quickstart/nifi_architecture.md)
+* [quickstart tutorial](https://github.com/bigdataguide/bigdata-essentials/blob/master/nifi-quickstart/nifi_quickstart.md)

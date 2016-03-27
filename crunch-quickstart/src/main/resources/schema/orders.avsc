@@ -1,0 +1,27 @@
+{
+  "type" : "record",
+  "name" : "sqoop_import_orders",
+  "doc" : "Sqoop import of orders",
+  "fields" : [ {
+    "name" : "order_id",
+    "type" : [ "int", "null" ],
+    "columnName" : "order_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "order_date",
+    "type" : [ "long", "null" ],
+    "columnName" : "order_date",
+    "sqlType" : "93"
+  }, {
+    "name" : "order_customer_id",
+    "type" : [ "int", "null" ],
+    "columnName" : "order_customer_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "order_status",
+    "type" : [ "string", "null" ],
+    "columnName" : "order_status",
+    "sqlType" : "12"
+  } ],
+  "tableName" : "orders"
+}
