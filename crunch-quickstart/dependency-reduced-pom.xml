@@ -70,7 +70,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <scala.version>2.10.4</scala.version>
+    <scala.version>2.10.5</scala.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>
