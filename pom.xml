@@ -33,6 +33,7 @@
     <module>storm-quickstart</module>
     <module>thrift-quickstart</module>
     <module>bigdata-essentials-doc</module>
+    <module>sqoop-quickstart</module>
   </modules>
   <packaging>pom</packaging>
 
