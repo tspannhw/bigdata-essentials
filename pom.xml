@@ -34,6 +34,22 @@
     <module>thrift-quickstart</module>
     <module>bigdata-essentials-doc</module>
     <module>sqoop-quickstart</module>
+    <module>corejava-quickstart</module>
+    <module>python-quickstart</module>
+    <module>json-quickstart</module>
+    <module>sql-quickstart</module>
+    <module>unix-quickstart</module>
+    <module>bash-quickstart</module>
+    <module>rest-quickstart</module>
+    <module>jersy-quickstart</module>
+    <module>sparkjava-quickstart</module>
+    <module>rabbitmq-quickstart</module>
+    <module>activemq-quickstart</module>
+    <module>spark-streaming-quickstart</module>
+    <module>sentry-quickstart</module>
+    <module>kerberos-quickstart</module>
+    <module>ldap-quickstart</module>
+    <module>ranger-quickstart</module>
   </modules>
   <packaging>pom</packaging>
 
