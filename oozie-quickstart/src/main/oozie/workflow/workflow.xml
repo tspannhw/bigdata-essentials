@@ -1,6 +1,6 @@
 <workflow-app name="needforcode" xmlns="uri:oozie:workflow:0.4">
-    <start to="pig"/>
-    <action name="hive-node">
+    <start to="hive-example"/>
+    <action name="hive-example">
         <hive xmlns="uri:oozie:hive-action:0.2">
         <job-tracker>${jobTracker}</job-tracker>
         <name-node>${nameNode}</name-node>
