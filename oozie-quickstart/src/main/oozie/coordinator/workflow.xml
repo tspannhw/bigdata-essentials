@@ -1,0 +1,24 @@
+<workflow-app name="needforcode" xmlns="uri:oozie:workflow:0.4">
+    <start to="hive-example"/>
+    <action name="hive-example">
+        <hive xmlns="uri:oozie:hive-action:0.2">
+        <job-tracker>${jobTracker}</job-tracker>
+        <name-node>${nameNode}</name-node>
+        <job-xml>hive-site.xml</job-xml>
+            <configuration>
+                <property>
+                    <name>mapred.job.queue.name</name>
+                    <value>${queueName}</value>
+                </property>              
+            </configuration>
+            <script>script.hql</script>
+            <param>DB_NAME=${db_name}</param>
+        </hive>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+        <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
