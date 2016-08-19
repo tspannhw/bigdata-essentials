@@ -1,0 +1,30 @@
+## SQL
+
+- What are ACID properties ?
+- Difference between UNION vs UNION ALL ?
+- Unique key vs Primary key ?
+- Normalization vs De-Normalization ?
+- DELETE vs TRUNCATE ?
+- Cluster and Non-Cluster Index?
+- When do you use a self join ?
+- What is the requirement to do a self join ?
+- TRUNCATE vs DROP ?
+- How to select unique records from a table ?
+- Use of NVL function ?
+- Advantages of using VIEWS ?
+- How do you join three tables in SQL ?
+- Find the 2nd highest salary of an employee from a table ?
+- SQL to find nth highest salary of an employee from a table ?
+- How to choose a good PARTITION key for a big table ?
+- Delete duplicate rows using a single statement ?
+- Swap the gender column in a employee table ie: male should replace by female ?
+- Difference between index seek and index scan ?
+- Difference between row number , rank and dense rank ?
+- Difference between commit, rollback and save point ?
+- Define cross join ?
+- Row level locking vs Table level locking ?
+- What is Shared Vs Exclusive locking ?
+- Difference between WHERE clause and HAVING clause ?
+- select first 5 records from a table ? (sql server and Oracle)
+- Which one we can prefer bw COALESCE vs ISNULL() ? 
+- Difference between UNION vs UNION ALL ?

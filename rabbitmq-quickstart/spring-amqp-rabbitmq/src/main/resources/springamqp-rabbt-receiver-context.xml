@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+							http://www.springframework.org/schema/rabbit
+							http://www.springframework.org/schema/rabbit/spring-rabbit-1.0.xsd">
+
+    <!--  first following line creates a rabbit connection factory with specified parameters -->
+    <rabbit:connection-factory id="connectionFactory" host="localhost" username="guest" password="guest" />
+
+    <!-- obtain admin rights to create the an exchange -->
+    <rabbit:admin connection-factory="connectionFactory" />
+
+    <!-- Create myQueue queue -->
+    <rabbit:queue id="myQueue" />
+
+    <!-- create myExchange and bind myQueue with routingkeys to the myExchange-->
+    <rabbit:topic-exchange id="myExchange" name="myExchange">
+        <rabbit:bindings>
+            <rabbit:binding queue="myQueue" pattern="tp.routingkey.*        "></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!-- instantiate TutorialListener -->
+    <bean id="myListener" class="org.needforcode.rabbitmq.SpringAMQPRabbitReceiver" />
+    <!-- glue the listener and myQueue to the container-->
+    <rabbit:listener-container id="myListenerContainer" connection-factory="connectionFactory">
+        <rabbit:listener ref="myListener" queues="myQueue" /></rabbit:listener-container>
+</beans>

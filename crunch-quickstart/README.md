@@ -118,12 +118,12 @@ PTable<String, Long> counts = words.count();
 
 ### code samples
 
-* [word count](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/WordCountPipeline.java)
-* [avro-pipeline](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/AvroPipeline.java)
-* [parquet-pipeline](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/ParquetPipeline.java)
-* [text-to-sequence](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/TextToSeqPipeline.java)
-* [spark with crunch](https://github.com/bigdataguide/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/pipeline/WordCountSparkPipeline.java)
-* [how to write mapfn](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/mapfn)
-* [how to write filterfn](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/filterfn)
-* [how to write dofn](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/bigdataguide/crunch/dofn)
-* [crunch in scala](https://github.com/bigdataguide/bigdata-essentials/tree/master/crunch-quickstart/src/main/scala/com/bigdataguide/scrunch/pipeline)
+* [word count](https://github.com/needforcode/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/needforcode/crunch/pipeline/WordCountPipeline.java)
+* [avro-pipeline](https://github.com/needforcode/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/needforcode/crunch/pipeline/AvroPipeline.java)
+* [parquet-pipeline](https://github.com/needforcode/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/needforcode/crunch/pipeline/ParquetPipeline.java)
+* [text-to-sequence](https://github.com/needforcode/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/needforcode/crunch/pipeline/TextToSeqPipeline.java)
+* [spark with crunch](https://github.com/needforcode/bigdata-essentials/blob/master/crunch-quickstart/src/main/java/com/needforcode/crunch/pipeline/WordCountSparkPipeline.java)
+* [how to write mapfn](https://github.com/needforcode/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/needforcode/crunch/mapfn)
+* [how to write filterfn](https://github.com/needforcode/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/needforcode/crunch/filterfn)
+* [how to write dofn](https://github.com/needforcode/bigdata-essentials/tree/master/crunch-quickstart/src/main/java/com/needforcode/crunch/dofn)
+* [crunch in scala](https://github.com/needforcode/bigdata-essentials/tree/master/crunch-quickstart/src/main/scala/com/needforcode/scrunch/pipeline)

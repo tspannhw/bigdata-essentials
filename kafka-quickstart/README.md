@@ -53,11 +53,11 @@ Oracle JDK for Java 7 & Scala 2.11-0.
 # run producer java code
 
 ```
-java -cp kafka-quickstart-1.0-SNAPSHOT.jar com.bigdataguide.kafka.ProducerExample sv
+java -cp kafka-quickstart-1.0-SNAPSHOT.jar com.needforcode.kafka.ProducerExample sv
 ```
 
 # run consumer java code
 
 ```
-java -cp kafka-quickstart-1.0-SNAPSHOT.jar com.bigdataguide.kafka.ConsumerExample sv
+java -cp kafka-quickstart-1.0-SNAPSHOT.jar com.needforcode.kafka.ConsumerExample sv
 ```
