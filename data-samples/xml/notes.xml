@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+<note>
+<to>Jim</to>
+<from>John</from>
+<body>How are you ?</body>
+</note>
+<note>
+<to>John</to>
+<from>Jim</from>
+<body>I am doing good.</body>
+</note>
+</notes>
