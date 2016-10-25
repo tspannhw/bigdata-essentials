@@ -5,7 +5,7 @@
 
 ### HDFS
 - Best way to copy files between HDFS clusters ?
- 
+- 
 ### MapReduce
 - Explain how mapreduce works ?
 - What are the jobs of Jobtracker ?
@@ -41,7 +41,50 @@
 - What are the performance tuning you have done in a mapreduce program ?
 
 ### Sqoop
+- target-dir vs warehouse-dir in sqoop ?
+- How to import subset of rows into HDFS ?
+- How do you compress sqoop output file ?
+- How to control parallelism in sqoop ?
+- What is sqoop metastore ?
+- What are the different output data formats you can import data into HDFS ?
+- How to control mapping between sql data types and java data types ?
+- How do you group records in DB's that are read by mappers in sqoop ?
+- How to run a sqoop job using oozie ?
+- How to import data which is result of join of 2 tables in sqoop ?
+- How to avoid giving password on the command line in sqoop ?
+- Does sqoop1 have a reduce phase ?
+
 ### Hive
+
+- How Hive is different from RDBMS ?
+- When do you use hive vs pig ?
+- How many different ways you can connect to Hive ?
+- What is the importance of Hive Server ?
+- What is hive metastore ?
+- Hive CLI vs Beeline ?
+- Different ways of executing hive ?
+- Difference between managed and external table ?
+- what is default location where hive stores data ?
+- What are the different modes hive can be run ?
+- Explain about complex data types in Hive ?
+- What is partitioning and why do we use it ?
+- What is bucketing and why do we use it ?
+- How bucketing is different from partitioning ?
+- What is Serde and why it is used ?
+- Why is InputFormat used in Hive ?
+- What is the difference in role of Serde and Inputformat ?
+- Sort by vs Order by in Hive ?
+- How many reducers are executed when you execute order by in hive ?
+- Is the total data file sorted if you use sort by ?
+- How to sort an entire data file using Hive ?
+- How do you write an UDF in hive ?
+- How to add an UDF to classpath ?
+- How to add Hive UDf to oozie classpath ?
+- UDF vs UDAF vs UDTF ?
+- What is map join in hive ?
+- Can we load data into a view in Hive ?
+- Can we index hive tables ?
+
 ### Pig
 ### Spark
 ### Hbase
