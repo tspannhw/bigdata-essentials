@@ -4,8 +4,9 @@
 - What are the different modes of hadoop can run ?
 
 ### HDFS
+
 - Best way to copy files between HDFS clusters ?
-- 
+
 ### MapReduce
 - Explain how mapreduce works ?
 - What are the jobs of Jobtracker ?
