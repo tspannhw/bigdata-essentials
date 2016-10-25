@@ -104,6 +104,36 @@
 - How to execute pig from oozie ?
 
 ### Spark
+
+- Why spark faster than mapreduce ?
+- What does spark ecosystem consists of ?
+- Explain about different types of cluster managers in spark ?
+- What is an RDD ?
+- What is a PairRDD ?
+- How do you define spark context ?
+- Different ways of configuring spark properties to the job ?
+- Is it possible to have multiple spark context inside single JVM ?
+- can RDD be shared betweeen spark context ?
+- Scheduler used by spark context by default ?
+- How do you change memory allocated to executor ?
+- How to control number of partitions in an RDD ?
+- Narrow transformations vs Wide transformations in spark ?
+- How can you distribute jars to workers in spark ?
+- Explain about transformations and actions ?
+- Various Storage/persistance levels in spark ?
+- Need for broadcast variables ?
+- What are accumulators and why do we use them ?
+- Difference between persist() and cache() ?
+- GroupByKey vs ReduceByKey ?
+- What is meant by CheckPointing ?
+- Explain about spark streaming ?
+- What is a DStream ?
+- What are different transformations on DStreams ?
+- What is catalyst optimizer ?
+- What are datasets in spark ?
+- Explain about DataFrames used in spark ?
+
+
 ### Hbase
 ### Kafka
 ### Storm
