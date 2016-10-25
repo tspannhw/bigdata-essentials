@@ -135,5 +135,31 @@
 
 
 ### Hbase
+
+- Why Hbase faster than hdfs ?
+- What are key components of hbase ?
+- What is the role of ZooKeeper in hbase ?
+- Explain the master-slave architecture of hbase ?
+- Different types of filters used in Hbase ?
+- Explains steps of file write from Client to Hbase ?
+- What are different compactions in Hbase ? Explain ?
+- What is TTL in Hbase ?
+- What is a HFile & memstore ?
+- Does Hbase support table joins ?
+- What are rowkey, column family, column qualifier, cell, version in hbase ?
+- Different ways of accessing data from Hbase ?
+- Explain different block cache in hbase ?
+- How do you prevent hotspotting in hbase ?
+- What is namespace in hbase ?
+- Explain operational commands in hbase like scan, put etc ?
+- WAL in hbase ?
+- Hbase vs RDBMS ?
+- How to execute sql on top of hbase ?
+- Should the region servers be run on same nodes as datanodes ?
+- How to access a disabled table using Hbase Scan ?
+- How can you run MapReduce on top of data in Hbase ?
+- Can you create a Hive table on data in Hbase ?
+- Can you sqoop directly into Hbase from RDBMS ?
+
 ### Kafka
 ### Storm
