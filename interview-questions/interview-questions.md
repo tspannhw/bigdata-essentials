@@ -85,8 +85,24 @@
 - What is map join in hive ?
 - Can we load data into a view in Hive ?
 - Can we index hive tables ?
+- What is Hcatalog and why do you use it in Hive ?
+- How can you connect to hive from Sql IDE's ?
 
 ### Pig
+
+- Pig vs MR vs Hive. when do you use them ?
+- Modes of execution in pig ?
+- Complex data types in pig ?
+- Tuple vs Bag ?
+- Explain about foreach in piglatin ?
+- Group vs CoGroup ?
+- What does FLATTEN do ?
+- How do you write a UDF ?
+- How to do a map join in pig ?
+- How to add UDF jar to classpath in pig ?
+- Different ways of executing pig ?
+- How to execute pig from oozie ?
+
 ### Spark
 ### Hbase
 ### Kafka
