@@ -176,3 +176,9 @@
 - What is partition key ?
 
 ### Storm
+
+- Why apache storm is used ?
+- Explain how data flows in storm ?
+- Difference between apache storm and apache kafka ?
+- components of storm ?
+- topology in storm ?
