@@ -162,4 +162,17 @@
 - Can you sqoop directly into Hbase from RDBMS ?
 
 ### Kafka
+
+- What is difference between Kafka and RabbitMQ ?
+- How kafka is different from Flume ?
+- Benefits of kafka over traditional messaging services ?
+- Explain about various components of kafka ?
+- Explain about offset and its significance in kafka ?
+- What is a consumer group ?
+- What is the zookepers role in kafka ?
+- Is it possible to use kafka without zookeeper ?
+- What is broker in kafka ?
+- Max size of message kafka server can receive ?
+- What is partition key ?
+
 ### Storm
