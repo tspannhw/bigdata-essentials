@@ -6,6 +6,7 @@
 ### HDFS
 
 - Best way to copy files between HDFS clusters ?
+- Explain the process of DistCp in Hadoop ?
 
 ### MapReduce
 - Explain how mapreduce works ?
