@@ -182,3 +182,10 @@
 - Difference between apache storm and apache kafka ?
 - components of storm ?
 - topology in storm ?
+
+### Data Warehousing
+
+- what are Facts and Dimensions ?
+- Explain about why a surrogate key is used ?
+- What are Slowly Changing Dimensions ?
+
