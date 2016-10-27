@@ -130,9 +130,12 @@
 - Explain about spark streaming ?
 - What is a DStream ?
 - What are different transformations on DStreams ?
+- Explain about stateful operations in spark streaming ?
 - What is catalyst optimizer ?
 - What are datasets in spark ?
+- Explain window functions in Spark SQL ?
 - Explain about DataFrames used in spark ?
+- How do you write unit tests for spark ?
 
 
 ### Hbase
