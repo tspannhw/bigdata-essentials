@@ -48,8 +48,8 @@ oozie job -kill <job_id>
 Let us develop and execute simple workflow.
 
 - For running a workflow we need following files.
-	- workflow.xml (xml file consists of oozie actions)
-	- job.properties (key,value parameters required for oozie job)
+	- workflow.xml(https://github.com/vasu-d/bigdata-essentials/blob/master/oozie-quickstart/src/main/oozie/workflow/workflow.xml) (xml file consists of oozie actions)
+	- job.properties(https://github.com/vasu-d/bigdata-essentials/blob/master/oozie-quickstart/src/main/oozie/workflow/job.properties) (key,value parameters required for oozie job)
 
 - We need to set oozie system lib path in job.properties to add requisite jars files in oozie classpath.
 ```bash
