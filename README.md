@@ -69,3 +69,7 @@ The largest repo for BigData starter/sample examples.
 * [installations](https://github.com/bigdataguide/bigdata-essentials/blob/master/nifi-quickstart/installations.md)
 * [architecture](https://github.com/bigdataguide/bigdata-essentials/blob/master/nifi-quickstart/nifi_architecture.md)
 * [quickstart tutorial](https://github.com/bigdataguide/bigdata-essentials/blob/master/nifi-quickstart/nifi_quickstart.md)
+
+## [oozie-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart)
+* [workflow](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart/src/main/oozie/workflow)
+* [co-ordinator](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart/src/main/oozie/coordinator)
