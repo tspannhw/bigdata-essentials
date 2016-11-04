@@ -136,7 +136,7 @@
 - Explain window functions in Spark SQL ?
 - Explain about DataFrames used in spark ?
 - How do you write unit tests for spark ?
-
+- How do you sort the data in spark ?
 
 ### Hbase
 
