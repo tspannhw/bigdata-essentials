@@ -216,6 +216,7 @@
 - Checked vs Unchecked exceptions ?
 - Base class for Error and Exception ?
 - Difference between throw and throws ?
+- Difference between ClassNotFoundException & NoClassDefFoundError ?
 - Why string is immutable in Java ?
 - Does Declaring an object "final" makes it immutable ?
 - Difference between creating string in new() vs String literal ?
