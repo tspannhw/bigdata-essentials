@@ -88,6 +88,7 @@
 - Can we index hive tables ?
 - What is Hcatalog and why do you use it in Hive ?
 - How can you connect to hive from Sql IDE's ?
+- Explain about locks on Hive tables ? When Shared vs Exclusive locks takes place ?
 
 ### Pig
 
