@@ -218,7 +218,8 @@
 - Base class for Error and Exception ?
 - Difference between throw and throws ?
 - Difference between ClassNotFoundException & NoClassDefFoundError ?
-- Why string is immutable in Java ?
+- Why String is immutable in Java ?
+- Why String class is made final in Java ?
 - Does Declaring an object "final" makes it immutable ?
 - Difference between creating string in new() vs String literal ?
 - StringBuilder vs StringBuffer ?
