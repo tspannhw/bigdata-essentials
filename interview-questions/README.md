@@ -226,6 +226,7 @@
 - Why do we use toString() in java ?
 - Why 1000 == 1000 Returns False, but 100 == 100 Returns True in Java?
 - What's the difference between "a == b" and "a.equals(b)"?
+- Can two equal object have the different hash code?
 - Can a class have an interface with in it ?
 - Can a class declared as private be accessed outside it's package?
 - Explain about garbage collection in java ?
@@ -241,6 +242,8 @@
 - What is synchronization in threading ?
 - Why do you use a volatile keyword ?
 - Difference between ArrayList and LinkedList ?
+- What are the couple of ways that you could sort a collection?
+- How HashSet works internally in Java? 
 - What will happen if you place a key in hashcode if its already there ?
 - Comparable vs Comparator ?
 - Can we override compareTo method for Enumerations ?
