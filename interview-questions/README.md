@@ -225,6 +225,7 @@
 - StringBuilder vs StringBuffer ?
 - Why do we use toString() in java ?
 - Why 1000 == 1000 Returns False, but 100 == 100 Returns True in Java?
+- What's the difference between "a == b" and "a.equals(b)"?
 - Can a class have an interface with in it ?
 - Can a class declared as private be accessed outside it's package?
 - Explain about garbage collection in java ?
