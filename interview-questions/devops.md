@@ -40,3 +40,10 @@
 - What is LDAP and what is it used for ?
 - How to secure SSH? What are the most important/common practises to secure SSH ?
 - What is SSL ?
+
+### Puppet
+
+- What is puppet Agent and Puppet master ?
+- Puppet server vs Puppet master ?
+- Who is responsible for polling over specific time and installing config's to every node ?
+
