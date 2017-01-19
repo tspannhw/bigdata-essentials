@@ -166,6 +166,21 @@
 - Can you create a Hive table on data in Hbase ?
 - Can you sqoop directly into Hbase from RDBMS ?
 
+### Cassandra
+
+- How cassandra stores data ?
+- What is column family in cassandra ?
+- Explain about keyspace ?
+- How do you compare Cassandra VS Hbase ?
+- What are different composite keys in cassandra ?
+- Explain about consistentcy in cassandra ?
+- What is the use of memtable ?
+- How does cassandra delete data ?
+- What is the role of thrift in cassandra cluster ?
+- What are secondary indexes ?
+- How High Availability is achieved in cassandra ?
+- What happens if you update a deleted record ?
+
 ### Kafka
 
 - What is difference between Kafka and RabbitMQ ?
