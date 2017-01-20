@@ -51,6 +51,7 @@
 - What is a JavaBean and purpose of it ?
 - What is synchronization in threading ?
 - Why do you use a volatile keyword ?
+- Can we define an array as volatile ?
 - Difference between ArrayList and LinkedList ?
 - What are the couple of ways that you could sort a collection?
 - How HashSet works internally in Java? 
