@@ -36,6 +36,7 @@
 - How many times a cleanup method is called in a reducer ?
 - Explain about shuffle and sort phase in mapreduce ?
 - What is the sorting alogirthm used in shuffle and sort phase ?
+- How do you sort a Huge file using MapReduce program ?
 - How many times a combiner is called in mapreduce program ?
 - What is the criteria for using a combiner in a mapreduce program ?
 - What is a mapside join ? How it is done ?
