@@ -23,5 +23,6 @@
 - Difference between commit, rollback and save point ?
 - Define cross join ?
 - Row level locking vs Table level locking ?
+- What is Shared Vs Exclusive locking ?
 - Difference between WHERE clause and HAVING clause ?
 - select first 5 records from a table ? (sql server and Oracle)
