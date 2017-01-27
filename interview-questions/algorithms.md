@@ -4,6 +4,7 @@
 
 - Find missing number in array of continuous elements from 1 to n.
 - Sort a given array
+- Sort elements by frequency in an array
 - Merge 2 sorted arrays
 - Merge 2 unsorted arrays
 - Max sum such that no 2 elements are adjacent
