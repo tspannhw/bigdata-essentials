@@ -42,6 +42,9 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Find sub array with max sum in an array of pos and neg number
 - Find length of longest sequence in an array
 - Reverse an array
+- Find common elements in 3 sorted arrays
+- Sort a 2D array by values
+- Find an element in sorted 3D array
   
 
 
