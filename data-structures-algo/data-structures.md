@@ -1,6 +1,6 @@
-## Data Structures
+## Data Structures & Algorithms
 
-### Arrays
+## Arrays
 
 Collection of elements. Also called with names Vectors, Tuples.
     - One dimensional array
@@ -46,6 +46,37 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Sort a 2D array by values
 - Find an element in sorted 3D array
   
+## Recursion
 
+#### Usages
+- Towers of hanooi
+- Inorder/Preorder/Post order Tree Traversals
+- DFS of Graph
 
+#### Types
+- *Tail Recursion:* If the recursive call is the last thing executed by the function.
+- *Non tail recursion:* If the last thing in the function is not recursion of itself.
+
+*Tail Recursion Example*:
+```java
+int fact(int n)
+{
+    if (n < = 1) // base case
+        return 1;
+    else    
+        return n*fact(n-1);    
+}
+```
+*Not Tail Recursive:*
+```java
+int g(int x) {
+  if (x == 1) {
+    return 1;
+  }
+
+  int y = g(x-1);
+
+  return x*y;
+}
+```
 
