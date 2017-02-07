@@ -1,5 +1,30 @@
 ## Data Structures & Algorithms
 
+## Analysis of Algorithms
+- Time complexity
+- Space complexity
+
+## Asymptotic Notation
+
+### Big O
+#### Table of Important Big O
+
+| Big O         | Common Name   | Example    |
+| ------------- |:-------------:| :-----|
+| O(1)      | Constant | Adding an element to start of Linked List |
+| O(log n)      | logarithmic      |  Binary Search |
+| O(log2n) | log squared      |    |
+| O( √n ) | root n | |
+| O(n) | linear | Linear search|
+| O(n logn) | |
+| O(n²) | quadratic |  |
+| O(n³) | cubic | |
+| O(n4) | quadratic | |
+| O(e power n) | exponential | |
+
+
+// TODO: update above table
+
 ## Arrays
 
 Collection of elements. Also called with names Vectors, Tuples.
