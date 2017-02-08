@@ -4,6 +4,12 @@
 - Time complexity
 - Space complexity
 
+## Types of analysis
+
+- Big O (worst case)
+- Omega (best case)
+- theta (average case)
+
 ## Asymptotic Notation
 
 ### Big O
@@ -16,14 +22,31 @@
 | O(log2n) | log squared      |    |
 | O( √n ) | root n | |
 | O(n) | linear | Linear search|
-| O(n logn) | |
+| O(n logn) | log linear |
 | O(n²) | quadratic |  |
 | O(n³) | cubic | |
 | O(n4) | quadratic | |
 | O(e power n) | exponential | |
 
-
 // TODO: update above table
+
+#### Example
+
+```python
+a=15                    // constant 1
+b=16                    // constant 1
+c=110                   // constant 1
+for i in range(n):
+   for j in range(n):
+      x = i * i         // n²
+      y = j * j         // n²
+      z = i * j         // n²
+for k in range(n):
+   w = a*k + 450        // n
+   v = b*b              // n
+d = 333                 // constant 1
+```
+> Big O => f(n) = (1+1+1) + (n²+n²+n²) + (n+n) + 1 = (3+3n²+2n+1) = (3n²+2n+4) ≈ O(n²)
 
 ## Arrays
 
