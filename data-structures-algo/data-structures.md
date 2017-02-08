@@ -1,5 +1,142 @@
 ## Data Structures & Algorithms
 
+## Data Structures
+
+### Types
+- Linear: order is maintained. Ex: Array, LinkedList, Stack, Queue.
+- Non-Linear: Ex: Trees, Graph
+
+## Arrays
+
+Collection of elements. Also called with names Vectors, Tuples.
+    - One dimensional array
+    - Two dimensional array
+    
+#### Introduction
+- Homogenous (all elements are of same type)
+- Ordered
+
+####Usage
+- Used to implement lookup tables.
+- Implement lists and Strings.
+- Many databases consist of 1-D arrays whose elements are records.
+- Implment heaps, hash tables, deques, queues, stacks and VLists.
+- 2D Arrays are used in graph theory, Image processing and algebraic equations.
+
+####Types of Arrays
+- Static Arrays (fixed size)
+  - Have O(1) insertion, deletion and reading.
+  - Easy to implement.
+  
+- Dynamic Arrays (grow in size as array grows)
+  - Flexible in size
+  - Perforamance as cost for flexibility
+  - Complext to implement than fixed array.
+  
+#### Limitations of Arrays
+  - Size can't be increased or decreased during runtime.
+  - Insertion and deletion on arrays are inefficient.
+  - Large datasets, prog run out of memory space.
+  
+#### Problems on Arrays
+
+- Find missing number in array of continuous elements from 1 to n.
+- Sort a given array
+- Sort elements by frequency in an array
+- Merge 2 sorted arrays
+- Merge 2 unsorted arrays
+- Find median of 2 sorted arrays
+- Max sum such that no 2 elements are adjacent
+- Check if array contains a number
+- Find largest and smallest number in an unsorted array
+- Find pairs whose sum is equal to given sum
+- Find repetitive numbers in array if it contains duplicates
+- Remove duplicate elements from an array
+- Find an element which repeated only once while all others repeated twice
+- Find top 2 elements from unsorted array
+- Rearrange positive and negetive numbers in sorted order
+- Find sub array with max sum in an array of pos and neg number
+- Find length of longest sequence in an array
+- Reverse an array
+- Find common elements in 3 sorted arrays
+- Sort a 2D array by values
+- Find an element in sorted 3D array
+
+## Linked Lists 
+
+#### Features:
+ - Collection of nodes where each node contains field and address of next node.
+ - First node is head node and last node is tail node.
+ - Nodes are scattered in different memory blocks, need not be contiguous.
+ - Compiler dynamically allocates memory space to each node.
+ 
+#### Advantages
+- Size can be dynamically increased at run time.
+- Insertion and deletion are comparatively fast.
+
+#### Disadvantages
+- Pointer to next node occupy additional storage space.
+- Can't be accessed directly.
+
+#### Usages
+- Trees
+- Graphs
+- Heaps
+- Dynamic Stack
+- Dynamic Queue
+- Polynomials
+
+#### Types
+- Singly LL
+- Doubly LL
+- Circular LL
+- Multi List (List containing multiple LL)
+
+## Stack
+
+#### Features
+- Homogenous data items which are ordered.
+- LIFO
+
+#### Implementations
+- Array based
+- Linked List based
+
+|Operation| Array impl | Linked List impl |
+|---------|---|---|
+| Create | O(1) | O(1) |
+| Destroy | O(1) | O(1) |
+| Push | O(1) | O(1) |
+| Pop | O(1) | O(1) |
+| Is empty | O(1) | O(1) | 
+| Is full | O(1) | -- |
+
+#### Usages
+- Parantesis matching
+- Infix to Postfix
+- Stack frames for function calls
+- Recursive procedures
+- MS word undo redo
+
+## Queue
+
+#### Features
+- FIFO
+- Homogenous elements
+
+#### Usages
+- Printer Scheduler
+- OS use queues to implement scheduling policy
+
+#### Implementations
+- Array
+- Linked List
+
+#### Priority Queue Impl
+- Array 
+- Linked List
+- Heap based
+
 ## Analysis of Algorithms
 - Time complexity
 - Space complexity
@@ -48,52 +185,16 @@ d = 333                 // constant 1
 ```
 > Big O => f(n) = (1+1+1) + (n²+n²+n²) + (n+n) + 1 = (3+3n²+2n+1) = (3n²+2n+4) ≈ O(n²)
 
-## Arrays
+Groups of Algorithms:
+- Sorting Algorithms
+- Searching Algorithms
+- Encoding Algorithms
+- Compression Algorithms
+- Iterative 
+- Recursive
+- Greedy
+- Parsing
 
-Collection of elements. Also called with names Vectors, Tuples.
-    - One dimensional array
-    - Two dimensional array
-    
-####Usage
-- Used to implement lookup tables.
-- Implement lists and Strings.
-- Many databases consist of 1-D arrays whose elements are records.
-- Implment heaps, hash tables, deques, queues, stacks and VLists.
-
-####Types of Arrays
-- Static Arrays (fixed size)
-  - Have O(1) insertion, deletion and reading.
-  - Easy to implement.
-  
-- Dynamic Arrays (grow in size as array grows)
-  - Flexible in size
-  - Perforamance as cost for flexibility
-  - Complext to implement than fixed array.
-  
-#### Problems on Arrays
-
-- Find missing number in array of continuous elements from 1 to n.
-- Sort a given array
-- Sort elements by frequency in an array
-- Merge 2 sorted arrays
-- Merge 2 unsorted arrays
-- Find median of 2 sorted arrays
-- Max sum such that no 2 elements are adjacent
-- Check if array contains a number
-- Find largest and smallest number in an unsorted array
-- Find pairs whose sum is equal to given sum
-- Find repetitive numbers in array if it contains duplicates
-- Remove duplicate elements from an array
-- Find an element which repeated only once while all others repeated twice
-- Find top 2 elements from unsorted array
-- Rearrange positive and negetive numbers in sorted order
-- Find sub array with max sum in an array of pos and neg number
-- Find length of longest sequence in an array
-- Reverse an array
-- Find common elements in 3 sorted arrays
-- Sort a 2D array by values
-- Find an element in sorted 3D array
-  
 ## Recursion
 
 #### Usages
