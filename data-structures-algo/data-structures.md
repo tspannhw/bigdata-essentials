@@ -137,6 +137,31 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Linked List
 - Heap based
 
+## Tree
+
+<img width="546" alt="tree_pic" src="https://cloud.githubusercontent.com/assets/8268939/22764760/bb1587be-ee3a-11e6-9f67-2c4a9c147e26.png">
+
+- The depth of a node is the number of edges from the root to the node.
+- The height of a node is the number of edges from the node to the deepest leaf.
+
+#### Application of trees
+- Hierarchial Structures
+
+#### Types of binary Trees
+- Ordered Search Trees: data values in left sub tree are less than right tree, no duplicates.
+- Expression Tree: Represent Arthematic expression. Operands & Operators in nodes.
+- Heap: Data value in any node greater than left sub tree & right sub tree. Can be used in Priority queue.
+
+#### Binary Tree Implementation
+- Array
+- Linked List
+
+#### Tree Traversal
+- Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
+- In Order: Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
+- Post Order: Traverse left sub tree Post order, then Right sub tree post order, then root.
+![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
+
 ## Analysis of Algorithms
 - Time complexity
 - Space complexity
