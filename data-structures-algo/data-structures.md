@@ -256,3 +256,21 @@ int g(int x) {
 }
 ```
 
+## Sorting Algorithms
+
+## Bubble Sort
+- 1st and 2nd elements are compared and exchanged if required.
+- Do the same process till the end of the array is reached.
+- For each pass, an element will be in its correct location. ie towards end of the array.
+
+## Selection Sort
+- The list contains sorted & un-sorted portions.
+- Find the smallest element in the list and exchange with starting element of sorted portion.
+- For each pass, the smallest element will be towards the start of the array.
+
+## Insertion Sort
+- The list contains sorted & un-sorted portions
+- From 2nd element, compare with all previous elements & swap it until it reaches correct position in sorted portion.
+
+
+
