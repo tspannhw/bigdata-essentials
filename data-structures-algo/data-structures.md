@@ -157,9 +157,11 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Linked List
 
 #### Tree Traversal
-- Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
-- In Order: Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
-- Post Order: Traverse left sub tree Post order, then Right sub tree post order, then root.
+- Breadth First Traversal:
+- Depth First Traversal:
+  - Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
+  - In Order: Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
+  - Post Order: Traverse left sub tree Post order, then Right sub tree post order, then root.
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
 
 ## Analysis of Algorithms
