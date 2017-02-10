@@ -270,6 +270,17 @@ int g(int x) {
 
 ## Sorting Algorithms
 
+| Algorithm | BEST | WORST | AVG | BEST | WORST | AVG |
+|---|---|---|---|---|---|---|
+| Bubble Sort | O(n²) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
+| Selection Sort | O(n²) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
+| Insertion Sort | O(n) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
+| Merge Sort | O(nlogn) | O(nlogn) | O(nlogn) | O(n) | O(n) | O(n) |
+| Quick Sort | O(nlogn) | O(n²) | O(nlogn) | O(logn) | O(n) | O(logn) |
+| Randomized QS | O(nlogn) | O(nlogn) | O(nlogn) | O(logn) | O(logn) | O(logn) |
+| Improved Bubble Sort | O(n) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
+| Heap Sort | O(n log(n)) | (n log(n)) | (n log(n)) | | O(1) | |
+
 ## Bubble Sort
 - 1st and 2nd elements are compared and exchanged if required.
 - Do the same process till the end of the array is reached.
