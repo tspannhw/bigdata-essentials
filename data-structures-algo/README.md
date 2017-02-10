@@ -92,6 +92,18 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Circular LL
 - Multi List (List containing multiple LL)
 
+#### Problems
+- Check if a singly LL is a palindrome.
+- Add a node in middle of LL
+- Delete a node in middle of LL
+- Print singly LL in reverse
+- Merge 2 sorted LL
+- Delete duplicate value nodes in a LL
+- Sort a LL
+- Merge a LL into another in alternate positions
+- Swap every 2 nodes in a LL
+- Delete alternate nodes of a LL
+
 ## Stack
 
 #### Features
