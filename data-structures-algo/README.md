@@ -313,3 +313,14 @@ int g(int x) {
 - Put the last node of the heap in the root position
 - Repeat from steps 2 until all are done.
 
+## Radix Sort
+#### Steps
+- Think indivial digits as buckets.
+- Uses counting sort in the background for sorting each digit in each pass.
+- O(n) linear time.
+- Fast & easy to implement.
+
+#### Disadvantages
+- O(n) space complexity
+- Only works on Integers
+
