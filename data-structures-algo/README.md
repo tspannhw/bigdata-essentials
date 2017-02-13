@@ -306,5 +306,10 @@ int g(int x) {
 - All the cases, the Big O is O(nlogn), but space complexity of O(n) since you need an extra array to merge.
 
 ## Heap Sort
-
+#### Steps (ascending order)
+- Build Heap
+- Transform the heap into min heap
+- Delete the root node
+- Put the last node of the heap in the root position
+- Repeat from steps 2 until all are done.
 
