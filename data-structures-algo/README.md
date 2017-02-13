@@ -295,5 +295,16 @@ int g(int x) {
 - The list contains sorted & un-sorted portions
 - From 2nd element, compare with all previous elements & swap it until it reaches correct position in sorted portion.
 
+## Quick Sort
+-  pick an element called the pivot in each step and re-arrange the array in such a way that all elements less than the pivot now appear to the left of the pivot, and all elements larger than the pivot appear on the right side of the pivot.
+- In all subsequent iterations of the sorting algorithm, the position of this pivot will remain unchanged, because it has been put in its correct place.
+- Worst case if the pivot element is the last element, you can overcome that by randomized quicksort. Choose the pivot randomly from the array of elements and exchange the choosen pivot to the last position.
+
+## Merge Sort
+- Split the array into 2 and apply merge sort to left half and right half and merge them.
+- Repeat step 1 until you reach the total sorted order.
+- All the cases, the Big O is O(nlogn), but space complexity of O(n) since you need an extra array to merge.
+
+## Heap Sort
 
 
