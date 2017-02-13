@@ -317,7 +317,7 @@ int g(int x) {
 #### Steps
 - Think indivial digits as buckets.
 - Uses counting sort in the background for sorting each digit in each pass.
-- O(n) linear time.
+- O(k*n) linear time where k is number of digits and n is no of elements.
 - Fast & easy to implement.
 
 #### Disadvantages
