@@ -209,6 +209,31 @@ Collection of elements. Also called with names Vectors, Tuples.
 #### Example
 
 ```python
+k= 0
+for i in range(n):
+   for j in range(n):
+      k= k + i * j
+```
+> O(n²)
+
+```python
+k= 0
+for i in range(n):
+   k = k + 1
+for j in range(n):
+   k = k - 1
+```
+> O(n)
+
+```python
+i = n
+while i > 0:
+   k = 2 + 2
+   i = i / 2
+```
+> O(logn)
+
+```python
 a=15                    // constant 1
 b=16                    // constant 1
 c=110                   // constant 1
