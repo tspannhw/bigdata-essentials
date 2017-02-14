@@ -259,6 +259,16 @@ Groups of Algorithms:
 - Greedy
 - Parsing
 
+Approaches
+- Divide and conquer
+- Recursion
+- Brute Force
+- Backtracking
+- Dynamic Programming
+- Greedy
+- Hash
+- Heap
+
 ## Recursion
 
 #### Usages
