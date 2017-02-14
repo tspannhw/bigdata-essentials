@@ -214,7 +214,7 @@ for i in range(n):
    for j in range(n):
       k= k + i * j
 ```
-> O(n²)
+> Big O: O(n²)
 
 ```python
 k= 0
@@ -223,7 +223,7 @@ for i in range(n):
 for j in range(n):
    k = k - 1
 ```
-> O(n)
+> Big O: O(n)
 
 ```python
 i = n
@@ -231,7 +231,7 @@ while i > 0:
    k = 2 + 2
    i = i / 2
 ```
-> O(logn)
+> Big O: O(logn)
 
 ```python
 a=15                    // constant 1
