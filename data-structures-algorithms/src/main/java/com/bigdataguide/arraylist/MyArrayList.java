@@ -17,23 +17,22 @@ public class MyArrayList<E> implements MyList<E> {
         this.values = (E[]) new Object[n];
     }
 
-    @Override
-    public E set(int index, E item) {
+    @Override public E set(int index, E item) {
         IOBCheck(index);
 
         E oldValue = get(index);
         values[index] = item;
-        this.size ++;
+        this.size++;
         return oldValue;
     }
 
     @Override public boolean add(E item) {
         if (this.size < values.length) {
-            values[size++]=item;
+            values[size++] = item;
             return true;
         } else {
             resizeArray();
-            values[size++]=item;
+            values[size++] = item;
         }
         return false;
     }
@@ -45,11 +44,11 @@ public class MyArrayList<E> implements MyList<E> {
 
     @Override public E remove(int index) {
         IOBCheck(index);
-        E oldValue=values[index];;
-        for(int i=index;i+1<values.length;i++) {
-            values[i]=values[i+1];
+        E oldValue = values[index];
+        for (int i = index; i + 1 < values.length; i++) {
+            values[i] = values[i + 1];
         }
-        values[--size]=null;
+        values[--size] = null;
         return oldValue;
     }
 
@@ -63,13 +62,13 @@ public class MyArrayList<E> implements MyList<E> {
 
     @Override public int indexOf(E o) {
         if (null == o) {
-            for(int i = 0;i<values.length;i++) {
+            for (int i = 0; i < values.length; i++) {
                 if (values[i] == o) {
                     return i;
                 }
             }
         } else {
-            for(int i=0;i<values.length;i++) {
+            for (int i = 0; i < values.length; i++) {
                 if (o.equals(values[i])) {
                     return i;
                 }
@@ -79,17 +78,17 @@ public class MyArrayList<E> implements MyList<E> {
     }
 
     private void IOBCheck(int index) {
-        if(index > this.size) {
+        if (index > this.size) {
             throw new IndexOutOfBoundsException("Index out of bounds: " + index);
         }
     }
 
     private void resizeArray() {
-        E[] newArray = (E[]) new Object[values.length*2]; // double the array
+        E[] newArray = (E[]) new Object[values.length * 2]; // double the array
 
         // copy the elements to new array
-        for(int i=0;i<values.length;i++) {
-            newArray[i]=values[i];
+        for (int i = 0; i < values.length; i++) {
+            newArray[i] = values[i];
         }
         this.values = newArray;
     }
