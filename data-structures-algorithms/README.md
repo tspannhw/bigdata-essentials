@@ -62,6 +62,18 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Sort a 2D array by values
 - Find an element in sorted 3D array
 
+## Array Lists
+
+#### Advantages
+- Allows usage of Generics
+- Dynamic allocation of memory incase array is filled.
+- Object oriented
+- dynamically add or remove elements
+#### Disadvantages
+- Needs contiguous blocks of memory for larger arrays.
+- Expanding the array list when you want to increase is performance limitation.
+- O(n) worst case for insertion.
+
 ## Linked Lists 
 
 #### Features:
