@@ -41,6 +41,7 @@ Collection of elements. Also called with names Vectors, Tuples.
 #### Problems on Arrays
 
 - Find missing number in array of continuous elements from 1 to n.
+- Find missing number in an array of duplicate elements of length n with elements 1 to n.
 - Sort a given array
 - Sort elements by frequency in an array
 - Merge 2 sorted arrays
