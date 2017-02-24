@@ -119,7 +119,7 @@ Collection of elements. Also called with names Vectors, Tuples.
 
 ## Stack
 
-List where insertion and deletion can be done from one side. LIFO.
+List where insertion and deletion can be done from one side. LIFO. Linear.
 
 #### Stack ADT
 - push : inserting element on top of stack
@@ -152,24 +152,40 @@ NOTE: all operations above happens in O(1).
 - Recursive procedures
 - MS word undo redo
 
+#### Problems on stack
+- Infix to postfix conversion.
+- Reverse a string using stack.
+- Sort a stack using recursion.
+- Implement stack using queue.
+- Reverse a stack using recursion.
+
 ## Queue
 
 #### Features
 - FIFO
 - Homogenous elements
+- Insert at rear and remove at front.
+- Enqueue, Dequeue, front, isEmpty etc.
 
 #### Usages
 - Printer Scheduler
 - OS use queues to implement scheduling policy
+- Queue's in Distributed Computing
 
 #### Implementations
 - Array
 - Linked List
 
+#### Circular Queue
+- Empty locations in queue can be re-filled by rear pointer unlike normal queue.
+
 #### Priority Queue Impl
 - Array 
 - Linked List
 - Heap based
+
+#### Problems on Queue
+- Implement Queue using 2 stack.
 
 ## Tree
 
