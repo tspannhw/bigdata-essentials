@@ -186,6 +186,8 @@ NOTE: all operations above happens in O(1).
 
 #### Problems on Queue
 - Implement Queue using 2 stack.
+- Max of all sub-arrays of size k.
+- Efficiently implement k Queues in a single array.
 
 ## Tree
 
