@@ -26,3 +26,4 @@
 - What is Shared Vs Exclusive locking ?
 - Difference between WHERE clause and HAVING clause ?
 - select first 5 records from a table ? (sql server and Oracle)
+- Which one we can prefer bw COALESCE vs ISNULL() ? 
