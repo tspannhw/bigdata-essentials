@@ -119,6 +119,15 @@ Collection of elements. Also called with names Vectors, Tuples.
 
 ## Stack
 
+List where insertion and deletion can be done from one side. LIFO.
+
+#### Stack ADT
+- push : inserting element on top of stack
+- pop : removes top of stack
+- top : returns top of stack
+
+NOTE: all operations above happens in O(1).
+
 #### Features
 - Homogenous data items which are ordered.
 - LIFO
