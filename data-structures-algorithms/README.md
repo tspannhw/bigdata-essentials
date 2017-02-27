@@ -199,6 +199,19 @@ NOTE: all operations above happens in O(1).
 #### Application of trees
 - Hierarchial Structures
 
+#### Types of Trees
+- Binary Tree: Each node can have utmost two children.
+- Perfect Binary Tree: All interior nodes have two children and all leaves have the same depth.
+- complete binary tree: every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible
+- Binary search tree: left less than given node, right greater than given node.
+- AVL tree:
+- Red-Black tree:
+- Splay tree: 
+- Trie Structure:
+- Suffix tree:
+- Huffman Tree: 
+- B Trees:
+
 #### Types of binary Trees
 - Ordered Search Trees: data values in left sub tree are less than right tree, no duplicates.
 - Expression Tree: Represent Arthematic expression. Operands & Operators in nodes.
