@@ -198,6 +198,9 @@ NOTE: all operations above happens in O(1).
 
 #### Application of trees
 - Hierarchial Structures
+- Table of contents
+- Unix file system directory structure
+- Arithmatic expressions
 
 #### Types of Trees
 - Binary Tree: Each node can have utmost two children.
@@ -220,6 +223,9 @@ NOTE: all operations above happens in O(1).
 #### Binary Tree Implementation
 - Array
 - Linked List
+
+#### Recursive definition
+- Binary tree is a root with left sub tree and right sub tree.
 
 #### Tree Traversal
 - Breadth First Traversal:
