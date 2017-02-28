@@ -158,6 +158,7 @@ NOTE: all operations above happens in O(1).
 - Sort a stack using recursion.
 - Implement stack using queue.
 - Reverse a stack using recursion.
+- implement a stack using 2 queue.
 
 ## Queue
 
@@ -188,6 +189,7 @@ NOTE: all operations above happens in O(1).
 - Implement Queue using 2 stack.
 - Max of all sub-arrays of size k.
 - Efficiently implement k Queues in a single array.
+- Implement deque with insertion, deletion on both sides with O(1).
 
 ## Tree
 
