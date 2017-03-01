@@ -62,6 +62,7 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Find common elements in 3 sorted arrays
 - Sort a 2D array by values
 - Find an element in sorted 3D array
+- Find the duplicate in an array of 10, if a number is repeated 5 times.
 
 ## Array Lists
 
