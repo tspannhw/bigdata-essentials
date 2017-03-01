@@ -117,6 +117,7 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Merge a LL into another in alternate positions
 - Swap every 2 nodes in a LL
 - Delete alternate nodes of a LL
+- Delete a node in middle of Singly LL if mid pointer is given.
 
 ## Stack
 
