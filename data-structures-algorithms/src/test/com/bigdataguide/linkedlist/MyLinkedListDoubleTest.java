@@ -14,10 +14,12 @@ public class MyLinkedListDoubleTest {
   }
 
   @Test public void testSet() throws Exception {
-    values.add(1);
-    values.add(2);
+    values.set(0,1);
+    values.set(1,2);
     assertEquals("size must be 2", 2, values.size());
     assertEquals("2nd element should be 2", 2, values.get(1));
+    values.set(0,3);
+    assertEquals("3rd element should be 2", 2, values.get(2));
   }
 
   @Test public void testAdd() throws Exception {
@@ -47,6 +49,9 @@ public class MyLinkedListDoubleTest {
     values.remove(1);
     assertEquals("size must be 4", 3, values.size());
     assertEquals("2nd element should be 3", 3, values.get(1));
+    assertEquals("tail",4,values.tail.item);
+    values.remove(2);
+    assertEquals("tail",3,values.tail.item);
   }
 
   @Test public void testSize() throws Exception {
