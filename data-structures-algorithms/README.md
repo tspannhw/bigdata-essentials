@@ -162,6 +162,8 @@ NOTE: all operations above happens in O(1).
 - Stack frames for function calls
 - Recursive procedures
 - MS word undo redo
+- Forward and backward in websites
+- Towers of Hanoi, Tree traversals, Histogram
 
 #### Problems on stack
 - Infix to postfix conversion.
