@@ -130,6 +130,15 @@ List where insertion and deletion can be done from one side. LIFO. Linear.
 
 NOTE: all operations above happens in O(1).
 
+#### Pros: 
+- Easy to implement
+- used in applications required LIFO
+- Avoids burden of deleting or cleaning up.
+
+#### Cons:
+- Stack memory is limited.
+- Random access is not possible.
+
 #### Features
 - Homogenous data items which are ordered.
 - LIFO
