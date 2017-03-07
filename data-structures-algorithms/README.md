@@ -250,11 +250,18 @@ NOTE: all operations above happens in O(1).
 - Breadth First Traversal:
   
   ```java
-  - For each level from level 0 to level height(tree)
-   - If level == 1, print node.
-   - If level != 1, then level--.
-   - If there is left child, move down towards left subtree.
-   - If there is right child, move down towards right subtree.
+  Queue queue = initialize empty queue;
+
+  BFT(TreeNode root) {
+    if(root==null) return;
+    queue.add(root);
+    while(!queue.isEmpty()) {
+        TreeNode node = queue.remove();
+        print node;
+        if(node.left != null) queue.add(node.left);
+        if(node.right !=null) queue.add(node.right);
+    }
+   }
   ``` 
 - Depth First Traversal:
   - Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
