@@ -220,6 +220,7 @@ NOTE: all operations above happens in O(1).
 #### Types of Trees
 - Binary Tree: Each node can have utmost two children.
 - Perfect Binary Tree: All interior nodes have two children and all leaves have the same depth.
+- Full Binary Tree: Every node except the leaves has two children.
 - complete binary tree: every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible
 - Binary search tree: left less than given node, right greater than given node.
 - AVL tree:
