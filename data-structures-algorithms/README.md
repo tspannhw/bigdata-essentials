@@ -248,10 +248,42 @@ NOTE: all operations above happens in O(1).
 
 #### Tree Traversal
 - Breadth First Traversal:
+  
+  ```java
+  - For each level from level 0 to level height(tree)
+   - If level == 1, print node.
+   - If level != 1, then level--.
+   - If there is left child, move down towards left subtree.
+   - If there is right child, move down towards right subtree.
+  ``` 
 - Depth First Traversal:
   - Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
+    
+    ```java
+        PreOrder(root) {
+            Visit the root
+            if node.left  ≠ null PreOrder(root.left)
+            if node.right  ≠ null PreOrder(root.right)
+        }
+    ```    
   - In Order: Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
+    
+    ```java
+        InOrder(root) {
+        if node.left  ≠ null InOrder(root.left)
+        Visit the root
+        if node.right  ≠ null InOrder(root.right)
+        }
+    ```    
   - Post Order: Traverse left sub tree Post order, then Right sub tree post order, then root.
+    
+    ```java
+        PostOrder(root) {
+        if node.left  ≠ null PostOrder(root.left)
+        Visit the root
+        if node.right  ≠ null PostOrder(root.right)
+        }
+    ```    
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
 
 ## Analysis of Algorithms
