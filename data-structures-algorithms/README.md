@@ -235,6 +235,9 @@ NOTE: all operations above happens in O(1).
 - Expression Tree: Represent Arthematic expression. Operands & Operators in nodes.
 - Heap: Data value in any node greater than left sub tree & right sub tree. Can be used in Priority queue.
 
+#### Properties of Binary Tree
+- No of Nodes in full binary tree: 2h+1 <= N <= 2^(h+1)-1 where N: No of Nodes h: height of tree.
+
 #### Binary Tree Implementation
 - Array
 - Linked List
