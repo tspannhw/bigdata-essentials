@@ -208,6 +208,7 @@ NOTE: all operations above happens in O(1).
 
 <img width="546" alt="tree_pic" src="https://cloud.githubusercontent.com/assets/8268939/22764760/bb1587be-ee3a-11e6-9f67-2c4a9c147e26.png">
 
+- Non linear data structure (order is not important).
 - The depth of a node is the number of edges from the root to the node.
 - The height of a node is the number of edges from the node to the deepest leaf.
 
@@ -219,9 +220,6 @@ NOTE: all operations above happens in O(1).
 
 #### Types of Trees
 - Binary Tree: Each node can have utmost two children.
-- Perfect Binary Tree: All interior nodes have two children and all leaves have the same depth.
-- Full Binary Tree: Every node except the leaves has two children.
-- complete binary tree: every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible
 - Binary search tree: left less than given node, right greater than given node.
 - AVL tree:
 - Red-Black tree:
@@ -232,6 +230,10 @@ NOTE: all operations above happens in O(1).
 - B Trees:
 
 #### Types of binary Trees
+- Perfect Binary Tree: All interior nodes have two children and all leaves have the same depth.
+- complete binary tree: every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible
+- Strict Binary Tree: each node has exactly zero or 2 children.
+- Full Binary Tree: Each node has 2 children and all leaf nodes are at same level.
 - Ordered Search Trees: data values in left sub tree are less than right tree, no duplicates.
 - Expression Tree: Represent Arthematic expression. Operands & Operators in nodes.
 - Heap: Data value in any node greater than left sub tree & right sub tree. Can be used in Priority queue.
@@ -292,6 +294,9 @@ NOTE: all operations above happens in O(1).
         }
     ```    
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
+
+### Binary Search Tree
+- value of all the nodes in left sub tree are lesser and right sub-tree are greater.
 
 ## Analysis of Algorithms
 - Time complexity
