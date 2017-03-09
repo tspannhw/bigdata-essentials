@@ -365,6 +365,20 @@ NOTE: all operations above happens in O(1).
 ### Binary Search Tree
 - value of all the nodes in left sub tree are lesser and right sub-tree are greater.
 
+### Problems on Tree
+- Find the max element in a binary tree with recursion.
+- Find max element in a binary tree without recursion.
+- Search an element in binary tree with recursion.
+- Search an element in binary tree without recursion.
+- Insert an elment into a binary tree.
+- Find the size of binary tree with recursion.
+- Size of binary tree using iteration.
+- Calculate the height of a binary tree.
+- Find height of a binary tree using iteration.
+- Find the longest path from the root to leaf in a tree.
+- Find the deepest left leaf of a tree.
+- Find if 2 binary tree's are structurally identical.
+
 ## Analysis of Algorithms
 - Time complexity
 - Space complexity
