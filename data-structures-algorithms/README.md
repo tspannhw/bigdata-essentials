@@ -378,6 +378,8 @@ NOTE: all operations above happens in O(1).
 - Find the longest path from the root to leaf in a tree.
 - Find the deepest left leaf of a tree.
 - Find if 2 binary tree's are structurally identical.
+- Find the level which has maximum sum in a binary tree.
+- Print all the root to leaf paths in a binary tree.
 
 ## Analysis of Algorithms
 - Time complexity
