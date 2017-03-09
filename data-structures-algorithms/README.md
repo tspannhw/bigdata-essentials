@@ -217,6 +217,7 @@ NOTE: all operations above happens in O(1).
 - Table of contents
 - Unix file system directory structure
 - Arithmatic expressions
+- Expression trees are used in compilers
 
 #### Types of Trees
 - Binary Tree: Each node can have utmost two children.
