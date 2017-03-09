@@ -270,32 +270,96 @@ NOTE: all operations above happens in O(1).
   ``` 
 - Depth First Traversal:
   - Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
-    
+    - *Using Recursion*:
     ```java
-        PreOrder(root) {
-            Visit the root
-            if node.left  ≠ null PreOrder(root.left)
-            if node.right  ≠ null PreOrder(root.right)
+    PreOrder(root) {
+        Visit the root
+        if node.left  ≠ null PreOrder(root.left)
+        if node.right  ≠ null PreOrder(root.right)
+    }
+    ```
+    - *Using Iteration*:
+    ```java
+    PreOrder_Iterative(root) {
+        if(root == null) return;
+        Stack stack = Init the stack;
+        stack.push(root);
+        while(!stack.isEmpty) {
+            top = stack.top();
+            print top
+            stack.pop()
+                if(root.right !=null) 
+                    stack.push(root.right);
+                if(root.left !=null)
+                    stack.push(root.left);
         }
-    ```    
+    }
+    ```
   - In Order: Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
-    
+    - *Using Recursion*:
     ```java
-        InOrder(root) {
+    InOrder(root) {
         if node.left  ≠ null InOrder(root.left)
         Visit the root
         if node.right  ≠ null InOrder(root.right)
+    }
+    ```
+    - *Using Iteration*:
+    ```java
+    InOrder_Iterative(root) {
+        if(root == null) return;
+        Stack stack = Init the stack;
+        while(1) {
+            while(root!=null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            print root;
+            root = current.right();
         }
-    ```    
+    }
+    ```
   - Post Order: Traverse left sub tree Post order, then Right sub tree post order, then root.
-    
+    - *Using Recursion*:
     ```java
         PostOrder(root) {
         if node.left  ≠ null PostOrder(root.left)
         Visit the root
         if node.right  ≠ null PostOrder(root.right)
         }
-    ```    
+    ```
+    - *Using Iteration*:
+    ```java
+    PostOrder_Iterative(root) {
+        if(root == null) return;
+        Stack stack = Init the stack;
+        while(1) {
+            if(root != null) {
+                stack.push(root);
+                root = root.left;
+            } else {
+                if(!stack.isEmpty) {
+                    if(stack.top().right == null) {
+                        root = stack.pop()
+                        print root;
+                        if(root == stack.top().right) {
+                            print stack.pop();
+                        }
+                    }
+
+                } else {
+                    return;
+                }
+                if(!stack.isEmpty) {
+                    root = stack.top().right;
+                } else {
+                    root = null;
+                }
+            }
+        }
+    }
+    ```
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
 
 ### Binary Search Tree
