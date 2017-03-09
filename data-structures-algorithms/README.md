@@ -8,30 +8,28 @@
 
 ## Arrays
 
-Collection of elements. Also called with names Vectors, Tuples.
+#### Features
+- Collection of elements. Also called with names Vectors, Tuples.
     - One dimensional array
     - Two dimensional array
-    
-#### Introduction
 - Homogenous (all elements are of same type)
 - Ordered
-
-####Usage
-- Used to implement lookup tables.
-- Implement lists and Strings.
-- Many databases consist of 1-D arrays whose elements are records.
-- Implment heaps, hash tables, deques, queues, stacks and VLists.
-- 2D Arrays are used in graph theory, Image processing and algebraic equations.
 
 ####Types of Arrays
 - Static Arrays (fixed size)
   - Have O(1) insertion, deletion and reading.
   - Easy to implement.
-  
 - Dynamic Arrays (grow in size as array grows)
   - Flexible in size
   - Perforamance as cost for flexibility
   - Complext to implement than fixed array.
+
+#### Usage
+- Used to implement lookup tables.
+- Implement lists and Strings.
+- Many databases consist of 1-D arrays whose elements are records.
+- Implment heaps, hash tables, deques, queues, stacks and VLists.
+- 2D Arrays are used in graph theory, Image processing and algebraic equations.
   
 #### Limitations of Arrays
   - Size can't be increased or decreased during runtime.
@@ -66,12 +64,17 @@ Collection of elements. Also called with names Vectors, Tuples.
 
 ## Array Lists
 
-#### Advantages
+#### Features
+
+#### Usage
+
+#### Pros
 - Allows usage of Generics
 - Dynamic allocation of memory incase array is filled.
 - Object oriented
 - dynamically add or remove elements
-#### Disadvantages
+
+#### Limitations
 - Needs contiguous blocks of memory for larger arrays.
 - Expanding the array list when you want to increase is performance limitation.
 - O(n) worst case for insertion.
@@ -84,13 +87,11 @@ Collection of elements. Also called with names Vectors, Tuples.
  - Nodes are scattered in different memory blocks, need not be contiguous.
  - Compiler dynamically allocates memory space to each node.
  
-#### Advantages
-- Size can be dynamically increased at run time.
-- Insertion and deletion are comparatively fast.
-
-#### Disadvantages
-- Pointer to next node occupy additional storage space.
-- Can't be accessed directly.
+#### Types
+- Singly LL
+- Doubly LL
+- Circular LL
+- Multi List (List containing multiple LL)
 
 #### Usages
 - Trees
@@ -100,13 +101,15 @@ Collection of elements. Also called with names Vectors, Tuples.
 - Dynamic Queue
 - Polynomials
 
-#### Types
-- Singly LL
-- Doubly LL
-- Circular LL
-- Multi List (List containing multiple LL)
+#### Pros
+- Size can be dynamically increased at run time.
+- Insertion and deletion are comparatively fast.
 
-#### Problems
+#### Limitations
+- Pointer to next node occupy additional storage space.
+- Can't be accessed directly.
+
+#### Problems on LL
 - Check if a singly LL is a palindrome.
 - Add a node in middle of LL
 - Delete a node in middle of LL
@@ -121,31 +124,38 @@ Collection of elements. Also called with names Vectors, Tuples.
 
 ## Stack
 
+#### Features
 List where insertion and deletion can be done from one side. LIFO. Linear.
+- Homogenous data items which are ordered.
+- LIFO
 
 #### Stack ADT
 - push : inserting element on top of stack
 - pop : removes top of stack
 - top : returns top of stack
-
 NOTE: all operations above happens in O(1).
+
+#### Implementations
+- Stack using Arrays
+- Stack using LL
+
+#### Usage
+- Parantesis matching
+- Infix to Postfix
+- Stack frames for function calls
+- Recursive procedures
+- MS word undo redo
+- Forward and backward in websites
+- Towers of Hanoi, Tree traversals, Histogram
 
 #### Pros: 
 - Easy to implement
 - used in applications required LIFO
 - Avoids burden of deleting or cleaning up.
 
-#### Cons:
+#### Limitations:
 - Stack memory is limited.
 - Random access is not possible.
-
-#### Features
-- Homogenous data items which are ordered.
-- LIFO
-
-#### Implementations
-- Array based
-- Linked List based
 
 |Operation| Array impl | Linked List impl |
 |---------|---|---|
@@ -156,14 +166,6 @@ NOTE: all operations above happens in O(1).
 | Is empty | O(1) | O(1) | 
 | Is full | O(1) | -- |
 
-#### Usages
-- Parantesis matching
-- Infix to Postfix
-- Stack frames for function calls
-- Recursive procedures
-- MS word undo redo
-- Forward and backward in websites
-- Towers of Hanoi, Tree traversals, Histogram
 
 #### Problems on stack
 - Infix to postfix conversion.
@@ -208,16 +210,10 @@ NOTE: all operations above happens in O(1).
 
 <img width="546" alt="tree_pic" src="https://cloud.githubusercontent.com/assets/8268939/22764760/bb1587be-ee3a-11e6-9f67-2c4a9c147e26.png">
 
+#### Features
 - Non linear data structure (order is not important).
 - The depth of a node is the number of edges from the root to the node.
 - The height of a node is the number of edges from the node to the deepest leaf.
-
-#### Application of trees
-- Hierarchial Structures
-- Table of contents
-- Unix file system directory structure
-- Arithmatic expressions
-- Expression trees are used in compilers
 
 #### Types of Trees
 - Binary Tree: Each node can have utmost two children.
@@ -238,6 +234,13 @@ NOTE: all operations above happens in O(1).
 - Ordered Search Trees: data values in left sub tree are less than right tree, no duplicates.
 - Expression Tree: Represent Arthematic expression. Operands & Operators in nodes.
 - Heap: Data value in any node greater than left sub tree & right sub tree. Can be used in Priority queue.
+
+#### Usage
+- Hierarchial Structures
+- Table of contents
+- Unix file system directory structure
+- Arithmatic expressions
+- Expression trees are used in compilers
 
 <img width="528" alt="screen shot 2017-03-09 at 12 02 12 am" src="https://cloud.githubusercontent.com/assets/8268939/23736707/d2b2b3d8-045b-11e7-9813-e4eadc7e2253.png">
 
