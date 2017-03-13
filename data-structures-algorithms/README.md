@@ -378,7 +378,7 @@ NOTE: all operations above happens in O(1).
                        \
                         6
 ```
-If you see above tree in which there is a skew to the right side, the time taken to search,insert is almost equal to O(n). we are not making use of binary tree. so we need to balance a binary tree.
+If you see above tree in which there is a skew to the right side, the time taken to search,insert is almost equal to O(n) instead of O(logn). we are not making use of binary tree. so we need to balance a binary tree.
 
 ### Binary Search Tree
 - value of all the nodes in left sub tree are lesser and right sub-tree are greater.
