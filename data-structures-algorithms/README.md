@@ -65,8 +65,8 @@
 ## Array Lists
 
 #### Features
-
-#### Usage
+- Resizable-array implementation of the List interface.
+- Dynamic allocation of memory if the list is filled.
 
 #### Pros
 - Allows usage of Generics
