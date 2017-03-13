@@ -239,8 +239,12 @@ NOTE: all operations above happens in O(1).
 - Hierarchial Structures
 - Table of contents
 - Unix file system directory structure
-- Arithmatic expressions
+- Arithmatic expressions (binary tree)
 - Expression trees are used in compilers
+- Huffman trees for compression of data
+- Hash trees, similar to hash tables
+- Routing trees for network traffic
+- To solve database problem such as indexing
 
 <img width="528" alt="screen shot 2017-03-09 at 12 02 12 am" src="https://cloud.githubusercontent.com/assets/8268939/23736707/d2b2b3d8-045b-11e7-9813-e4eadc7e2253.png">
 
