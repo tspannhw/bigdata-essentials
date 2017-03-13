@@ -250,6 +250,7 @@ NOTE: all operations above happens in O(1).
 
 #### Properties of Binary Tree
 - No of Nodes in full binary tree: 2h+1 <= N <= 2^(h+1)-1 where N: No of Nodes h: height of tree.
+- No of binary trees are possible with n nodes: 2^n - n
 
 #### Binary Tree Implementation
 - Array
