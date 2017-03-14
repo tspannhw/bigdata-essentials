@@ -455,8 +455,8 @@ DeQueue() {
 <img width="528" alt="screen shot 2017-03-09 at 12 02 12 am" src="https://cloud.githubusercontent.com/assets/8268939/23736707/d2b2b3d8-045b-11e7-9813-e4eadc7e2253.png">
 
 #### Properties of Binary Tree
-- No of Nodes in full binary tree: 2h+1 <= N <= 2^(h+1)-1 where N: No of Nodes h: height of tree.
-- No of binary trees are possible with n nodes: 2^n - n
+- No of Nodes in full binary tree: 2h+1 <= N <= 2^(h+1)^-1 where N: No of Nodes h: height of tree.
+- No of binary trees are possible with n nodes: 2^n^ - n
 
 #### Binary Tree Implementation
 - Array
