@@ -80,6 +80,7 @@
 - O(n) worst case for insertion.
 
 #### Pseudo Code
+- To set an element
 ```java
 set(int index, E item) {
         IOBCheck(index);
@@ -89,7 +90,9 @@ set(int index, E item) {
         size++;
         return oldValue;
 }
-
+```
+- To add an element
+```java
 add(E item) {
         if (arraySize < arrayLength) {
             values[size++] = item;
@@ -100,12 +103,16 @@ add(E item) {
         }
         return false;
 }
-
+```
+- To get an element
+```java
 get(int index) {
         IOBCheck(index);
         return values[index];
 }
-
+```
+- To remove an element
+```java
 remove(int index) {
         IOBCheck(index);
         E oldValue = values[index];
@@ -115,7 +122,9 @@ remove(int index) {
         values[--size] = null;
         return oldValue;
 }
-
+```
+- To find element in an index
+```java
 indexOf(E o) {
         if (null == o) {
             for (int i = 0; i < values.length; i++) {
@@ -164,6 +173,14 @@ indexOf(E o) {
 - Pointer to next node occupy additional storage space.
 - Can't be accessed directly.
 
+#### Big O
+|  Property  |      Singly LL      | Doubly LL |
+|----------|:-------------:|-----:|
+| Access | O(n) | O(n) |
+| Search | O(n) | O(n) |
+| Insertion | O(1) | O(1) |
+| Deletion | O(n) | O(n) |
+
 #### Problems on LL
 - Check if a singly LL is a palindrome.
 - Add a node in middle of LL
@@ -178,6 +195,7 @@ indexOf(E o) {
 - Delete a node in middle of Singly LL if mid pointer is given.
 
 #### Pseudo Code (singly LL)
+- To set an element at an index
 ```java
 set(int index, E item) {
         if(head == null) {
@@ -194,7 +212,9 @@ set(int index, E item) {
         size++;
         return item;
 }
-
+```
+- To add an element
+```java
 add(E item) {
         if(head == null) {
             head = new Node(item,null);
@@ -208,7 +228,9 @@ add(E item) {
         size++;
         return true;
 }
-
+```
+- To get an element at index
+```java
 get(int index) {
         if(index<-1 && index>size) {
             IOBException(index);
@@ -220,7 +242,9 @@ get(int index) {
         }
         return current.item;
 }
-
+```
+- To remove an element at index
+```java
 remove(int index) {
         if(index<-1 && index>size) {
             IOBException(index);
@@ -291,6 +315,7 @@ NOTE: all operations above happens in O(1).
 - implement a stack using 2 queue.
 
 #### Pseudo code (Stack using LL)
+- Push operation
 ```java
 push(Object item) {
         if(head == null) {
@@ -300,7 +325,9 @@ push(Object item) {
         }
         size++;
 }
-
+```
+- Pop operation
+```java
 pop() {
         Node temp;
         if(head == null) {
@@ -312,7 +339,9 @@ pop() {
         size --;
         return temp.data;
 }
-
+```
+- Peep Operation
+```java
 peek() {
         Node temp;
         if(head == null) {
@@ -356,6 +385,7 @@ peek() {
 - Implement deque with insertion, deletion on both sides with O(1).
 
 #### Pseudo Code (Queue using LL)
+- EnQueue
 ```java
 EnQueue(E item) {
         Node temp = new Node(item);
@@ -368,7 +398,9 @@ EnQueue(E item) {
         }
         size++;
 }
-
+```
+- DeQueue
+```java
 DeQueue() {
         if(head == null) {
             throw new EmptyQueueException("queue is empty");
