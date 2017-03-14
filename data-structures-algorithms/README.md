@@ -15,7 +15,7 @@
 - Homogenous (all elements are of same type)
 - Ordered
 
-####Types of Arrays
+#### Types of Arrays
 - Static Arrays (fixed size)
   - Have O(1) insertion, deletion and reading.
   - Easy to implement.
