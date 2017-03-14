@@ -79,6 +79,61 @@
 - Expanding the array list when you want to increase is performance limitation.
 - O(n) worst case for insertion.
 
+#### Pseudo Code
+```java
+set(int index, E item) {
+        IOBCheck(index);
+
+        E oldValue = get(index);
+        values[index] = item;
+        size++;
+        return oldValue;
+}
+
+add(E item) {
+        if (arraySize < arrayLength) {
+            values[size++] = item;
+            return true;
+        } else {
+            resizeArray();
+            values[size++] = item;
+        }
+        return false;
+}
+
+get(int index) {
+        IOBCheck(index);
+        return values[index];
+}
+
+remove(int index) {
+        IOBCheck(index);
+        E oldValue = values[index];
+        for (int i = index; i + 1 < values.length; i++) {
+            values[i] = values[i + 1];
+        }
+        values[--size] = null;
+        return oldValue;
+}
+
+indexOf(E o) {
+        if (null == o) {
+            for (int i = 0; i < values.length; i++) {
+                if (values[i] == o) {
+                    return i;
+                }
+            }
+        } else {
+            for (int i = 0; i < values.length; i++) {
+                if (o.equals(values[i])) {
+                    return i;
+                }
+            }
+        }
+        return -1;
+}
+```
+
 ## Linked Lists 
 
 #### Features:
@@ -121,6 +176,66 @@
 - Swap every 2 nodes in a LL
 - Delete alternate nodes of a LL
 - Delete a node in middle of Singly LL if mid pointer is given.
+
+#### Pseudo Code (singly LL)
+```java
+set(int index, E item) {
+        if(head == null) {
+            head = new Node(item,null);
+        } else {
+            int position=1;
+            Node current = head;
+            while(position<index) {
+                current = current.next;
+            }
+            Node temp = current.next;
+            current.next = new Node(item,temp);
+        }
+        size++;
+        return item;
+}
+
+add(E item) {
+        if(head == null) {
+            head = new Node(item,null);
+        } else {
+            Node current = head;
+            while(current.next!=null) {
+                current = current.next;
+            }
+            current.next = new Node(item,null);
+        }
+        size++;
+        return true;
+}
+
+get(int index) {
+        if(index<-1 && index>size) {
+            IOBException(index);
+        }
+        Node current = head;
+        int position=0;
+        while(position++ < index) {
+            current = current.next;
+        }
+        return current.item;
+}
+
+remove(int index) {
+        if(index<-1 && index>size) {
+            IOBException(index);
+        }
+        Node current = head;
+        int position = 1;
+        while(position < index) {
+            current = current.next;
+        }
+        E oldValue = current.next.item;
+        current.next = current.next.next;
+        size--;
+        return oldValue;
+}
+```
 
 ## Stack
 
@@ -175,6 +290,40 @@ NOTE: all operations above happens in O(1).
 - Reverse a stack using recursion.
 - implement a stack using 2 queue.
 
+#### Pseudo code (Stack using LL)
+```java
+push(Object item) {
+        if(head == null) {
+            head = new Node((E)item);
+        } else {
+            head.next = new Node((E)item);
+        }
+        size++;
+}
+
+pop() {
+        Node temp;
+        if(head == null) {
+            throw new EmptyStackException("stack is empty");
+        } else {
+            temp = head;
+            head = head.next;
+        }
+        size --;
+        return temp.data;
+}
+
+peek() {
+        Node temp;
+        if(head == null) {
+            throw new EmptyStackException("stack is empty");
+        } else {
+            temp = head;
+        }
+        return temp.data;
+}
+```
+
 ## Queue
 
 #### Features
@@ -205,6 +354,31 @@ NOTE: all operations above happens in O(1).
 - Max of all sub-arrays of size k.
 - Efficiently implement k Queues in a single array.
 - Implement deque with insertion, deletion on both sides with O(1).
+
+#### Pseudo Code (Queue using LL)
+```java
+EnQueue(E item) {
+        Node temp = new Node(item);
+        if(head == null) {
+            tail = temp;
+            head = tail;
+        } else {
+            tail.next = temp;
+            tail = tail.next;
+        }
+        size++;
+}
+
+DeQueue() {
+        if(head == null) {
+            throw new EmptyQueueException("queue is empty");
+        }
+            Node temp = head;
+            head = head.next;
+        size --;
+        return (E) temp.data;
+}
+```
 
 ## Tree
 
