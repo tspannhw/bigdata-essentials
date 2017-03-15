@@ -591,10 +591,73 @@ DeQueue() {
 ```
 If you see above tree in which there is a skew to the right side, the time taken to search,insert is almost equal to O(n) instead of O(logn). we are not making use of binary tree. so we need to balance a binary tree.
 
-### Binary Search Tree
+#### Binary Search Tree
 - value of all the nodes in left sub tree are lesser and right sub-tree are greater.
 
-### Problems on Tree
+#### Pseudo Code
+- Add a Node
+  ```java
+  AddNode(root,data) {
+    if(root == NULL) return new Node(data);
+    else if(root.data < data) {
+        root.right = AddNode(root.right,data);
+    } else if(root.data > data) {
+        root.left = AddNode(root.left,data);
+    }
+    return root;
+  }
+  ```
+- Search a Node
+  ```java
+  SearchBST(root,data) {
+    if(root==null) return "NOT FOUND"
+    else if(root.data > data) {
+        return SearchBST(root.left,data);
+    } else if(root.data < data) {
+        return SearchBST(root.right,data);
+    }
+    return root;
+  }
+  ```
+- Deletion a Node
+  ```java
+  DeleteBST(root,data) {
+    if(root == NULL) return root;
+    else if(data < root.data) {
+        root.left = DeleteBST(root.left,data);
+    } else if(data > root.data) {
+        root.right = DeleteBST(root.right,data);
+    } else {
+        // no child
+        if(root.left == NULL && root.right == NULL) {
+            root=NULL;
+            return root;
+        }
+        // one child
+        else if(root.left == NULL) {
+            temp = root;
+            root = root.right;
+            DeleteBST temp;
+            return root;
+        }
+        else if(root.right == NULL) {
+            temp = root;
+            root = root.left;
+            DeleteBST temp;
+            return root;
+        }
+        // 2 children
+        else {
+            temp = FindMininum(root.right);
+            root.data = temp.data;
+            root.right = DeleteBST(root.right,temp.data);
+        }
+    }
+    return root;
+  }
+  ``` 
+
+#### Problems on Tree
 - Find the max element in a binary tree with recursion.
 - Find max element in a binary tree without recursion.
 - Search an element in binary tree with recursion.
