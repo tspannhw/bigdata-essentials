@@ -4,7 +4,7 @@
 
   <parent>
     <artifactId>bigdata-essentials</artifactId>
-    <groupId>com.bigdataguide</groupId>
+    <groupId>com.needforcode</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 

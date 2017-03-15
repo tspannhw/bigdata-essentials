@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.bigdataguide</groupId>
+    <groupId>com.needforcode</groupId>
     <artifactId>bigdata-essentials</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.bigdataguide.doc</groupId>
+  <groupId>com.needforcode.doc</groupId>
   <artifactId>bigdata-essentials-doc</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>bigdata-essentials-doc</name>
