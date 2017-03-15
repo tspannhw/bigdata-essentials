@@ -422,6 +422,7 @@ DeQueue() {
 - Non linear data structure (order is not important).
 - The depth of a node is the number of edges from the root to the node.
 - The height of a node is the number of edges from the node to the deepest leaf.
+- The height of leaf node is 0.
 
 ### Types of Trees
 - Binary Tree: Each node can have utmost two children.
@@ -459,6 +460,7 @@ DeQueue() {
 ### Properties of Binary Tree
 - No of Nodes in full binary tree: 2h+1 <= N <= 2<sup>(h+1)</sup>-1 where N: No of Nodes h: height of tree.
 - No of binary trees are possible with n nodes: 2<sup>n</sup> - n
+- Height of a node (len of longest path from it down to leaf): 1+(max(height(left_subtree)+height(right_subtree)))
 
 ### Binary Tree Implementation
 - Array
@@ -515,7 +517,8 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
     }
     ```
 ##### In Order
-Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
+- Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
+- InOrder traversal prints the sorted order in a BST
 ###### Using Recursion
     ```java
     InOrder(root) {
@@ -600,6 +603,7 @@ If you see above tree in which there is a skew to the right side, the time taken
 
 ### Binary Search Tree
 - value of all the nodes in left sub tree are lesser and right sub-tree are greater.
+- All the operations insert, delete, search are proportional to height of the tree.
 
 #### Pseudo Code
 ##### Add a Node
@@ -707,6 +711,22 @@ If you see above tree in which there is a skew to the right side, the time taken
 - For any node, the height of left & right sub tree differ by 1.
 
 ![AVL Tree Intro](src/docs/images/AVL_tree_intro.png)
+
+#### Properties of AVL Tree
+- The height of an AVL tree storing n elements in it is O(logn)
+    Lets try to find minimum no of nodes in AVL tree of height h : n(h)
+        n(h) = 1(root node) + n(h-1) + n(h-2)
+        By solving h = O(log(n)
+- For a tree with K levels the no of the nodes can be  2<sup>(k-1)</sup> < n < 2<sup>(2k-1)</sup>
+- Lookup, insertion, and deletion all take O(logn) for best & worst case.
+- To calculate balance factor in AVL tree, Balance Factor(BF) = Height(left_sub_tree) - Height(right_sub_tree).
+
+#### Rotations of AVL Tree
+Insertion into of the cases
+- Left of Left sub tree
+- Right of Left sub tree
+- Left of Right sub tree
+- Right of Right sub tree
 
 ### Problems on Tree
 - Find the max element in a binary tree with recursion.
