@@ -8,10 +8,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>data-structures-algorithms</artifactId>
+    <artifactId>data-structures</artifactId>
     <packaging>jar</packaging>
 
-    <name>data-structures-algorithms</name>
+    <name>data-structures</name>
     <url>http://maven.apache.org</url>
 
     <properties>

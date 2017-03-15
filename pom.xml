@@ -50,7 +50,7 @@
     <module>kerberos-quickstart</module>
     <module>ldap-quickstart</module>
     <module>ranger-quickstart</module>
-    <module>data-structures-algorithms</module>
+    <module>data-structures</module>
   </modules>
   <packaging>pom</packaging>
 

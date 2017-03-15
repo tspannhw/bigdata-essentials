@@ -8,14 +8,14 @@
 
 ## Arrays
 
-#### Features
+### Features
 - Collection of elements. Also called with names Vectors, Tuples.
     - One dimensional array
     - Two dimensional array
 - Homogenous (all elements are of same type)
 - Ordered
 
-#### Types of Arrays
+### Types of Arrays
 - Static Arrays (fixed size)
   - Have O(1) insertion, deletion and reading.
   - Easy to implement.
@@ -24,19 +24,19 @@
   - Perforamance as cost for flexibility
   - Complext to implement than fixed array.
 
-#### Usage
+### Usage
 - Used to implement lookup tables.
 - Implement lists and Strings.
 - Many databases consist of 1-D arrays whose elements are records.
 - Implment heaps, hash tables, deques, queues, stacks and VLists.
 - 2D Arrays are used in graph theory, Image processing and algebraic equations.
   
-#### Limitations of Arrays
+### Limitations of Arrays
   - Size can't be increased or decreased during runtime.
   - Insertion and deletion on arrays are inefficient.
   - Large datasets, prog run out of memory space.
   
-#### Problems on Arrays
+### Problems on Arrays
 
 - Find missing number in array of continuous elements from 1 to n.
 - Find missing number in an array of duplicate elements of length n with elements 1 to n.
@@ -64,23 +64,23 @@
 
 ## Array Lists
 
-#### Features
+### Features
 - Resizable-array implementation of the List interface.
 - Dynamic allocation of memory if the list is filled.
 
-#### Pros
+### Pros
 - Allows usage of Generics
 - Dynamic allocation of memory incase array is filled.
 - Object oriented
 - dynamically add or remove elements
 
-#### Limitations
+### Limitations
 - Needs contiguous blocks of memory for larger arrays.
 - Expanding the array list when you want to increase is performance limitation.
 - O(n) worst case for insertion.
 
-#### Pseudo Code
-- To set an element
+### Pseudo Code
+#### To set an element
 ```java
 set(int index, E item) {
         IOBCheck(index);
@@ -91,7 +91,7 @@ set(int index, E item) {
         return oldValue;
 }
 ```
-- To add an element
+#### To add an element
 ```java
 add(E item) {
         if (arraySize < arrayLength) {
@@ -104,14 +104,16 @@ add(E item) {
         return false;
 }
 ```
-- To get an element
+#### To get an element
+
 ```java
 get(int index) {
         IOBCheck(index);
         return values[index];
 }
 ```
-- To remove an element
+#### To remove an element
+
 ```java
 remove(int index) {
         IOBCheck(index);
@@ -123,7 +125,7 @@ remove(int index) {
         return oldValue;
 }
 ```
-- To find element in an index
+#### To find element in an index
 ```java
 indexOf(E o) {
         if (null == o) {
@@ -145,19 +147,19 @@ indexOf(E o) {
 
 ## Linked Lists 
 
-#### Features:
+### Features:
  - Collection of nodes where each node contains field and address of next node.
  - First node is head node and last node is tail node.
  - Nodes are scattered in different memory blocks, need not be contiguous.
  - Compiler dynamically allocates memory space to each node.
  
-#### Types
+### Types
 - Singly LL
 - Doubly LL
 - Circular LL
 - Multi List (List containing multiple LL)
 
-#### Usages
+### Usages
 - Trees
 - Graphs
 - Heaps
@@ -165,15 +167,15 @@ indexOf(E o) {
 - Dynamic Queue
 - Polynomials
 
-#### Pros
+### Pros
 - Size can be dynamically increased at run time.
 - Insertion and deletion are comparatively fast.
 
-#### Limitations
+### Limitations
 - Pointer to next node occupy additional storage space.
 - Can't be accessed directly.
 
-#### Big O
+### Big O
 |  Property  |      Singly LL      | Doubly LL |
 |----------|:-------------:|-----:|
 | Access | O(n) | O(n) |
@@ -181,7 +183,7 @@ indexOf(E o) {
 | Insertion | O(1) | O(1) |
 | Deletion | O(n) | O(n) |
 
-#### Problems on LL
+### Problems on LL
 - Check if a singly LL is a palindrome.
 - Add a node in middle of LL
 - Delete a node in middle of LL
@@ -194,8 +196,8 @@ indexOf(E o) {
 - Delete alternate nodes of a LL
 - Delete a node in middle of Singly LL if mid pointer is given.
 
-#### Pseudo Code (singly LL)
-- To set an element at an index
+### Pseudo Code (singly LL)
+#### Set an element at an index
 ```java
 set(int index, E item) {
         if(head == null) {
@@ -213,7 +215,7 @@ set(int index, E item) {
         return item;
 }
 ```
-- To add an element
+#### Add an element
 ```java
 add(E item) {
         if(head == null) {
@@ -229,7 +231,7 @@ add(E item) {
         return true;
 }
 ```
-- To get an element at index
+#### Get an element at index
 ```java
 get(int index) {
         if(index<-1 && index>size) {
@@ -243,7 +245,7 @@ get(int index) {
         return current.item;
 }
 ```
-- To remove an element at index
+#### Remove an element at index
 ```java
 remove(int index) {
         if(index<-1 && index>size) {
@@ -263,22 +265,22 @@ remove(int index) {
 
 ## Stack
 
-#### Features
+### Features
 List where insertion and deletion can be done from one side. LIFO. Linear.
 - Homogenous data items which are ordered.
 - LIFO
 
-#### Stack ADT
+### Stack ADT
 - push : inserting element on top of stack
 - pop : removes top of stack
 - top : returns top of stack
 NOTE: all operations above happens in O(1).
 
-#### Implementations
+### Implementations
 - Stack using Arrays
 - Stack using LL
 
-#### Usage
+### Usage
 - Parantesis matching
 - Infix to Postfix
 - Stack frames for function calls
@@ -287,12 +289,12 @@ NOTE: all operations above happens in O(1).
 - Forward and backward in websites
 - Towers of Hanoi, Tree traversals, Histogram
 
-#### Pros: 
+### Pros: 
 - Easy to implement
 - used in applications required LIFO
 - Avoids burden of deleting or cleaning up.
 
-#### Limitations:
+### Limitations:
 - Stack memory is limited.
 - Random access is not possible.
 
@@ -306,7 +308,7 @@ NOTE: all operations above happens in O(1).
 | Is full | O(1) | -- |
 
 
-#### Problems on stack
+### Problems on stack
 - Infix to postfix conversion.
 - Reverse a string using stack.
 - Sort a stack using recursion.
@@ -314,8 +316,8 @@ NOTE: all operations above happens in O(1).
 - Reverse a stack using recursion.
 - implement a stack using 2 queue.
 
-#### Pseudo code (Stack using LL)
-- Push operation
+### Pseudo code (Stack using LL)
+#### Push operation
 ```java
 push(Object item) {
         if(head == null) {
@@ -326,7 +328,7 @@ push(Object item) {
         size++;
 }
 ```
-- Pop operation
+#### Pop operation
 ```java
 pop() {
         Node temp;
@@ -340,7 +342,7 @@ pop() {
         return temp.data;
 }
 ```
-- Peep Operation
+#### Peep Operation
 ```java
 peek() {
         Node temp;
@@ -355,37 +357,37 @@ peek() {
 
 ## Queue
 
-#### Features
+### Features
 - FIFO
 - Homogenous elements
 - Insert at rear and remove at front.
 - Enqueue, Dequeue, front, isEmpty etc.
 
-#### Usages
+### Usages
 - Printer Scheduler
 - OS use queues to implement scheduling policy
 - Queue's in Distributed Computing
 
-#### Implementations
+### Implementations
 - Array
 - Linked List
 
-#### Circular Queue
+### Circular Queue
 - Empty locations in queue can be re-filled by rear pointer unlike normal queue.
 
-#### Priority Queue Impl
+### Priority Queue Impl
 - Array 
 - Linked List
 - Heap based
 
-#### Problems on Queue
+### Problems on Queue
 - Implement Queue using 2 stack.
 - Max of all sub-arrays of size k.
 - Efficiently implement k Queues in a single array.
 - Implement deque with insertion, deletion on both sides with O(1).
 
-#### Pseudo Code (Queue using LL)
-- EnQueue
+### Pseudo Code (Queue using LL)
+#### EnQueue
 ```java
 EnQueue(E item) {
         Node temp = new Node(item);
@@ -399,7 +401,7 @@ EnQueue(E item) {
         size++;
 }
 ```
-- DeQueue
+#### DeQueue
 ```java
 DeQueue() {
         if(head == null) {
@@ -416,12 +418,12 @@ DeQueue() {
 
 <img width="546" alt="tree_pic" src="https://cloud.githubusercontent.com/assets/8268939/22764760/bb1587be-ee3a-11e6-9f67-2c4a9c147e26.png">
 
-#### Features
+### Features
 - Non linear data structure (order is not important).
 - The depth of a node is the number of edges from the root to the node.
 - The height of a node is the number of edges from the node to the deepest leaf.
 
-#### Types of Trees
+### Types of Trees
 - Binary Tree: Each node can have utmost two children.
 - Binary search tree: left less than given node, right greater than given node.
 - AVL tree:
@@ -432,7 +434,7 @@ DeQueue() {
 - Huffman Tree: 
 - B Trees:
 
-#### Types of binary Trees
+### Types of binary Trees
 - Perfect Binary Tree: All interior nodes have two children and all leaves have the same depth.
 - complete binary tree: every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible
 - Strict Binary Tree: each node has exactly zero or 2 children.
@@ -441,7 +443,7 @@ DeQueue() {
 - Expression Tree: Represent Arthematic expression. Operands & Operators in nodes.
 - Heap: Data value in any node greater than left sub tree & right sub tree. Can be used in Priority queue.
 
-#### Usage
+### Usage
 - Hierarchial Structures
 - Table of contents
 - Unix file system directory structure
@@ -454,19 +456,19 @@ DeQueue() {
 
 <img width="528" alt="screen shot 2017-03-09 at 12 02 12 am" src="https://cloud.githubusercontent.com/assets/8268939/23736707/d2b2b3d8-045b-11e7-9813-e4eadc7e2253.png">
 
-#### Properties of Binary Tree
+### Properties of Binary Tree
 - No of Nodes in full binary tree: 2h+1 <= N <= 2<sup>(h+1)</sup>-1 where N: No of Nodes h: height of tree.
 - No of binary trees are possible with n nodes: 2<sup>n</sup> - n
 
-#### Binary Tree Implementation
+### Binary Tree Implementation
 - Array
 - Linked List
 
-#### Recursive definition
+### Recursive definition
 - Binary tree is a root with left sub tree and right sub tree.
 
-#### Tree Traversal
-- Breadth First Traversal:
+### Tree Traversal
+#### Breadth First Traversal:
   
   ```java
   Queue queue = initialize empty queue;
@@ -482,9 +484,12 @@ DeQueue() {
     }
    }
   ``` 
-- Depth First Traversal:
-  - Pre Order: Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
-    - *Using Recursion*:
+#### Depth First Traversal:
+##### Pre Order
+Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
+
+###### Using Recursion:
+    
     ```java
     PreOrder(root) {
         Visit the root
@@ -509,8 +514,9 @@ DeQueue() {
         }
     }
     ```
-  - In Order: Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
-    - *Using Recursion*:
+##### In Order
+Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
+###### Using Recursion
     ```java
     InOrder(root) {
         if node.left  ≠ null InOrder(root.left)
@@ -518,7 +524,7 @@ DeQueue() {
         if node.right  ≠ null InOrder(root.right)
     }
     ```
-    - *Using Iteration*:
+###### Using Iteration
     ```java
     InOrder_Iterative(root) {
         if(root == null) return;
@@ -534,8 +540,9 @@ DeQueue() {
         }
     }
     ```
-  - Post Order: Traverse left sub tree Post order, then Right sub tree post order, then root.
-    - *Using Recursion*:
+##### Post Order
+Traverse left sub tree Post order, then Right sub tree post order, then root.
+###### Using Recursion
     ```java
         PostOrder(root) {
         if node.left  ≠ null PostOrder(root.left)
@@ -543,7 +550,7 @@ DeQueue() {
         if node.right  ≠ null PostOrder(root.right)
         }
     ```
-    - *Using Iteration*:
+###### Using Iteration
     ```java
     PostOrder_Iterative(root) {
         if(root == null) return;
@@ -591,11 +598,12 @@ DeQueue() {
 ```
 If you see above tree in which there is a skew to the right side, the time taken to search,insert is almost equal to O(n) instead of O(logn). we are not making use of binary tree. so we need to balance a binary tree.
 
-#### Binary Search Tree
+### Binary Search Tree
 - value of all the nodes in left sub tree are lesser and right sub-tree are greater.
 
 #### Pseudo Code
-- Add a Node
+##### Add a Node
+###### Recursive
   ```java
   AddNode(root,data) {
     if(root == NULL) return new Node(data);
@@ -607,19 +615,57 @@ If you see above tree in which there is a skew to the right side, the time taken
     return root;
   }
   ```
-- Search a Node
-  ```java
-  SearchBST(root,data) {
-    if(root==null) return "NOT FOUND"
-    else if(root.data > data) {
-        return SearchBST(root.left,data);
-    } else if(root.data < data) {
-        return SearchBST(root.right,data);
+###### Iterative
+    ```java
+    AddNode(root,data) {
+        if(root==NULL) return new Node(data);
+        while(root) {
+            if(root.data > data) {
+                parent=root;
+                root = root.left;
+            } else {
+                parent=root;
+                root = root.right;
+            }
+        }
+        if(parent.data > data) {
+            parent.left= new Node(data);
+        } else {
+            parent.right= new Node(data);
+        }
     }
-    return root;
-  }
-  ```
-- Deletion a Node
+    ```
+##### Search a Node
+###### Recursive
+      ```java
+      SearchBST(root,data) {
+        if(root==null) return "NOT FOUND"
+        else if(root.data > data) {
+            return SearchBST(root.left,data);
+        } else if(root.data < data) {
+            return SearchBST(root.right,data);
+        }
+        return root;
+      }
+      ```
+###### Non Recursive
+        ```java
+        SearchBST(root,data) {
+            if(root == NULL) return NULL;
+            while(root) {
+                if(root.data == data) {
+                    return root;
+                } else if(root.data > data) {
+                    root = root.left;
+                } else {
+                    root = root.right;
+                }
+                return NULL:
+            }
+        }
+        ```
+
+##### Deletion a Node
   ```java
   DeleteBST(root,data) {
     if(root == NULL) return root;
@@ -655,9 +701,14 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-  ``` 
+  ```
+### AVL Tree
+- It is a BST
+- For any node, the height of left & right sub tree differ by 1.
 
-#### Problems on Tree
+![AVL Tree Intro](src/docs/images/AVL_tree_intro.png)
+
+### Problems on Tree
 - Find the max element in a binary tree with recursion.
 - Find max element in a binary tree without recursion.
 - Search an element in binary tree with recursion.
@@ -770,12 +821,12 @@ Approaches
 
 ## Recursion
 
-#### Usages
+### Usages
 - Towers of hanooi
 - Inorder/Preorder/Post order Tree Traversals
 - DFS of Graph
 
-#### Types
+### Types
 - *Tail Recursion:* If the recursive call is the last thing executed by the function.
 - *Non tail recursion:* If the last thing in the function is not recursion of itself.
 
@@ -840,7 +891,7 @@ int g(int x) {
 - All the cases, the Big O is O(nlogn), but space complexity of O(n) since you need an extra array to merge.
 
 ## Heap Sort
-#### Steps (ascending order)
+### Steps (ascending order)
 - Build Heap
 - Transform the heap into min heap
 - Delete the root node
@@ -848,13 +899,13 @@ int g(int x) {
 - Repeat from steps 2 until all are done.
 
 ## Radix Sort
-#### Steps
+### Steps
 - Think indivial digits as buckets.
 - Uses counting sort in the background for sorting each digit in each pass.
 - O(k*n) linear time where k is number of digits and n is no of elements.
 - Fast & easy to implement.
 
-#### Disadvantages
+### Disadvantages
 - O(n) space complexity
 - Only works on Integers
 
