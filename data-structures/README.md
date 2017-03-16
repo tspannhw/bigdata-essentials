@@ -722,12 +722,57 @@ If you see above tree in which there is a skew to the right side, the time taken
 - To calculate balance factor in AVL tree, Balance Factor(BF) = Height(left_sub_tree) - Height(right_sub_tree).
 
 #### Rotations of AVL Tree
-Insertion into of the cases
+Insertion into of the cases. The pre-order before and after rotation stays the same.
+
 - Left of Left sub tree
 - Right of Left sub tree
 - Left of Right sub tree
 - Right of Right sub tree
 
+![Rotation of AVL](src/docs/images/Tree_Rebalancing.png)
+(C) wikipedia
+
+#### Pseudo Code (AVL Tree Rotations)
+##### Left Rotation
+```java
+LeftRotate(Node y) {
+	Node x = y.left;
+	Node z = y.right;
+
+	x.right = y;
+	y.left = z;
+
+	//update heights
+	y.height = max(height(y.left),height(y.right))+1;
+	x.height = max(height(x.left),height(x.right))+1;
+	
+	return x; 
+}
+```
+##### Right Rotation
+```java
+RightRotate(Node x) {
+	Node y=x.left;
+	Node z=x.right;
+
+	x.right=z;
+	y.left=x;
+
+	// Update heights
+	x.height=max(height(x.left),height(x.right))+1;
+	y.height=max(height(y.left),height(y.right))+1;
+
+	return y;
+}
+```
+
+##### Get Balance
+```java
+GetBalance(node x) {
+ if(x == NULL) return 0;
+ return (height(x.left)-height(x.right));
+}
+```
 ### Problems on Tree
 - Find the max element in a binary tree with recursion.
 - Find max element in a binary tree without recursion.
