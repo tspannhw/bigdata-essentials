@@ -1,5 +1,3 @@
-## Data Structures & Algorithms
-
 ## Data Structures
 
 ### Types
