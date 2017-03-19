@@ -51,6 +51,7 @@
     <module>ldap-quickstart</module>
     <module>ranger-quickstart</module>
     <module>data-structures</module>
+    <module>algorithms</module>
   </modules>
   <packaging>pom</packaging>
 

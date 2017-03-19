@@ -1,3 +1,126 @@
+- [Data Structures](#data-structures)
+    + [Types](#types)
+  * [Arrays](#arrays)
+    + [Features](#features)
+    + [Types of Arrays](#types-of-arrays)
+    + [Usage](#usage)
+    + [Limitations of Arrays](#limitations-of-arrays)
+    + [Problems on Arrays](#problems-on-arrays)
+  * [Array Lists](#array-lists)
+    + [Features](#features-1)
+    + [Pros](#pros)
+    + [Limitations](#limitations)
+    + [Pseudo Code](#pseudo-code)
+      - [To set an element](#to-set-an-element)
+      - [To add an element](#to-add-an-element)
+      - [To get an element](#to-get-an-element)
+      - [To remove an element](#to-remove-an-element)
+      - [To find element in an index](#to-find-element-in-an-index)
+  * [Linked Lists](#linked-lists)
+    + [Features:](#features-)
+    + [Types](#types-1)
+    + [Usages](#usages)
+    + [Pros](#pros-1)
+    + [Limitations](#limitations-1)
+    + [Big O](#big-o)
+    + [Problems on LL](#problems-on-ll)
+    + [Pseudo Code (singly LL)](#pseudo-code--singly-ll-)
+      - [Set an element at an index](#set-an-element-at-an-index)
+      - [Add an element](#add-an-element)
+      - [Get an element at index](#get-an-element-at-index)
+      - [Remove an element at index](#remove-an-element-at-index)
+  * [Stack](#stack)
+    + [Features](#features-2)
+    + [Stack ADT](#stack-adt)
+    + [Implementations](#implementations)
+    + [Usage](#usage-1)
+    + [Pros:](#pros-)
+    + [Limitations:](#limitations-)
+    + [Problems on stack](#problems-on-stack)
+    + [Pseudo code (Stack using LL)](#pseudo-code--stack-using-ll-)
+      - [Push operation](#push-operation)
+      - [Pop operation](#pop-operation)
+      - [Peep Operation](#peep-operation)
+  * [Queue](#queue)
+    + [Features](#features-3)
+    + [Usages](#usages-1)
+    + [Implementations](#implementations-1)
+    + [Circular Queue](#circular-queue)
+    + [Priority Queue Impl](#priority-queue-impl)
+    + [Problems on Queue](#problems-on-queue)
+    + [Pseudo Code (Queue using LL)](#pseudo-code--queue-using-ll-)
+      - [EnQueue](#enqueue)
+      - [DeQueue](#dequeue)
+  * [Tree](#tree)
+    + [Features](#features-4)
+    + [Types of Trees](#types-of-trees)
+    + [Types of binary Trees](#types-of-binary-trees)
+    + [Usage](#usage-2)
+    + [Properties of Binary Tree](#properties-of-binary-tree)
+    + [Binary Tree Implementation](#binary-tree-implementation)
+    + [Recursive definition](#recursive-definition)
+    + [Tree Traversal](#tree-traversal)
+      - [Breadth First Traversal:](#breadth-first-traversal-)
+      - [Depth First Traversal:](#depth-first-traversal-)
+        * [Pre Order](#pre-order)
+          + [Using Recursion:](#using-recursion-)
+        * [In Order](#in-order)
+          + [Using Recursion](#using-recursion)
+          + [Using Iteration](#using-iteration)
+        * [Post Order](#post-order)
+          + [Using Recursion](#using-recursion-1)
+          + [Using Iteration](#using-iteration-1)
+    + [Need to balance a Binary Tree](#need-to-balance-a-binary-tree)
+    + [Binary Search Tree](#binary-search-tree)
+      - [Pseudo Code](#pseudo-code-1)
+        * [Add a Node](#add-a-node)
+          + [Recursive](#recursive)
+          + [Iterative](#iterative)
+        * [Search a Node](#search-a-node)
+          + [Recursive](#recursive-1)
+          + [Non Recursive](#non-recursive)
+        * [Deletion a Node](#deletion-a-node)
+    + [AVL Tree](#avl-tree)
+      - [Properties of AVL Tree](#properties-of-avl-tree)
+      - [Rotations of AVL Tree](#rotations-of-avl-tree)
+      - [Pseudo Code (AVL Tree Rotations)](#pseudo-code--avl-tree-rotations-)
+        * [Left Rotation](#left-rotation)
+        * [Right Rotation](#right-rotation)
+        * [Get Balance](#get-balance)
+    + [Problems on Tree](#problems-on-tree)
+  * [Heap](#heap)
+    + [ADT](#adt)
+    + [Heap Operations](#heap-operations)
+    + [Implementing Heaps](#implementing-heaps)
+      - [Heap as Array](#heap-as-array)
+    + [Applications of Heap](#applications-of-heap)
+    + [Problems on Heap](#problems-on-heap)
+  * [Priority Queue](#priority-queue)
+    + [ADT](#adt-1)
+    + [Big O](#big-o-1)
+    + [Applications](#applications)
+  * [Double Ended Priority Queue](#double-ended-priority-queue)
+  * [Analysis of Algorithms](#analysis-of-algorithms)
+  * [Types of analysis](#types-of-analysis)
+  * [Asymptotic Notation](#asymptotic-notation)
+    + [Big O](#big-o-2)
+      - [Table of Important Big O](#table-of-important-big-o)
+      - [Example](#example)
+  * [Recursion](#recursion)
+    + [Usages](#usages-2)
+    + [Types](#types-2)
+  * [Sorting Algorithms](#sorting-algorithms)
+  * [Bubble Sort](#bubble-sort)
+  * [Selection Sort](#selection-sort)
+  * [Insertion Sort](#insertion-sort)
+  * [Quick Sort](#quick-sort)
+  * [Merge Sort](#merge-sort)
+  * [Heap Sort](#heap-sort)
+    + [Steps (ascending order)](#steps--ascending-order-)
+  * [Radix Sort](#radix-sort)
+    + [Steps](#steps)
+    + [Disadvantages](#disadvantages)
+
 ## Data Structures
 
 ### Types
@@ -728,7 +851,7 @@ Insertion into of the cases. The pre-order before and after rotation stays the s
 - Right of Right sub tree
 
 ![Rotation of AVL](src/docs/images/Tree_Rebalancing.png)
-(C) wikipedia
+&copy; wikipedia
 
 #### Pseudo Code (AVL Tree Rotations)
 ##### Left Rotation
@@ -788,187 +911,128 @@ GetBalance(node x) {
 - Print all the root to leaf paths in a binary tree.
 - Print all the nodes in path from root to the given node.
 - Level order traversal in spiral form.
+- Find running weighted median from a stream of values and weights
 
-## Analysis of Algorithms
-- Time complexity
-- Space complexity
+## Heap
 
-## Types of analysis
+Heap is a binary tree that satisfies the following conditions.
 
-- Big O (worst case)
-- Omega (best case)
-- theta (average case)
+- A complete binary tree, all levels except last are fill & last is left fill.
+- Data item stored in each node is greater or equal to item in its children.
+- Height is always O(logn)
+- No of nodes in a Heap of Height h
+	- No of nodes in complete binary tree of height h-1 = 2<sup>h</sup>-1
+	- No of nodes in complete binary tree of height h = 2<sup>(h-1)</sup>-1
+	- So total no of nodes in Heap = 2<sup>h</sup>-1 < n <= 2<sup>(h-1)</sup>-1
+	- h = [log<sub>2</sub>n] ([] mean floor)
 
-## Asymptotic Notation
+![Heap](src/docs/images/Heap.png)
+
+- *Min Heap* : A[parent(i)] <= A[i]
+- *Max Heap* : A[parent(i)] >= A[i]
+
+### ADT
+
+- Insert(x,S) : insert x into set S.
+- max(S) : return max element from S.
+- extract_max(S) : remove max element from S.
+
+### Heap Operations
+
+- BuildMinHeap : build a min heap from unordered array.
+- Maxheapify: correct single voilation of heap property in a subtree's root.
+
+### Implementing Heaps
+
+Implementation  | remove() | insert()
+------------- | ----------|---
+Sorted Array  | O(1) | O(n)
+Unsorted Array  | O(n) | O(1) 
+Heap | O(log<sub>2</sub>n) | O(log<sub>2</sub>n)
+
+#### Heap as Array
+![](src/docs/images/HeapAsArray.png)
+
+```java
+HeapInsert(data) {
+	if(heapSize=arraySize) {
+		increaseCapacity();
+	}
+	array[++size]=data;
+	HeapifyUP(size);
+}
+
+HeapifyUP(index) {
+	while(index/2 > 1 && array[index/2]>array[index]) {
+		swap(array[index/2],array[index]);
+		index=index/2;
+	}
+}
+
+HeapRemoveMin() {
+	removed = array[1];
+	array[1]=array[size];
+	HeapifyDown(1);
+	return removed;
+}
+
+HeapifyDown(index) {
+	while(2*index <= size && array[2*index] < array[index]) {
+		swap(array[2*index],array[index]);
+		index=index*2;
+	}
+}
+
+HeapMinElement() {
+	if(heapSize>1) 
+		return array[0];
+	else
+		Heap is Empty Exception	
+}
+```
+### Applications of Heap
+
+- Priority Queue implemented using Binary Heap
+- Priority Queue's are used in Prim’s Algorithm and Dijkstra’s algorithm.
+
+### Problems on Heap
+
+- Is an array that is sorted in decreasing order a max-oriented heap ?
+- Why is Binary Heap Preferred over BST for Priority Queue ?
+- kth largest element in an array ?
+- Sort an almost sorted array.
+- Check if given binary tree is a Heap.
+- Check if given array is Binary Heap.
+- Merge K sorted arrays.
+- Finding median of min heap in linear time.
+- Find running median from a stream of Integers.
+- There is a big file of words which is dynamically changing. We are continuously adding some words into it. How would you keep track of top 10 trending words at each moment?
+- What are the minimum and maximum numbers of elements in a heap of height h?
+- Show that an n-element heap has height [logn] 
+
+## Priority Queue
+
+- Every entry contains key and associated value.
+- Entry with highest priority is dequeued first.
+
+### ADT
+
+- insert(item, priority)
+- getHighestPriority()
+- removeHighestPriority()
+- empty()
+- size()
 
 ### Big O
-#### Table of Important Big O
 
-| Big O         | Common Name   | Example    |
-| ------------- |:-------------:| :-----|
-| O(1)      | Constant | Adding an element to start of Linked List |
-| O(log n)      | logarithmic      |  Binary Search |
-| O(log2n) | log squared      |    |
-| O( √n ) | root n | |
-| O(n) | linear | Linear search|
-| O(n logn) | log linear |
-| O(n²) | quadratic |  |
-| O(n³) | cubic | |
-| O(n4) | quadratic | |
-| O(e power n) | exponential | |
+Insert  | Delete
+------------- | -------------
+O(logn)  | O(logn)
 
-// TODO: update above table
+### Applications
 
-#### Example
+- Job Scheduling
 
-```python
-k= 0
-for i in range(n):
-   for j in range(n):
-      k= k + i * j
-```
-> Big O: O(n²)
+## Double Ended Priority Queue
 
-```python
-k= 0
-for i in range(n):
-   k = k + 1
-for j in range(n):
-   k = k - 1
-```
-> Big O: O(n)
-
-```python
-i = n
-while i > 0:
-   k = 2 + 2
-   i = i / 2
-```
-> Big O: O(logn)
-
-```python
-a=15                    // constant 1
-b=16                    // constant 1
-c=110                   // constant 1
-for i in range(n):
-   for j in range(n):
-      x = i * i         // n²
-      y = j * j         // n²
-      z = i * j         // n²
-for k in range(n):
-   w = a*k + 450        // n
-   v = b*b              // n
-d = 333                 // constant 1
-```
-> Big O => f(n) = (1+1+1) + (n²+n²+n²) + (n+n) + 1 = (3+3n²+2n+1) = (3n²+2n+4) ≈ O(n²)
-
-Groups of Algorithms:
-- Sorting Algorithms
-- Searching Algorithms
-- Encoding Algorithms
-- Compression Algorithms
-- Iterative 
-- Recursive
-- Greedy
-- Parsing
-
-Approaches
-- Divide and conquer
-- Recursion
-- Brute Force
-- Backtracking
-- Dynamic Programming
-- Greedy
-- Hash
-- Heap
-
-## Recursion
-
-### Usages
-- Towers of hanooi
-- Inorder/Preorder/Post order Tree Traversals
-- DFS of Graph
-
-### Types
-- *Tail Recursion:* If the recursive call is the last thing executed by the function.
-- *Non tail recursion:* If the last thing in the function is not recursion of itself.
-
-*Tail Recursion Example*:
-```java
-int fact(int n)
-{
-    if (n < = 1) // base case
-        return 1;
-    else    
-        return n*fact(n-1);    
-}
-```
-*Not Tail Recursive:*
-```java
-int g(int x) {
-  if (x == 1) {
-    return 1;
-  }
-
-  int y = g(x-1);
-
-  return x*y;
-}
-```
-
-## Sorting Algorithms
-
-| Algorithm | BEST | WORST | AVG | BEST | WORST | AVG |
-|---|---|---|---|---|---|---|
-| Bubble Sort | O(n²) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
-| Selection Sort | O(n²) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
-| Insertion Sort | O(n) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
-| Merge Sort | O(nlogn) | O(nlogn) | O(nlogn) | O(n) | O(n) | O(n) |
-| Quick Sort | O(nlogn) | O(n²) | O(nlogn) | O(logn) | O(n) | O(logn) |
-| Randomized QS | O(nlogn) | O(nlogn) | O(nlogn) | O(logn) | O(logn) | O(logn) |
-| Improved Bubble Sort | O(n) | O(n²) | O(n²) | O(1) | O(1) | O(1) |
-| Heap Sort | O(n log(n)) | (n log(n)) | (n log(n)) | | O(1) | |
-
-## Bubble Sort
-- 1st and 2nd elements are compared and exchanged if required.
-- Do the same process till the end of the array is reached.
-- For each pass, an element will be in its correct location. ie towards end of the array.
-
-## Selection Sort
-- The list contains sorted & un-sorted portions.
-- Find the smallest element in the list and exchange with starting element of sorted portion.
-- For each pass, the smallest element will be towards the start of the array.
-
-## Insertion Sort
-- The list contains sorted & un-sorted portions
-- From 2nd element, compare with all previous elements & swap it until it reaches correct position in sorted portion.
-
-## Quick Sort
--  pick an element called the pivot in each step and re-arrange the array in such a way that all elements less than the pivot now appear to the left of the pivot, and all elements larger than the pivot appear on the right side of the pivot.
-- In all subsequent iterations of the sorting algorithm, the position of this pivot will remain unchanged, because it has been put in its correct place.
-- Worst case if the pivot element is the last element, you can overcome that by randomized quicksort. Choose the pivot randomly from the array of elements and exchange the choosen pivot to the last position.
-
-## Merge Sort
-- Split the array into 2 and apply merge sort to left half and right half and merge them.
-- Repeat step 1 until you reach the total sorted order.
-- All the cases, the Big O is O(nlogn), but space complexity of O(n) since you need an extra array to merge.
-
-## Heap Sort
-### Steps (ascending order)
-- Build Heap
-- Transform the heap into min heap
-- Delete the root node
-- Put the last node of the heap in the root position
-- Repeat from steps 2 until all are done.
-
-## Radix Sort
-### Steps
-- Think indivial digits as buckets.
-- Uses counting sort in the background for sorting each digit in each pass.
-- O(k*n) linear time where k is number of digits and n is no of elements.
-- Fast & easy to implement.
-
-### Disadvantages
-- O(n) space complexity
-- Only works on Integers
 
