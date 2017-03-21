@@ -1,126 +1,3 @@
-- [Data Structures](#data-structures)
-    + [Types](#types)
-  * [Arrays](#arrays)
-    + [Features](#features)
-    + [Types of Arrays](#types-of-arrays)
-    + [Usage](#usage)
-    + [Limitations of Arrays](#limitations-of-arrays)
-    + [Problems on Arrays](#problems-on-arrays)
-  * [Array Lists](#array-lists)
-    + [Features](#features-1)
-    + [Pros](#pros)
-    + [Limitations](#limitations)
-    + [Pseudo Code](#pseudo-code)
-      - [To set an element](#to-set-an-element)
-      - [To add an element](#to-add-an-element)
-      - [To get an element](#to-get-an-element)
-      - [To remove an element](#to-remove-an-element)
-      - [To find element in an index](#to-find-element-in-an-index)
-  * [Linked Lists](#linked-lists)
-    + [Features:](#features-)
-    + [Types](#types-1)
-    + [Usages](#usages)
-    + [Pros](#pros-1)
-    + [Limitations](#limitations-1)
-    + [Big O](#big-o)
-    + [Problems on LL](#problems-on-ll)
-    + [Pseudo Code (singly LL)](#pseudo-code--singly-ll-)
-      - [Set an element at an index](#set-an-element-at-an-index)
-      - [Add an element](#add-an-element)
-      - [Get an element at index](#get-an-element-at-index)
-      - [Remove an element at index](#remove-an-element-at-index)
-  * [Stack](#stack)
-    + [Features](#features-2)
-    + [Stack ADT](#stack-adt)
-    + [Implementations](#implementations)
-    + [Usage](#usage-1)
-    + [Pros:](#pros-)
-    + [Limitations:](#limitations-)
-    + [Problems on stack](#problems-on-stack)
-    + [Pseudo code (Stack using LL)](#pseudo-code--stack-using-ll-)
-      - [Push operation](#push-operation)
-      - [Pop operation](#pop-operation)
-      - [Peep Operation](#peep-operation)
-  * [Queue](#queue)
-    + [Features](#features-3)
-    + [Usages](#usages-1)
-    + [Implementations](#implementations-1)
-    + [Circular Queue](#circular-queue)
-    + [Priority Queue Impl](#priority-queue-impl)
-    + [Problems on Queue](#problems-on-queue)
-    + [Pseudo Code (Queue using LL)](#pseudo-code--queue-using-ll-)
-      - [EnQueue](#enqueue)
-      - [DeQueue](#dequeue)
-  * [Tree](#tree)
-    + [Features](#features-4)
-    + [Types of Trees](#types-of-trees)
-    + [Types of binary Trees](#types-of-binary-trees)
-    + [Usage](#usage-2)
-    + [Properties of Binary Tree](#properties-of-binary-tree)
-    + [Binary Tree Implementation](#binary-tree-implementation)
-    + [Recursive definition](#recursive-definition)
-    + [Tree Traversal](#tree-traversal)
-      - [Breadth First Traversal:](#breadth-first-traversal-)
-      - [Depth First Traversal:](#depth-first-traversal-)
-        * [Pre Order](#pre-order)
-          + [Using Recursion:](#using-recursion-)
-        * [In Order](#in-order)
-          + [Using Recursion](#using-recursion)
-          + [Using Iteration](#using-iteration)
-        * [Post Order](#post-order)
-          + [Using Recursion](#using-recursion-1)
-          + [Using Iteration](#using-iteration-1)
-    + [Need to balance a Binary Tree](#need-to-balance-a-binary-tree)
-    + [Binary Search Tree](#binary-search-tree)
-      - [Pseudo Code](#pseudo-code-1)
-        * [Add a Node](#add-a-node)
-          + [Recursive](#recursive)
-          + [Iterative](#iterative)
-        * [Search a Node](#search-a-node)
-          + [Recursive](#recursive-1)
-          + [Non Recursive](#non-recursive)
-        * [Deletion a Node](#deletion-a-node)
-    + [AVL Tree](#avl-tree)
-      - [Properties of AVL Tree](#properties-of-avl-tree)
-      - [Rotations of AVL Tree](#rotations-of-avl-tree)
-      - [Pseudo Code (AVL Tree Rotations)](#pseudo-code--avl-tree-rotations-)
-        * [Left Rotation](#left-rotation)
-        * [Right Rotation](#right-rotation)
-        * [Get Balance](#get-balance)
-    + [Problems on Tree](#problems-on-tree)
-  * [Heap](#heap)
-    + [ADT](#adt)
-    + [Heap Operations](#heap-operations)
-    + [Implementing Heaps](#implementing-heaps)
-      - [Heap as Array](#heap-as-array)
-    + [Applications of Heap](#applications-of-heap)
-    + [Problems on Heap](#problems-on-heap)
-  * [Priority Queue](#priority-queue)
-    + [ADT](#adt-1)
-    + [Big O](#big-o-1)
-    + [Applications](#applications)
-  * [Double Ended Priority Queue](#double-ended-priority-queue)
-  * [Analysis of Algorithms](#analysis-of-algorithms)
-  * [Types of analysis](#types-of-analysis)
-  * [Asymptotic Notation](#asymptotic-notation)
-    + [Big O](#big-o-2)
-      - [Table of Important Big O](#table-of-important-big-o)
-      - [Example](#example)
-  * [Recursion](#recursion)
-    + [Usages](#usages-2)
-    + [Types](#types-2)
-  * [Sorting Algorithms](#sorting-algorithms)
-  * [Bubble Sort](#bubble-sort)
-  * [Selection Sort](#selection-sort)
-  * [Insertion Sort](#insertion-sort)
-  * [Quick Sort](#quick-sort)
-  * [Merge Sort](#merge-sort)
-  * [Heap Sort](#heap-sort)
-    + [Steps (ascending order)](#steps--ascending-order-)
-  * [Radix Sort](#radix-sort)
-    + [Steps](#steps)
-    + [Disadvantages](#disadvantages)
-
 ## Data Structures
 
 ### Types
@@ -199,6 +76,15 @@
 - Needs contiguous blocks of memory for larger arrays.
 - Expanding the array list when you want to increase is performance limitation.
 - O(n) worst case for insertion.
+
+### Big O
+
+|  Property  |     Array      | Array Lists |
+|----------|:-------------:|-----:|
+| Access | O(1) | O(1) |
+| Search | O(n) | O(n) |
+| Insertion | O(1) | O(n) |
+| Deletion | O(1) | O(1) |
 
 ### Pseudo Code
 #### To set an element
@@ -318,6 +204,9 @@ indexOf(E o) {
 - Delete a node in middle of Singly LL if mid pointer is given.
 
 ### Pseudo Code (singly LL)
+
+![](src/docs/images/singly_ll.png)
+
 #### Set an element at an index
 ```java
 set(int index, E item) {
@@ -438,6 +327,9 @@ NOTE: all operations above happens in O(1).
 - implement a stack using 2 queue.
 
 ### Pseudo code (Stack using LL)
+
+![](src/docs/images/stack_ll.png)
+
 #### Push operation
 ```java
 push(Object item) {
@@ -508,6 +400,9 @@ peek() {
 - Implement deque with insertion, deletion on both sides with O(1).
 
 ### Pseudo Code (Queue using LL)
+
+![](src/docs/images/queue_ll.png)
+
 #### EnQueue
 ```java
 EnQueue(E item) {
@@ -913,6 +808,7 @@ GetBalance(node x) {
 - Level order traversal in spiral form.
 - Find running weighted median from a stream of values and weights
 
+
 ## Heap
 
 Heap is a binary tree that satisfies the following conditions.
@@ -1034,5 +930,29 @@ O(logn)  | O(logn)
 - Job Scheduling
 
 ## Double Ended Priority Queue
+
+## Summary
+### Big O Complexity
+
+![](src/docs/images/bigo.png)
+
+### Big O 
+
+| Lists                	| Average 	| Average 	| Average  	| Average       	| Worst  	| Worst      	| Worst    	| Worst         	|
+|----------------------	|---------	|---------	|----------	|---------------	|--------	|------------	|----------	|---------------	|
+|                      	| Insert  	| Get     	| Search   	| Delete(index) 	| Insert 	| Get(index) 	| Search   	| Delete(index) 	|
+| Array                	| O(1)    	| O(1)    	| O(n)     	| O(n)          	| O(1)   	| O(1)       	| O(n)     	| O(n)          	|
+| Sorted Array         	| O(n)    	| O(1)    	| O(log n) 	| O(n)          	| O(n)   	| O(1)       	| O(log n) 	| O(n)          	|
+| Dynamic Array        	| O(1)    	| O(1)    	| O(n)     	| O(n)          	| O(n)   	| O(1)       	| O(n)     	| O(n)          	|
+| Dynamic Sorted Array 	| O(n)    	| O(1)    	| O(log n) 	| O(n)          	| O(n)   	| O(1)       	| O(log n) 	| O(n)          	|
+| Singly Linked List   	| O(1)    	| O(n)    	| O(n)     	| O(n)          	| O(1)   	| O(n)       	| O(n)     	| O(n)          	|
+| Doubly Linked List   	| O(1)    	| O(n)    	| O(n)     	| O(n)          	| O(1)   	| O(n)       	| O(n)     	| O(n)          	|
+| Circular Linked List 	| O(1)    	| O(n)    	| O(n)     	| O(n)          	| O(1)   	| O(n)       	| O(n)     	| O(n)          	|
+| Skip List            	| O(1)    	| O(n)    	| O(n)     	| O(n)          	| O(n)   	| O(n)       	| O(n)     	| O(n)          	|
+| Stack                	| O(1)    	| O(1)    	| O(n)     	| O(1)          	| O(1)   	| O(n)       	| O(n)     	| O(1)          	|
+| Queue                	| O(1)    	| O(1)    	| O(n)     	| O(1)          	| O(1)   	| O(1)       	| O(n)     	| O(1)          	|
+| BST                	| O(log n)    	| O(log n)    	| O(log n)     	| O(log n)          	| O(n)   	| O(n)       	| O(n)     	| O(n)          	|
+| AVL Tree                	| O(log n)    	| O(log n)    	| O(log n)     	| O(log n)          	| O(log n)   	| O(log n)       	| O(log n)     	| O(log n)          	|
+| Red Black Tree                	| O(log n)    	| O(log n)    	| O(log n)     	| O(log n)          	| O(log n)   	| O(log n)       	| O(log n)     	| O(log n)          	|
 
 
