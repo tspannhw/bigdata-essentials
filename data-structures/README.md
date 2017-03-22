@@ -436,6 +436,7 @@ DeQueue() {
 
 ### Direct Address Tables
 ![Direct address](src/docs/images/direct-address.jpg)
+
 &copy; Hawaii.edu
 
 - No collisions unless duplicates.
@@ -457,6 +458,7 @@ Instead of searching for the next immediate element, we increase in 1,2,3,5,7 li
 
 ##### Chaining
 ![Direct address](src/docs/images/hashtable_chaining.png)
+
 &copy; Wikipedia
 
 ### Applications
