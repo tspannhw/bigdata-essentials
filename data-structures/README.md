@@ -430,6 +430,40 @@ DeQueue() {
 }
 ```
 
+## Hash Tables
+
+- Hash tables are used to quickly store and retrieve data (or records).
+
+### Direct Address Tables
+![Direct address](src/docs/images/direct-address.jpg)
+&copy; Hawaii.edu
+
+- No collisions unless duplicates.
+- Waste of space
+- O(1) search, insert, delete.
+
+### Hash Tables
+- Hash values are calculated based on element being inserted.
+#### Collisions
+If more than 1 element hash to same index of array, we see collisions.
+
+##### Open addressing
+
+- Linear probing 
+If a collision occurs, the next index is used for insertion or searching. worst case you need to travel entire array for an item if more collisions occur.
+- Quadratic probing
+Instead of searching for the next immediate element, we increase in 1,2,3,5,7 like that for searching next element.
+- ReHashing
+
+##### Chaining
+![Direct address](src/docs/images/hashtable_chaining.png)
+&copy; Wikipedia
+
+### Applications
+- Used in Associative arrays, Sets & Cache implementation.
+- Used in in-memory data structures.
+- Database indexes commonly use disk-based data structures based on hash tables.
+
 ## Tree
 
 <img width="546" alt="tree_pic" src="https://cloud.githubusercontent.com/assets/8268939/22764760/bb1587be-ee3a-11e6-9f67-2c4a9c147e26.png">
