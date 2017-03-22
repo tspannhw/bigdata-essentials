@@ -551,7 +551,8 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
         if node.right  ≠ null PreOrder(root.right)
     }
     ```
-    - *Using Iteration*:
+###### Using Iteration
+
     ```java
     PreOrder_Iterative(root) {
         if(root == null) return;
@@ -572,6 +573,7 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
 - Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
 - InOrder traversal prints the sorted order in a BST
 ###### Using Recursion
+
     ```java
     InOrder(root) {
         if node.left  ≠ null InOrder(root.left)
@@ -580,6 +582,7 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
     }
     ```
 ###### Using Iteration
+
     ```java
     InOrder_Iterative(root) {
         if(root == null) return;
@@ -598,6 +601,7 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
 ##### Post Order
 Traverse left sub tree Post order, then Right sub tree post order, then root.
 ###### Using Recursion
+
     ```java
         PostOrder(root) {
         if node.left  ≠ null PostOrder(root.left)
@@ -606,6 +610,7 @@ Traverse left sub tree Post order, then Right sub tree post order, then root.
         }
     ```
 ###### Using Iteration
+
     ```java
     PostOrder_Iterative(root) {
         if(root == null) return;
@@ -660,6 +665,7 @@ If you see above tree in which there is a skew to the right side, the time taken
 #### Pseudo Code
 ##### Add a Node
 ###### Recursive
+
   ```java
   AddNode(root,data) {
     if(root == NULL) return new Node(data);
@@ -672,6 +678,7 @@ If you see above tree in which there is a skew to the right side, the time taken
   }
   ```
 ###### Iterative
+
     ```java
     AddNode(root,data) {
         if(root==NULL) return new Node(data);
@@ -693,6 +700,7 @@ If you see above tree in which there is a skew to the right side, the time taken
     ```
 ##### Search a Node
 ###### Recursive
+
       ```java
       SearchBST(root,data) {
         if(root==null) return "NOT FOUND"
@@ -705,6 +713,7 @@ If you see above tree in which there is a skew to the right side, the time taken
       }
       ```
 ###### Non Recursive
+
         ```java
         SearchBST(root,data) {
             if(root == NULL) return NULL;
@@ -722,6 +731,7 @@ If you see above tree in which there is a skew to the right side, the time taken
         ```
 
 ##### Deletion a Node
+
   ```java
   DeleteBST(root,data) {
     if(root == NULL) return root;
@@ -786,6 +796,7 @@ Insertion into of the cases. The pre-order before and after rotation stays the s
 
 #### Pseudo Code (AVL Tree Rotations)
 ##### Left Rotation
+
 ```java
 LeftRotate(Node y) {
 	Node x = y.left;
@@ -802,6 +813,7 @@ LeftRotate(Node y) {
 }
 ```
 ##### Right Rotation
+
 ```java
 RightRotate(Node x) {
 	Node y=x.left;
@@ -819,6 +831,7 @@ RightRotate(Node x) {
 ```
 
 ##### Get Balance
+
 ```java
 GetBalance(node x) {
  if(x == NULL) return 0;
