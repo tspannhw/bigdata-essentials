@@ -524,7 +524,7 @@ Instead of searching for the next immediate element, we increase in 1,2,3,5,7 li
 ### Tree Traversal
 #### Breadth First Traversal:
   
-  ```java
+```java
   Queue queue = initialize empty queue;
 
   BFT(TreeNode root) {
@@ -537,23 +537,23 @@ Instead of searching for the next immediate element, we increase in 1,2,3,5,7 li
         if(node.right !=null) queue.add(node.right);
     }
    }
-  ``` 
+``` 
 #### Depth First Traversal:
 ##### Pre Order
 Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
 
 ###### Using Recursion:
     
-    ```java
+```java
     PreOrder(root) {
         Visit the root
         if node.left  ≠ null PreOrder(root.left)
         if node.right  ≠ null PreOrder(root.right)
     }
-    ```
+```
 ###### Using Iteration
 
-    ```java
+```java
     PreOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -568,22 +568,22 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
                     stack.push(root.left);
         }
     }
-    ```
+```
 ##### In Order
 - Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
 - InOrder traversal prints the sorted order in a BST
 ###### Using Recursion
 
-    ```java
+```java
     InOrder(root) {
         if node.left  ≠ null InOrder(root.left)
         Visit the root
         if node.right  ≠ null InOrder(root.right)
     }
-    ```
+```
 ###### Using Iteration
 
-    ```java
+```java
     InOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -597,21 +597,21 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
             root = current.right();
         }
     }
-    ```
+```
 ##### Post Order
 Traverse left sub tree Post order, then Right sub tree post order, then root.
 ###### Using Recursion
 
-    ```java
+```java
         PostOrder(root) {
         if node.left  ≠ null PostOrder(root.left)
         Visit the root
         if node.right  ≠ null PostOrder(root.right)
         }
-    ```
+```
 ###### Using Iteration
 
-    ```java
+```java
     PostOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -640,7 +640,7 @@ Traverse left sub tree Post order, then Right sub tree post order, then root.
             }
         }
     }
-    ```
+```
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
 
 ### Need to balance a Binary Tree
@@ -666,7 +666,7 @@ If you see above tree in which there is a skew to the right side, the time taken
 ##### Add a Node
 ###### Recursive
 
-  ```java
+```java
   AddNode(root,data) {
     if(root == NULL) return new Node(data);
     else if(root.data < data) {
@@ -676,10 +676,10 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-  ```
+```
 ###### Iterative
 
-    ```java
+```java
     AddNode(root,data) {
         if(root==NULL) return new Node(data);
         while(root) {
@@ -697,11 +697,11 @@ If you see above tree in which there is a skew to the right side, the time taken
             parent.right= new Node(data);
         }
     }
-    ```
+```
 ##### Search a Node
 ###### Recursive
 
-      ```java
+```java
       SearchBST(root,data) {
         if(root==null) return "NOT FOUND"
         else if(root.data > data) {
@@ -711,10 +711,10 @@ If you see above tree in which there is a skew to the right side, the time taken
         }
         return root;
       }
-      ```
+```
 ###### Non Recursive
 
-        ```java
+```java
         SearchBST(root,data) {
             if(root == NULL) return NULL;
             while(root) {
@@ -728,11 +728,11 @@ If you see above tree in which there is a skew to the right side, the time taken
                 return NULL:
             }
         }
-        ```
+```
 
 ##### Deletion a Node
 
-  ```java
+```java
   DeleteBST(root,data) {
     if(root == NULL) return root;
     else if(data < root.data) {
@@ -767,7 +767,7 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-  ```
+```
 ### AVL Tree
 - It is a BST
 - For any node, the height of left & right sub tree differ by 1.
