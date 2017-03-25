@@ -980,6 +980,83 @@ O(logn)  | O(logn)
 
 ## Double Ended Priority Queue
 
+## Graph
+- Non Linear DS
+- Collection of Vertices and Edges
+- Graph G=(V,E) where (V,E) is ordered pair (V,E) != (E,V)
+
+### Types
+
+- **Directed vs Undirected Graph**
+
+![](src/docs/images/dir_undir.jpg)
+
+- **Weighted vs UnWeighted Graph**
+
+![](src/docs/images/weight.png)
+&copy; Prof Christian
+
+- **Strongly Connected**
+
+![](src/docs/images/strongly_connected.png)
+
+- **Acyclic graph**
+	- which you can travel in only one direction.
+	- You can't come back to the same vertex again.
+
+![](src/docs/images/cyclic.png)
+
+### No of edges
+	if |V| = n 
+	then 0<= |E| <= n(n-1), if directed
+	0 <= |E| <= n(n-1)/2
+	
+### Graph Implementations
+
+#### Edge List
+
+##### Non Weighted graph (Edge List)
+
+![](src/docs/images/nonweighted_el.png)
+
+##### Weighted graph (Edge List)
+
+![](src/docs/images/weighted_el.png)
+
+> Space Complexity of Vertex List = O(|V|)
+> Space Complexity of Edge List = O(|E|)
+
+- To see if 2 vertices or nodes are connected you need to perform a linear search on the edge list.
+- Performing a linear search on the edge list is O(|E|) 
+- O(|E|) is directory proportional to O(|V| * |V|) (since |E| = |V|*(|V|-1)) where |V| = n
+
+#### Adjacency Matrix
+
+Here to find the vertices connected to a vertex, we just need to find index of vertex in vertex List ( which is O(|V|) and need to scan the index row of matrix which is again O(|V|)
+
+> Time Complexity: O(|V|) + O(|V|) = O(|V|)
+> Space Complexity:  O(|V^2|)
+			
+##### Symmetric (Un Directional graph)
+![](src/docs/images/adjacency_matrix_symm.png)
+
+##### Non Symmetric (Directional graph)
+![](src/docs/images/adjacency_matrix.png)
+
+#### Adjacency List
+##### Using Array or ArrayList
+> Time Complexity: O(|V|)  (linearly search index of vertex)+ O(|V|) (traverse in matric of particular row of index searched) = O(|V|)
+			Space Complexity:  < O(|V2|) 
+			
+![](src/docs/images/Adj_list_array.png)
+
+- If you use arrays in Adjacency list for storing edges, you have to create new array if array is completely filled, if a new node is inserted which is O(n), so better use linked list instead of array or array list.
+
+##### Using LL
+![](src/docs/images/Adj_list_ll.png)
+
+- You can also use a Tree DS which has O(log n) for all operations.
+
 ## Summary
 ### Big O Complexity
 
