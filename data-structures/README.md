@@ -430,42 +430,6 @@ DeQueue() {
 }
 ```
 
-## Hash Tables
-
-- Hash tables are used to quickly store and retrieve data (or records).
-
-### Direct Address Tables
-![Direct address](src/docs/images/direct-address.jpg)
-
-&copy; Hawaii.edu
-
-- No collisions unless duplicates.
-- Waste of space
-- O(1) search, insert, delete.
-
-### Hash Tables
-- Hash values are calculated based on element being inserted.
-#### Collisions
-If more than 1 element hash to same index of array, we see collisions.
-
-##### Open addressing
-
-- Linear probing 
-If a collision occurs, the next index is used for insertion or searching. worst case you need to travel entire array for an item if more collisions occur.
-- Quadratic probing
-Instead of searching for the next immediate element, we increase in 1,2,3,5,7 like that for searching next element.
-- ReHashing
-
-##### Chaining
-![Direct address](src/docs/images/hashtable_chaining.png)
-
-&copy; Wikipedia
-
-### Applications
-- Used in Associative arrays, Sets & Cache implementation.
-- Used in in-memory data structures.
-- Database indexes commonly use disk-based data structures based on hash tables.
-
 ## Tree
 
 <img width="546" alt="tree_pic" src="https://cloud.githubusercontent.com/assets/8268939/22764760/bb1587be-ee3a-11e6-9f67-2c4a9c147e26.png">
@@ -524,7 +488,7 @@ Instead of searching for the next immediate element, we increase in 1,2,3,5,7 li
 ### Tree Traversal
 #### Breadth First Traversal:
   
-```java
+  ```java
   Queue queue = initialize empty queue;
 
   BFT(TreeNode root) {
@@ -537,23 +501,22 @@ Instead of searching for the next immediate element, we increase in 1,2,3,5,7 li
         if(node.right !=null) queue.add(node.right);
     }
    }
-``` 
+  ``` 
 #### Depth First Traversal:
 ##### Pre Order
 Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
 
 ###### Using Recursion:
     
-```java
+    ```java
     PreOrder(root) {
         Visit the root
         if node.left  ≠ null PreOrder(root.left)
         if node.right  ≠ null PreOrder(root.right)
     }
-```
-###### Using Iteration
-
-```java
+    ```
+    - *Using Iteration*:
+    ```java
     PreOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -568,22 +531,20 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
                     stack.push(root.left);
         }
     }
-```
+    ```
 ##### In Order
 - Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
 - InOrder traversal prints the sorted order in a BST
 ###### Using Recursion
-
-```java
+    ```java
     InOrder(root) {
         if node.left  ≠ null InOrder(root.left)
         Visit the root
         if node.right  ≠ null InOrder(root.right)
     }
-```
+    ```
 ###### Using Iteration
-
-```java
+    ```java
     InOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -597,21 +558,19 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
             root = current.right();
         }
     }
-```
+    ```
 ##### Post Order
 Traverse left sub tree Post order, then Right sub tree post order, then root.
 ###### Using Recursion
-
-```java
+    ```java
         PostOrder(root) {
         if node.left  ≠ null PostOrder(root.left)
         Visit the root
         if node.right  ≠ null PostOrder(root.right)
         }
-```
+    ```
 ###### Using Iteration
-
-```java
+    ```java
     PostOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -640,7 +599,7 @@ Traverse left sub tree Post order, then Right sub tree post order, then root.
             }
         }
     }
-```
+    ```
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
 
 ### Need to balance a Binary Tree
@@ -665,8 +624,7 @@ If you see above tree in which there is a skew to the right side, the time taken
 #### Pseudo Code
 ##### Add a Node
 ###### Recursive
-
-```java
+  ```java
   AddNode(root,data) {
     if(root == NULL) return new Node(data);
     else if(root.data < data) {
@@ -676,10 +634,9 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-```
+  ```
 ###### Iterative
-
-```java
+    ```java
     AddNode(root,data) {
         if(root==NULL) return new Node(data);
         while(root) {
@@ -697,11 +654,10 @@ If you see above tree in which there is a skew to the right side, the time taken
             parent.right= new Node(data);
         }
     }
-```
+    ```
 ##### Search a Node
 ###### Recursive
-
-```java
+      ```java
       SearchBST(root,data) {
         if(root==null) return "NOT FOUND"
         else if(root.data > data) {
@@ -711,10 +667,9 @@ If you see above tree in which there is a skew to the right side, the time taken
         }
         return root;
       }
-```
+      ```
 ###### Non Recursive
-
-```java
+        ```java
         SearchBST(root,data) {
             if(root == NULL) return NULL;
             while(root) {
@@ -728,11 +683,10 @@ If you see above tree in which there is a skew to the right side, the time taken
                 return NULL:
             }
         }
-```
+        ```
 
 ##### Deletion a Node
-
-```java
+  ```java
   DeleteBST(root,data) {
     if(root == NULL) return root;
     else if(data < root.data) {
@@ -767,7 +721,7 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-```
+  ```
 ### AVL Tree
 - It is a BST
 - For any node, the height of left & right sub tree differ by 1.
@@ -796,7 +750,6 @@ Insertion into of the cases. The pre-order before and after rotation stays the s
 
 #### Pseudo Code (AVL Tree Rotations)
 ##### Left Rotation
-
 ```java
 LeftRotate(Node y) {
 	Node x = y.left;
@@ -813,7 +766,6 @@ LeftRotate(Node y) {
 }
 ```
 ##### Right Rotation
-
 ```java
 RightRotate(Node x) {
 	Node y=x.left;
@@ -831,7 +783,6 @@ RightRotate(Node x) {
 ```
 
 ##### Get Balance
-
 ```java
 GetBalance(node x) {
  if(x == NULL) return 0;
@@ -1011,6 +962,14 @@ O(logn)  | O(logn)
 	then 0<= |E| <= n(n-1), if directed
 	0 <= |E| <= n(n-1)/2
 	
+### Graph Applications
+
+- Electronic circuits 
+- Transportation Networks
+- Social Networking sites
+- Computer Networks (LAN, WAN, MAN)
+- Databases (ER relationship diagrams)
+	
 ### Graph Implementations
 
 #### Edge List
@@ -1036,6 +995,9 @@ Here to find the vertices connected to a vertex, we just need to find index of v
 
 > Time Complexity: O(|V|) + O(|V|) = O(|V|)
 > Space Complexity:  O(|V^2|)
+
+- This is good for dense graphs.
+- Otherwise the init of matrix itself take O(|V<sup>2</sup>|)
 			
 ##### Symmetric (Un Directional graph)
 ![](src/docs/images/adjacency_matrix_symm.png)
@@ -1056,6 +1018,14 @@ Here to find the vertices connected to a vertex, we just need to find index of v
 ![](src/docs/images/Adj_list_ll.png)
 
 - You can also use a Tree DS which has O(log n) for all operations.
+
+### Big O
+
+Implementation  | Check edge bw v1 & v2 | Iterate over edges of v |
+------------- | ------------- | ------- |
+Edge List  | \|E\| or \|V<sup>2</sup>\| | \|E\| |
+Adj Matrix  | O(1) | O(\|V\|) |
+Adj List | < O(\|V\|) | < O(\|V\|) |
 
 ## Summary
 ### Big O Complexity
