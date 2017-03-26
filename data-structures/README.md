@@ -624,7 +624,7 @@ If you see above tree in which there is a skew to the right side, the time taken
 #### Pseudo Code
 ##### Add a Node
 ###### Recursive
-  ```java
+```java
   AddNode(root,data) {
     if(root == NULL) return new Node(data);
     else if(root.data < data) {
@@ -634,9 +634,9 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-  ```
+```
 ###### Iterative
-    ```java
+```java
     AddNode(root,data) {
         if(root==NULL) return new Node(data);
         while(root) {
@@ -654,10 +654,10 @@ If you see above tree in which there is a skew to the right side, the time taken
             parent.right= new Node(data);
         }
     }
-    ```
+```
 ##### Search a Node
 ###### Recursive
-      ```java
+```java
       SearchBST(root,data) {
         if(root==null) return "NOT FOUND"
         else if(root.data > data) {
@@ -667,9 +667,9 @@ If you see above tree in which there is a skew to the right side, the time taken
         }
         return root;
       }
-      ```
+```
 ###### Non Recursive
-        ```java
+```java
         SearchBST(root,data) {
             if(root == NULL) return NULL;
             while(root) {
@@ -683,10 +683,10 @@ If you see above tree in which there is a skew to the right side, the time taken
                 return NULL:
             }
         }
-        ```
+```
 
 ##### Deletion a Node
-  ```java
+```java
   DeleteBST(root,data) {
     if(root == NULL) return root;
     else if(data < root.data) {
@@ -721,7 +721,7 @@ If you see above tree in which there is a skew to the right side, the time taken
     }
     return root;
   }
-  ```
+```
 ### AVL Tree
 - It is a BST
 - For any node, the height of left & right sub tree differ by 1.
@@ -1019,13 +1019,63 @@ Here to find the vertices connected to a vertex, we just need to find index of v
 
 - You can also use a Tree DS which has O(log n) for all operations.
 
+### Traversal of graphs
+
+#### Breadth First Traversal (BFS)
+
+- Traversing nodes in layers, layer 1 first, then layer 2 etc.
+- In order to avoid visited node twice, we mark boolean visited.
+
+```java
+BFS_Iteration() {
+	mark all the nodes as not_visited;
+	Queue queue = new Queue();
+
+	queue.enqueue(first_element);
+
+	while(!queue.is_empty()) {
+		var = queue.dequeue();
+		if(var is not visited) {
+			mark var as visited;
+			print var;
+		}
+		for(adj: var.get_adjacentVertices()) {
+			queue.enqueue(adj);
+		}
+	}
+}
+```
+
+#### Depth First Traversal (DFS)
+
+```java
+DFS_Iteration() {
+	set all nodes to not_visited;
+	s=new Stack();
+	s.push(initial_node);
+
+	while(stack not empty) {
+		var = s.pop();
+		if(var not visited) {
+			set var to visited;
+			print var;
+			for(adj: all adjacent of var) {
+				if(adj not visited) {
+					s.push(adj);
+				}
+			}
+		}
+	}
+}
+```
+
 ### Big O
 
-Implementation  | Check edge bw v1 & v2 | Iterate over edges of v |
-------------- | ------------- | ------- |
-Edge List  | \|E\| or \|V<sup>2</sup>\| | \|E\| |
-Adj Matrix  | O(1) | O(\|V\|) |
-Adj List | < O(\|V\|) | < O(\|V\|) |
+Implementation  | Check edge bw v1 & v2 | Iterate over edges of v | Add Vertex | Add Edge |
+------------- | ------------- | ------- | ----- | ---- |
+Edge List  | \|E\| or \|V<sup>2</sup>\| | \|E\| | O(1) (if index given) <br/> O(v) if vertex given | O(1) (if index given) <br/> O(v) if vertex given |
+Adj Matrix  | O(1) | O(\|V\|) | O(1) (if index given) <br/> O(v) if vertex given | O(1) (if index given) O(v) <br/> if vertex given |
+Adj List | < O(\|V\|) | < O(\|V\|) | | |
 
 ## Summary
 ### Big O Complexity
