@@ -1047,7 +1047,19 @@ BFS_Iteration() {
 ```
 
 #### Depth First Traversal (DFS)
-
+##### Recursive
+```java
+procedure DFS(G,v) {
+	label v as visited
+	print v;
+	for(adj : all adjacent neighbours of v) {
+	    if (vertex adj is not visited) {
+	    		DFS(G,adj);
+	    }
+	}
+}
+```
+##### Iterative
 ```java
 DFS_Iteration() {
 	set all nodes to not_visited;
