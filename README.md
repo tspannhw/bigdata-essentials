@@ -73,3 +73,10 @@ The largest repo for BigData starter/sample examples.
 ## [oozie-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart)
 * [workflow](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart/src/main/oozie/workflow)
 * [co-ordinator](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart/src/main/oozie/coordinator)
+
+## CS Books/Papers
+
+### Distributed Systems
+* [Google File System](https://research.google.com/archive/gfs.html)
+* [Map Reduce](https://research.google.com/archive/mapreduce.html)
+* [Big Table](https://research.google.com/archive/bigtable.html)
