@@ -76,7 +76,17 @@ The largest repo for BigData starter/sample examples.
 
 ## CS Books/Papers
 
+### Data Structures & Algorithms
+* [CLRS](https://www.goodreads.com/book/show/108986.Introduction_to_Algorithms)
+* [DS & A made easy](http://www.goodreads.com/book/show/11289190-data-structures-and-algorithms-made-easy)
+
 ### Distributed Systems
 * [Google File System](https://research.google.com/archive/gfs.html)
 * [Map Reduce](https://research.google.com/archive/mapreduce.html)
 * [Big Table](https://research.google.com/archive/bigtable.html)
+
+### Math
+* [Discrete Mathematics](https://www.goodreads.com/book/show/1800803.Discrete_Mathematics_and_its_Applications)
+
+### Others
+* [Cracking the Coding Interview](http://www.goodreads.com/book/show/12544648-cracking-the-coding-interview)
