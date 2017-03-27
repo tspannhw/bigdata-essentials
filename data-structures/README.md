@@ -474,9 +474,10 @@ DeQueue() {
 <img width="528" alt="screen shot 2017-03-09 at 12 02 12 am" src="https://cloud.githubusercontent.com/assets/8268939/23736707/d2b2b3d8-045b-11e7-9813-e4eadc7e2253.png">
 
 ### Properties of Binary Tree
-- No of Nodes in full binary tree: 2h+1 <= N <= 2<sup>(h+1)</sup>-1 where N: No of Nodes h: height of tree.
+- No of Nodes in complete binary tree: 2<sup>h</sup> <= N <= 2<sup>(h+1)</sup>-1 where N: No of Nodes h: height of tree.
 - No of binary trees are possible with n nodes: 2<sup>n</sup> - n
 - Height of a node (len of longest path from it down to leaf): 1+(max(height(left_subtree)+height(right_subtree)))
+- Empty tree is also a valid binary tree.
 
 ### Binary Tree Implementation
 - Array
