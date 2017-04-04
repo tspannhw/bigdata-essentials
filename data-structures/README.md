@@ -299,12 +299,12 @@ NOTE: all operations above happens in O(1).
 - Forward and backward in websites
 - Towers of Hanoi, Tree traversals, Histogram
 
-### Pros: 
+### Pros
 - Easy to implement
 - used in applications required LIFO
 - Avoids burden of deleting or cleaning up.
 
-### Limitations:
+### Limitations
 - Stack memory is limited.
 - Random access is not possible.
 
@@ -503,11 +503,11 @@ DeQueue() {
     }
    }
   ``` 
-#### Depth First Traversal:
+#### Depth First Traversal
 ##### Pre Order
 Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Order.
 
-###### Using Recursion:
+###### Using Recursion
     
 ```java
     PreOrder(root) {
@@ -516,7 +516,7 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
         if node.right  ≠ null PreOrder(root.right)
     }
 ```
-    - *Using Iteration*:
+###### Using Iteration
 ```java
     PreOrder_Iterative(root) {
         if(root == null) return;
