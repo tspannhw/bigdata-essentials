@@ -509,15 +509,15 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
 
 ###### Using Recursion:
     
-    ```java
+```java
     PreOrder(root) {
         Visit the root
         if node.left  ≠ null PreOrder(root.left)
         if node.right  ≠ null PreOrder(root.right)
     }
-    ```
+```
     - *Using Iteration*:
-    ```java
+```java
     PreOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -532,20 +532,20 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
                     stack.push(root.left);
         }
     }
-    ```
+```
 ##### In Order
 - Traverse left sub tree in Inorder, then root, then right sub tree in In Order.
 - InOrder traversal prints the sorted order in a BST
 ###### Using Recursion
-    ```java
+```java
     InOrder(root) {
         if node.left  ≠ null InOrder(root.left)
         Visit the root
         if node.right  ≠ null InOrder(root.right)
     }
-    ```
+```
 ###### Using Iteration
-    ```java
+```java
     InOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -559,19 +559,19 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
             root = current.right();
         }
     }
-    ```
+```
 ##### Post Order
 Traverse left sub tree Post order, then Right sub tree post order, then root.
 ###### Using Recursion
-    ```java
+```java
         PostOrder(root) {
         if node.left  ≠ null PostOrder(root.left)
         Visit the root
         if node.right  ≠ null PostOrder(root.right)
         }
-    ```
+```
 ###### Using Iteration
-    ```java
+```java
     PostOrder_Iterative(root) {
         if(root == null) return;
         Stack stack = Init the stack;
@@ -600,7 +600,7 @@ Traverse left sub tree Post order, then Right sub tree post order, then root.
             }
         }
     }
-    ```
+```
 ![tree_traversal](https://cloud.githubusercontent.com/assets/8268939/22766646/b99f1ee0-ee44-11e6-894a-62c2ebb146a4.jpg)
 
 ### Need to balance a Binary Tree
