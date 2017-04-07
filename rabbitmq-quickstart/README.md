@@ -28,6 +28,25 @@ Type "guest" "guest" as user and password"
 
 ![Rabbit mq installation](src/docs/images/rabbit_mq_install.png)
 
-### 
+### Commands
+
+To know the status of rabbit mq
+
+```bash
+rabbitmqctl status
+```
+
+### Consumers
+
+Consumers connect to queue in 2 ways
+
+- basic.consume - subscribe to queue and keep listening
+- basic.get - subscribe , get message, unsubscribe
+
+If more than 1 consumer connected, messages are sent in round-robin fashion. 
+If consumer didn't ack the message and disconnects, then rabbit will send that message to another consumer.
+
+
+
 
 

@@ -9,10 +9,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mongodb-quickstart</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>mongodb-quickstart</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>spring-boot-mongo-template</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
