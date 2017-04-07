@@ -18,7 +18,7 @@ public class EmployeeController {
         return "Hello";
     }
 
-    @RequestMapping(value = "/addemployee", method = RequestMethod.POST)
+    @RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
     public Employee addEmployee(@ModelAttribute Employee employee) {
         return repository.save(new Employee("1","him","ee","pp"));
     }
