@@ -3,6 +3,7 @@ package com.needforcode.mongodb.controller;
 import com.needforcode.mongodb.model.Employee;
 import com.needforcode.mongodb.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,9 +19,15 @@ public class EmployeeController {
         return "Hello";
     }
 
+    @RequestMapping("/index")
+    public String index(Model model) {
+        model.addAttribute("empList", repository.findAll());
+        return "index";
+    }
+
     @RequestMapping(value = "/addemployee", method = RequestMethod.POST)
     public Employee addEmployee(@ModelAttribute Employee employee) {
-        return repository.save(new Employee("1","him","ee","pp"));
+        return repository.save(employee);
     }
 
     @RequestMapping(value = "/employee/{name}")

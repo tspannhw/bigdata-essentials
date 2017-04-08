@@ -255,6 +255,10 @@ print any columns you want using function and foreach
 db.customers.find().forEach(function(doc){ print("Name: " + doc.first_name + " " + doc.last_name)})
 ```
 
+## Simple mongo db app
+
+TODO
+
 ## MongoDB using Spring-boot
 
 #### Sample Project

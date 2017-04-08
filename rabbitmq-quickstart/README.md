@@ -1,6 +1,6 @@
-## Rabbit MQ Quck start
+## Rabbit MQ Quick start
 
-### Installation
+## Installation
 
 Installation on mac OSX can be easily done using [Homebrew](http://brew.sh/) with out worrying 
 about conflicts.
@@ -28,13 +28,19 @@ Type "guest" "guest" as user and password"
 
 ![Rabbit mq installation](src/docs/images/rabbit_mq_install.png)
 
-### Commands
+## Architecture
 
-To know the status of rabbit mq
+![architecture](src/docs/images/rabbitmq_architecture.jpg)
 
-```bash
-rabbitmqctl status
-```
+### Producer
+
+- connect to rabbit mq broker using tcp connection
+- obtain a virtual channel
+- declare an exchange
+- create a message
+- publish the message
+- close the channel
+- close the connection
 
 ### Consumers
 
@@ -43,8 +49,81 @@ Consumers connect to queue in 2 ways
 - basic.consume - subscribe to queue and keep listening
 - basic.get - subscribe , get message, unsubscribe
 
-If more than 1 consumer connected, messages are sent in round-robin fashion. 
+If more than 1 consumer connected, messages are sent in round-robin fashion.
 If consumer didn't ack the message and disconnects, then rabbit will send that message to another consumer.
+
+Here is consumer flow
+
+- establish connection to broker
+- obtain channel
+- declare exchange
+- declare on queue
+- bind the exchange and queue
+- process incoming message
+- acknowledge
+
+## JMS VS AMQP
+
+| JMS | AMQP |
+|---|---|
+| Tightly couped to Java | can develop in any languages if standards implemented |
+| peer-peer & pub-sub | support 5 kinds of routing | 
+| JMS has queues and topics as targets for publishing messages | AMQP only sends to exchanges with routing keys |
+
+
+
+## Commands
+
+Start the server
+
+```bash
+rabbitmq-server
+# Open at 
+```
+
+To know the status of rabbit mq
+
+```bash
+rabbitmqctl status
+```
+
+To list queues 
+
+```bash
+rabbitmqctl list_queues
+```
+
+List queue with properties
+
+```bash
+rabbitmqctl list_queues name messages consumers memory durable auto_delete
+```
+
+List exchanges
+
+```bash
+rabbitmqctl list_exchanges
+```
+
+List exchanges with properties
+
+```bash
+rabbitmqctl list_exchanges name type durable auto_delete```
+
+List Bindings
+
+```bash
+rabbitmqctl list_bindings
+```
+
+
+
+## Spring rabbit MQ 
+
+Spring RabbitMQ AMQP API
+
+- spring-amqp (abstraction)
+- spring-rabbit
 
 
 

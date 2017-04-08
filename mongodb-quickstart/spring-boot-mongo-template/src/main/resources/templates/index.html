@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>MongoDB/Spring Boot template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-spacing: 0px;
+        }
+        th, td {
+        padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="emp : ${empList}">
+        <td th:text="${emp.empId}"></td>
+        <td th:text="${emp.empName}"></td>
+        <td th:text="${emp.empEmail}"></td>
+        <td th:text="${emp.empPhone}"></td>
+    </tr>
+    </tbody>
+</table>
+<br />
+<h2>Add Employee</h2>
+<form action="/addEmployee" method="POST">
+    Id <input type="text" id="empId" name="empId" /><br />
+    Name <input type="text" id="empName" name="empName" /><br />
+    Phone <input type="text" id="empEmail" name="empEmail" /><br />
+    Email <input type="text" id="empPhone" name="empPhone" /><br />
+    <input type="submit" />
+</form>
+</body>
+</html>
