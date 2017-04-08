@@ -15,7 +15,7 @@ public class SpringAMQPRabbitSender {
 
         int messagCount = 0;
         while (messagCount < 10){
-            amqpTemplate.convertAndSend("routingKeys", "Message # " + messagCount++);
+            amqpTemplate.convertAndSend("tp.routingkey.1", "Message # " + messagCount++);
         }
         System.out.println( messagCount + " message(s) sent successfully.");
     }

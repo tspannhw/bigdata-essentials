@@ -116,14 +116,13 @@ List Bindings
 rabbitmqctl list_bindings
 ```
 
-
-
 ## Spring rabbit MQ 
 
 Spring RabbitMQ AMQP API
 
 - spring-amqp (abstraction)
 - spring-rabbit
+
 
 
 

@@ -19,7 +19,7 @@
     <!-- create myExchange and bind myQueue with routingkeys to the myExchange-->
     <rabbit:topic-exchange id="myExchange" name="myExchange">
         <rabbit:bindings>
-            <rabbit:binding queue="myQueue" pattern="routingKey*"></rabbit:binding>
+            <rabbit:binding queue="myQueue" pattern="tp.routingkey.*        "></rabbit:binding>
         </rabbit:bindings>
     </rabbit:topic-exchange>
 
