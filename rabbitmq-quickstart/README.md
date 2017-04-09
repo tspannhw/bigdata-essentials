@@ -32,7 +32,7 @@ Type "guest" "guest" as user and password"
 
 ![architecture](src/docs/images/rabbitmq_architecture.jpg)
 
-### Producer
+### com.needforcode.activemq.Producer
 
 - connect to rabbit mq broker using tcp connection
 - obtain a virtual channel
@@ -108,7 +108,8 @@ rabbitmqctl list_exchanges
 List exchanges with properties
 
 ```bash
-rabbitmqctl list_exchanges name type durable auto_delete```
+rabbitmqctl list_exchanges name type durable auto_delete
+```
 
 List Bindings
 
@@ -123,6 +124,42 @@ Spring RabbitMQ AMQP API
 - spring-amqp (abstraction)
 - spring-rabbit
 
+### Project Structure
+
+![](src/docs/images/spring_amqp_rabbitmq.png)
+
+### Dependencies
+
+```xml
+ 		<dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+            <version>1.1.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-amqp</artifactId>
+            <version>1.1.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>3.1.1.RELEASE</version>
+        </dependency>
+```
+
+###  Edit xml files for spring
+
+- springamqp-rabbit-sender-context.xml
+- springamqp-rabbt-receiver-context.xml
+
+### Edit following java classes
+
+- SpringAMQPRabbitlReceiverContainer.java
+- SpringAMQPRabbitReceiver.java
+- SpringAMQPRabbitSender.java
+
+### Run the app
 
 
 

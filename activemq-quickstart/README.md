@@ -25,3 +25,50 @@
 ## Active MQ
 
 Its an open source light weight messaging server.
+
+![](src/docs/images/active_mq.jpg)
+
+### Installation
+
+```bash
+brew install activemq
+```
+
+```bash
+activemq start
+```
+
+Go to http://localhost:8161/admin/ and "admin" as both id and password.
+
+![](src/docs/images/active_mq_demo.png)
+
+### Java Simple Implementation
+
+#### Java API
+
+![](src/docs/images/active_mq_api.jpg)
+
+#### Dependencies
+
+```xml
+    <dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-core</artifactId>
+      <version>5.4.3</version>
+    </dependency>
+```
+
+#### Producer & Consumer
+
+Implement producer & consumer classes as below
+
+- Consumer
+- Producer
+
+Run the producer and check the message in the UI
+
+![](src/docs/images/active_mq_queue.png)
+
+Run the consumer and check the message dequeue in the UI
+
+![](src/docs/images/consumer_test.png)
