@@ -2,7 +2,7 @@
 
 <!-- MarkdownTOC -->
 
-    - [Types](#types)
+- [Types](#types)
 - [Arrays](#arrays)
     - [Features](#features)
     - [Types of Arrays](#types-of-arrays)
@@ -131,7 +131,7 @@
 
 <!-- /MarkdownTOC -->
 
-### Types
+## Types
 - Linear: order is maintained. Ex: Array, LinkedList, Stack, Queue.
 - Non-Linear: Ex: Trees, Graph
 
