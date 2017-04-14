@@ -14,10 +14,12 @@ public class MyStackLL<E> implements MyStack {
     }
 
     @Override public void push(Object item) {
+        Node temp = new Node((E)item);
         if(head == null) {
-            head = new Node((E)item);
+            head = temp;
         } else {
-            head.next = new Node((E)item);
+            temp.next = head;
+            head = temp;
         }
         size++;
     }
