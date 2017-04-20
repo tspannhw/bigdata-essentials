@@ -1,5 +1,36 @@
 # BigData Essentials
-The largest repo for BigData starter/sample examples.
+The repo for BigData starter/sample examples.
+
+# Basics
+
+## [data-structures](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures)
+#### Arrays
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#arrays)
+#### Array Lists
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#array-lists)
+* [Implementation](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures/src/main/java/com/needforcode/arraylist)
+#### Linked List
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#linked-lists)
+* [Implementation](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures/src/main/java/com/needforcode/linkedlist)
+#### Stack
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#stack)
+* [Implementation](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures/src/main/java/com/needforcode/stack)
+#### Queue
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#queue)
+* [Implementation](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures/src/main/java/com/needforcode/queue)
+#### Tree
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#tree)
+#### Heap
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#heap)
+#### Priority Queue
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#priority-queue)
+#### Graph
+* [Theory](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures#graph)
+* [Implementation](https://github.com/needforcode/bigdata-essentials/tree/master/data-structures/src/main/java/com/needforcode/graph)
+
+## [Algorithms](https://github.com/needforcode/bigdata-essentials/tree/master/algorithms)
+
+# Distributed Computing
 
 ## [hdfsclients-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/hdfsclients-quickstart)
 
@@ -56,7 +87,21 @@ The largest repo for BigData starter/sample examples.
 * [spark-shell scala](https://github.com/vasu-d/bigdata-essentials/blob/master/spark-quickstart/src/main/spark-shell/scala.md)
 * [spark scala wordcount](https://github.com/vasu-d/bigdata-essentials/tree/master/spark-quickstart/src/main/scala/com.needforcode.spark)
 
+## [nifi-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/nifi-quickstart)
+
+* [installations](https://github.com/vasu-d/bigdata-essentials/blob/master/nifi-quickstart/installations.md)
+* [architecture](https://github.com/vasu-d/bigdata-essentials/blob/master/nifi-quickstart/nifi_architecture.md)
+* [quickstart tutorial](https://github.com/vasu-d/bigdata-essentials/blob/master/nifi-quickstart/nifi_quickstart.md)
+
+# No Sql
+
 ## [hbase-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/hbase-quickstart)
+
+# Messaging
+
+## [activemq-quickstart](https://github.com/needforcode/bigdata-essentials/tree/master/activemq-quickstart)
+
+## [rabbitmq-quickstart](https://github.com/needforcode/bigdata-essentials/tree/master/rabbitmq-quickstart)
 
 ## [kafka-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/kafka-quickstart)
 
@@ -64,15 +109,17 @@ The largest repo for BigData starter/sample examples.
 * [consumer example](https://github.com/vasu-d/bigdata-essentials/blob/master/kafka-quickstart/src/main/java/com/needforcode/kafka/ConsumerExample.java)
 * [producer example](https://github.com/vasu-d/bigdata-essentials/blob/master/kafka-quickstart/src/main/java/com/needforcode/kafka/ProducerExample.java)
 
-## [nifi-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/nifi-quickstart)
-
-* [installations](https://github.com/vasu-d/bigdata-essentials/blob/master/nifi-quickstart/installations.md)
-* [architecture](https://github.com/vasu-d/bigdata-essentials/blob/master/nifi-quickstart/nifi_architecture.md)
-* [quickstart tutorial](https://github.com/vasu-d/bigdata-essentials/blob/master/nifi-quickstart/nifi_quickstart.md)
+# Scheduling
 
 ## [oozie-quickstart](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart)
 * [workflow](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart/src/main/oozie/workflow)
 * [co-ordinator](https://github.com/vasu-d/bigdata-essentials/tree/master/oozie-quickstart/src/main/oozie/coordinator)
+
+# Programming Languages
+
+## [Core Java](https://github.com/needforcode/bigdata-essentials/tree/master/corejava-quickstart)
+
+## [Python](https://github.com/needforcode/bigdata-essentials/tree/master/python-quickstart)
 
 ## CS Books/Papers
 
