@@ -685,9 +685,10 @@ Root first, Traverse left sub tree in pre-order, then right sub tree in Pre-Orde
                 stack.push(root);
                 root = root.left;
             }
+	    if(stack empty) break;
             root = stack.pop();
             print root;
-            root = current.right();
+            root = root.right();
         }
     }
 ```
